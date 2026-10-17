@@ -46,3 +46,8 @@ Eigenes Open-Graph-Vorschaubild aus dem vorhandenen Branding-Master (2172 × 724
 
 
 Discord-Nacharbeit: Seite und Originalbild unter Discordbot-Kennung jeweils HTTP 200. Twitter-Bildmetadaten vervollständigt; zusätzlich offiziell dokumentierte Component-Embed-Karte mit Projektbild und zwei Abschnittsschaltflächen, reguläre Open-Graph-Karte als Rückfall. Eigene Teilen-Adresse regelwerk.html zur getrennten Vorschauabfrage. Diese Datei enthält dieselbe Webseite und muss bei künftigen Inhaltsänderungen mit index.html synchron bleiben. Echte Discord-Darstellung weiterhin vom Client zu bestätigen. Quelle: https://github.com/discord/discord-api-docs/blob/main/developers/link-previews/component-embeds.mdx
+
+
+## Redaktion · 17.10.2026
+
+Wiederholte RP-Erklärungen auf einen Satz im Einstieg gekürzt. Ingame enthält Fairness und die einzige ausdrücklich festgehaltene PvP-Regel: Die Zufahrtsstraßen ins PvP-Gebiet dürfen nicht abgecampt werden. Community-Regeln bleiben separat. Beide HTML-Einstiegsseiten gemeinsam aktualisiert. Keine Spielmechanik geändert.
