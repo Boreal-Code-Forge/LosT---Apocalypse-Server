@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..','_site');
 const files = [];
@@ -29,4 +30,15 @@ for (const file of files.filter(f=>f.endsWith('.html'))) {
   }
 }
 if (errors.length) throw Error(errors.join('\n'));
+const mediaPath=path.resolve(root,'../content/wiki-media.json');
+if(fs.existsSync(mediaPath)){
+  const media=JSON.parse(fs.readFileSync(mediaPath,'utf8'));
+  for(const asset of [...media.images,media.map]){
+    const file=path.join(root,'wiki/assets',asset.file);
+    const bytes=fs.readFileSync(file);
+    if(crypto.createHash('sha256').update(bytes).digest('hex')!==asset.sha256)throw Error('Bildhash abweichend: '+asset.file);
+    if(asset===media.map&&(bytes.readUInt32BE(16)!==8192||bytes.readUInt32BE(20)!==9216))throw Error('Atlas ist nicht das vollständige 8K-Original');
+  }
+  console.log(`${media.images.length} UI-Aufnahmen und unverändertes 8K-Original per SHA256 geprüft.`);
+}
 console.log(`${files.filter(f=>f.endsWith('.html')).length} HTML-Seiten: lokale Links, Bilder, Sprungziele und JSON geprüft.`);

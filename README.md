@@ -23,3 +23,9 @@ Die Inhalte wurden aus dem offiziellen Projekt-Repository redaktionell abgeleite
 Der Quellenvergleich ist eine Aktualisierungshilfe, keine automatische Texterstellung und kein Nachweis der Ingame-Abnahme. Historische README-Abschnitte gegen jüngere Dokumentation und tatsächlichen Code prüfen. Änderungen im offiziellen Repo werden nicht ungeprüft öffentlich übernommen. Es ist keine regelmäßige Automation eingerichtet.
 
 Jeder Artikel hat eine eigene Adresse unter `/wiki/<thema>/`. Das Wiki besitzt eine Volltextsuche, Themenfilter, mobile Navigation und Discord-Vorschaudaten. Bisherige Regelwerk-Links bleiben bestehen. Veröffentlichungs- und Prüfnotizen: [WIKI-REDAKTION.md](WIKI-REDAKTION.md).
+
+## Originaloberflächen und Feldatlas
+
+Passende Artikel enthalten vergrößerbare Aufnahmen der echten Projektoberflächen mit erfundenen Beispielwerten. `content/wiki-media.json` dokumentiert Quellen und Bildhashes. Kein Spielserver wird dafür benötigt. Die lokale Original-UI-Vorschau lässt sich mit `node tools/preview-game-ui.mjs <pfad-zum-offiziellen-repo>` öffnen; die Szenarien stehen in `content/ui-examples.js`.
+
+Der [Feldatlas](https://boreal-code-forge.github.io/LosT---Apocalypse-Server/wiki/karte/) enthält das unveränderte 8.192×9.216-Original vom 16.10.2026. Seine etwa 54 MiB werden erst bei Vergrößerung geladen. Der Quellenhash wird beim Website-Check geprüft; neue Kartenversionen mit nachgewiesener Quelle und aktualisiertem Vorschaubild einpflegen.

@@ -17,3 +17,9 @@ Regelwerk und Spieler-Wiki gehören zu diesem Repository. Veröffentlichung übe
 `node tools/build-site.mjs` erzeugt `_site/` mit bestehendem Regelwerk im Stamm und Wiki unter `/wiki/`. `node tools/check-site.mjs` prüft lokale Links, Bilder und Metadaten. Änderungen an Wiki-CSS/JS mit Versionsanhebung im Generator ausliefern. Browserprüfung: Einstieg, Suche, Artikel, geplanter Bereich, mobiles Layout.
 
 Nur eigene Änderungen stagen. Vor Push aktuellen Remote-Stand prüfen. Workflow `regelwerk-pages.yml` manuell starten; er baut und prüft beide Bereiche gemeinsam. Deployment-Erfolg und öffentliche Seiten anschließend prüfen. Regelwerk-Adressen `/` und `/regelwerk.html` erhalten. Beide Regelwerk-HTML-Dateien bei Inhaltsänderungen synchron halten.
+
+## Original-UI und Karten
+
+`content/wiki-media.json` dokumentiert Herkunft, geprüfte UI-Quellbäume, Screenshot-Hashes und den unveränderten Atlas. Die Screenshots zeigen echtes Projekt-HTML mit fiktiven Daten; keine KI-Nachzeichnungen und keine behaupteten Ingame-Aufnahmen. Beispiele stehen in `content/ui-examples.js`. Lokale Vorschau: `node tools/preview-game-ui.mjs <offizielles-repo>`; Browseraufnahmen ausschließlich mit den zugelassenen Browserwerkzeugen. Keine Test-/Diagnosetexte, defekten Bilder oder echten Spielerdaten veröffentlichen. Live-Ressourcen werden dafür weder gestartet noch verbunden.
+
+Nach UI-Änderungen betroffene Aufnahmen neu erstellen und die Medien-Hashes sowie Quellstände erst nach Sichtprüfung aktualisieren. Bildhinweise im Artikel unter `media` pflegen. Geplante Artikel bleiben auch ohne Medien. Atlas nur als unverändertes Original mit nachvollziehbarer neuer Quelle ersetzen; Preview und eingebrannte Gebietsgrenzen können einen historischen Stand darstellen. Aktuelle Karte: 8.192 × 9.216, Atlasstand 16.10.2026. Die große Datei erst auf Nutzeraktion laden.
