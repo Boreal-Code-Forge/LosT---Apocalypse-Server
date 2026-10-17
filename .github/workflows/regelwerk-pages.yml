@@ -1,4 +1,4 @@
-name: Regelwerk auf GitHub Pages
+name: Lost Santos – Regelwerk und Wiki
 
 on:
   workflow_dispatch:
@@ -23,10 +23,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regelwerk und Wiki bauen
+        run: node tools/build-site.mjs
+      - name: Seiten und Verweise prüfen
+        run: node tools/check-site.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: website/regelwerk
+          path: _site
       - name: Webseite veröffentlichen
         id: deployment
         uses: actions/deploy-pages@v4
