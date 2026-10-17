@@ -39,3 +39,7 @@ Offizielle Quellen:
 ## Originales Branding
 
 Banner aus `enhanced-server/txData/ESXLegacy_9EDF86.base/resources/[lost_santos]/ls_branding/assets/banner.gif`; statische Alternative aus dem benachbarten `banner.png`. Logo aus `enhanced-server/Diverses/Lost-Santos-Branding/serverliste-animiert-v2/logo-server.png`, visuell mit dem Projektlogo im Zonen-Menü abgeglichen. Unveränderte, per SHA256 geprüfte Kopien unter `assets/`. Banner im vollständigen Seitenverhältnis ohne Beschnitt, Logo im Kopf und als Favicon. Bei aktivierter Betriebssystemeinstellung für reduzierte Bewegung wird der statische Banner verwendet. Keine Originaldateien verändert.
+
+## Discord-Linkvorschau · 17.10.2026
+
+Eigenes Open-Graph-Vorschaubild aus dem vorhandenen Branding-Master (2172 × 724), mit absoluter HTTPS-Adresse, Bildmaßen, Alternativtext, Seitentitel und kurzer Beschreibung. Originaldatei unverändert kopiert. Große Bildkarte über twitter:card ergänzt; konkrete Darstellung entscheidet Discord. Bereits gepostete Links können eine ältere Vorschau zeigen. Keine Discord-Nachricht oder Servereinstellung geändert. Offizielle Referenz: https://discord.com/developers/docs/link-previews/overview
