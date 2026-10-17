@@ -9,6 +9,9 @@
     active = true; parentOrigin = event.origin;
     // Restrict links even if a site author accidentally adds target=_blank.
     document.querySelectorAll('a[target]').forEach(a => a.removeAttribute('target'));
+    document.querySelectorAll('a[href]').forEach(a => {
+      if (!a.hasAttribute('data-ui-image') && /\.(png|jpe?g|gif|pdf)$/i.test(new URL(a.href, location.href).pathname)) a.hidden = true;
+    });
     window.parent.postMessage({type:'LS_HANDBOOK_READY'}, parentOrigin);
   });
   window.addEventListener('keydown', event => {
