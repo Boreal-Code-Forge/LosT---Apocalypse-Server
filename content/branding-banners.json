@@ -1,0 +1,37 @@
+{
+  "ankuendigungen.png": {
+    "sha256": "eef4ce4320692e542e346cb0eb9050d438e16f54aabe4137b4ed40a936a7e8b6",
+    "bytes": 2158229,
+    "width": 2120,
+    "height": 742,
+    "original": "Banner_Ankuendigungen.png"
+  },
+  "changelogs.png": {
+    "sha256": "72020b022028a52284360e2069a383373a853d09678732a5a99f4bba53fd215d",
+    "bytes": 2174491,
+    "width": 2120,
+    "height": 742,
+    "original": "Banner_Changelogs.png"
+  },
+  "regelwerk.png": {
+    "sha256": "22294ced207697c54f5dfbf8f7eed74cee1c39e48b7a59ba52c9e4e6535762be",
+    "bytes": 2203950,
+    "width": 2120,
+    "height": 742,
+    "original": "Banner_Regelwerk.png"
+  },
+  "server-status.png": {
+    "sha256": "1adc1b08de605be93e75c91b1f8c8f3f2787388382d463b494d5b6fd60ce973b",
+    "bytes": 2142482,
+    "width": 2120,
+    "height": 742,
+    "original": "Banner_Server-Status.png"
+  },
+  "wiki.png": {
+    "sha256": "85f4ffede12ae446954c1e2c13b459bc0c812b17ad90e6b12b5a486327291d76",
+    "bytes": 2188316,
+    "width": 2120,
+    "height": 742,
+    "original": "Banner_Wiki.png"
+  }
+}
