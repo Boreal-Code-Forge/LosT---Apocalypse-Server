@@ -51,3 +51,6 @@ Discord-Nacharbeit: Seite und Originalbild unter Discordbot-Kennung jeweils HTTP
 ## Redaktion · 17.10.2026
 
 Wiederholte RP-Erklärungen auf einen Satz im Einstieg gekürzt. Ingame enthält Fairness und die einzige ausdrücklich festgehaltene PvP-Regel: Die Zufahrtsstraßen ins PvP-Gebiet dürfen nicht abgecampt werden. Community-Regeln bleiben separat. Beide HTML-Einstiegsseiten gemeinsam aktualisiert. Keine Spielmechanik geändert.
+
+
+Community-Regel 02 am 17.10.2026 auf Betreiberfreigabe gegen RP-Snobismus konkretisiert, einschließlich der ausdrücklich abgestimmten Beispiele. Beide HTML-Seiten synchron angepasst.
