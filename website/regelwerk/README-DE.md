@@ -43,3 +43,6 @@ Banner aus `enhanced-server/txData/ESXLegacy_9EDF86.base/resources/[lost_santos]
 ## Discord-Linkvorschau · 17.10.2026
 
 Eigenes Open-Graph-Vorschaubild aus dem vorhandenen Branding-Master (2172 × 724), mit absoluter HTTPS-Adresse, Bildmaßen, Alternativtext, Seitentitel und kurzer Beschreibung. Originaldatei unverändert kopiert. Große Bildkarte über twitter:card ergänzt; konkrete Darstellung entscheidet Discord. Bereits gepostete Links können eine ältere Vorschau zeigen. Keine Discord-Nachricht oder Servereinstellung geändert. Offizielle Referenz: https://discord.com/developers/docs/link-previews/overview
+
+
+Discord-Nacharbeit: Seite und Originalbild unter Discordbot-Kennung jeweils HTTP 200. Twitter-Bildmetadaten vervollständigt; zusätzlich offiziell dokumentierte Component-Embed-Karte mit Projektbild und zwei Abschnittsschaltflächen, reguläre Open-Graph-Karte als Rückfall. Eigene Teilen-Adresse regelwerk.html zur getrennten Vorschauabfrage. Diese Datei enthält dieselbe Webseite und muss bei künftigen Inhaltsänderungen mit index.html synchron bleiben. Echte Discord-Darstellung weiterhin vom Client zu bestätigen. Quelle: https://github.com/discord/discord-api-docs/blob/main/developers/link-previews/component-embeds.mdx
