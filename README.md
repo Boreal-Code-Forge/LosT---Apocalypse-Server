@@ -29,3 +29,7 @@ Jeder Artikel hat eine eigene Adresse unter `/wiki/<thema>/`. Das Wiki besitzt e
 Passende Artikel enthalten vergrößerbare Aufnahmen der echten Projektoberflächen mit erfundenen Beispielwerten. `content/wiki-media.json` dokumentiert Quellen und Bildhashes. Kein Spielserver wird dafür benötigt. Die lokale Original-UI-Vorschau lässt sich mit `node tools/preview-game-ui.mjs <pfad-zum-offiziellen-repo>` öffnen; die Szenarien stehen in `content/ui-examples.js`.
 
 Der [Feldatlas](https://boreal-code-forge.github.io/LosT---Apocalypse-Server/wiki/karte/) enthält das unveränderte 8.192×9.216-Original vom 16.10.2026. Seine etwa 54 MiB werden erst bei Vergrößerung geladen. Der Quellenhash wird beim Website-Check geprüft; neue Kartenversionen mit nachgewiesener Quelle und aktualisiertem Vorschaubild einpflegen.
+
+## Discord-Communitykarte
+
+Regelwerk und Wiki-Einstieg nutzen das öffentliche Widget-JSON für Guild 1552250932643893249, ohne Token/Webhook. Einladung ist auch ohne API verfügbar. Die Online-Anzahl bezieht sich auf Discord, nicht auf den Spielserver. Abruf erst in Sichtnähe, Aktualisierung ca. jede Minute nur bei sichtbarem Widget und aktivem Tab; bei Fehler kein falscher Offline-/Nullstatus. Öffentliche Widget-Avatare höchstens sieben, keine Mitgliederliste/Namen. Im eingebetteten F4-Handbuch wird die Karte ausgeblendet und es werden keine Widgetdaten angefordert. API-Ausgabe wird über DOM-Text und geprüfte Discord-URLs verarbeitet.
