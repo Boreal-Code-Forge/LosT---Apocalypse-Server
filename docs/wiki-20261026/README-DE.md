@@ -49,5 +49,25 @@ Vorhandene Regelwerktexte und authentifizierte F4-Brücke bleiben bytegleich.
 Kein Spielserver-Deployment, keine Datenbankänderung, kein Spiel-/Ressourcenstart.
 Native Ingame-Bedienung ist von diesen Websiteprüfungen getrennt.
 
-Die Veröffentlichung erfolgt über den bestehenden GitHub-Pages-Workflow;
-öffentliche Hash-Rücklese und Workflow-Ergebnis folgen als separate JSON-Belege.
+## Veröffentlichung bestätigt
+
+Nach ausdrücklichem Betreiber-Go am 26.10.2026 gepusht und veröffentlicht:
+Website-Commit `8591eabd3883b25219b08ac73f3598e90c19835d`,
+[Pages-Lauf 40299082939](https://github.com/Boreal-Code-Forge/LosT---Apocalypse-Server/actions/runs/40299082939)
+abgeschlossen mit `success`.
+
+`public-verification.json`: 42 öffentliche Dateien vollständig heruntergeladen
+und SHA256-bytegleich bestätigt: Wiki-Einstieg und alle 35 Artikel, beide
+Gestaltungsdateien, neuer Creator sowie unveränderte Regelwerkseiten und
+F4-Brücke. Drei stichprobenartig geprüfte entfernte Screenshotadressen liefern
+404. Veröffentlichte Startseite: `wiki-public.png`.
+
+Originale unveränderte F4-Hülle unter dem vorgesehenen lokalen Vorschauursprung
+8772 geöffnet. Wiki-Auswahl lädt die neue öffentliche Website; interner Link
+öffnet die Konvoi-Anleitung im selben Rahmen. F4 aus dem Websitefokus schließt
+die Hülle und entlädt den iframe. `wiki-f4-browser.png` zeigt die eingebettete
+Anleitung. Das ist eine echte Browserprüfung der Einbettung, keine native
+FiveM-/CEF-Abnahme. Websiteaktualisierung benötigt keinen Spielserverneustart.
+
+Die Nachweisarchivierung ändert nach dem Website-Commit keine ausgelieferten
+Seitendateien und benötigt keinen weiteren Pages-Lauf.

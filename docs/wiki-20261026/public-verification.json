@@ -1,0 +1,361 @@
+{
+  "siteCommit": "8591eabd3883b25219b08ac73f3598e90c19835d",
+  "url": "https://boreal-code-forge.github.io/LosT---Apocalypse-Server/wiki/",
+  "workflowRun": 40299082939,
+  "checks": [
+    {
+      "path": "wiki/erste-schritte/index.html",
+      "status": 200,
+      "bytes": 69151,
+      "sha256": "eb4b65b50d9258080e65bf8fdf1673f8a64ebe7c2dcd9ce9d52394caa856d008",
+      "expectedSha256": "eb4b65b50d9258080e65bf8fdf1673f8a64ebe7c2dcd9ce9d52394caa856d008",
+      "equal": true
+    },
+    {
+      "path": "wiki/steuerung/index.html",
+      "status": 200,
+      "bytes": 69452,
+      "sha256": "bc031ee1e907e990247a233f666ba36162e2b4088d1c12608b0a1f68766ccf40",
+      "expectedSha256": "bc031ee1e907e990247a233f666ba36162e2b4088d1c12608b0a1f68766ccf40",
+      "equal": true
+    },
+    {
+      "path": "wiki/karte/index.html",
+      "status": 200,
+      "bytes": 69803,
+      "sha256": "eb1e2227492616eb34f01af428214a5af167759c7efe51c0fb1c4a0f8e91006a",
+      "expectedSha256": "eb1e2227492616eb34f01af428214a5af167759c7efe51c0fb1c4a0f8e91006a",
+      "equal": true
+    },
+    {
+      "path": "wiki/orientierung/index.html",
+      "status": 200,
+      "bytes": 68877,
+      "sha256": "38f5395c26969425e93479e3ef3aaf03174e2ca6facbd9d25bae9ed80359b145",
+      "expectedSha256": "38f5395c26969425e93479e3ef3aaf03174e2ca6facbd9d25bae9ed80359b145",
+      "equal": true
+    },
+    {
+      "path": "wiki/inventar/index.html",
+      "status": 200,
+      "bytes": 69776,
+      "sha256": "59d3ed7476eca87b13a6ad2be79305d4fe81f3233f5571725f0eaffe244182bf",
+      "expectedSha256": "59d3ed7476eca87b13a6ad2be79305d4fe81f3233f5571725f0eaffe244182bf",
+      "equal": true
+    },
+    {
+      "path": "wiki/looten/index.html",
+      "status": 200,
+      "bytes": 69614,
+      "sha256": "f145aa574bd87bffb84b28d7afc9e64cde494284d4dd2d91cadf3525f80cdf7f",
+      "expectedSha256": "f145aa574bd87bffb84b28d7afc9e64cde494284d4dd2d91cadf3525f80cdf7f",
+      "equal": true
+    },
+    {
+      "path": "wiki/naturressourcen/index.html",
+      "status": 200,
+      "bytes": 70026,
+      "sha256": "ccc75f8d76497efa241ddfcb4d5984371fb61c9cfc89d899528cc3e0d90f730a",
+      "expectedSha256": "ccc75f8d76497efa241ddfcb4d5984371fb61c9cfc89d899528cc3e0d90f730a",
+      "equal": true
+    },
+    {
+      "path": "wiki/jagd/index.html",
+      "status": 200,
+      "bytes": 69116,
+      "sha256": "ed76ef9eaaf99a039f3a3427b2a97f792a67ee77933cb8e0708e7f64dd53bc78",
+      "expectedSha256": "ed76ef9eaaf99a039f3a3427b2a97f792a67ee77933cb8e0708e7f64dd53bc78",
+      "equal": true
+    },
+    {
+      "path": "wiki/angeln/index.html",
+      "status": 200,
+      "bytes": 69230,
+      "sha256": "1e78cb452e888dd62425d37bba35291058153f500300b78890454aed80d48fa3",
+      "expectedSha256": "1e78cb452e888dd62425d37bba35291058153f500300b78890454aed80d48fa3",
+      "equal": true
+    },
+    {
+      "path": "wiki/crafting/index.html",
+      "status": 200,
+      "bytes": 69510,
+      "sha256": "5227ad22885c2175cea07129776014fe5a6ce4b7daa9d0257b6296a3df818a57",
+      "expectedSha256": "5227ad22885c2175cea07129776014fe5a6ce4b7daa9d0257b6296a3df818a57",
+      "equal": true
+    },
+    {
+      "path": "wiki/medizin/index.html",
+      "status": 200,
+      "bytes": 69590,
+      "sha256": "3d201618cb6b0f031bd9b72917a88628b53a224305e35983d4737a08796eab7b",
+      "expectedSha256": "3d201618cb6b0f031bd9b72917a88628b53a224305e35983d4737a08796eab7b",
+      "equal": true
+    },
+    {
+      "path": "wiki/berufe/index.html",
+      "status": 200,
+      "bytes": 71439,
+      "sha256": "7f8e7451eb7431084d6a3531e62d283f3add422b8c7c77f18fe7698974b5e00d",
+      "expectedSha256": "7f8e7451eb7431084d6a3531e62d283f3add422b8c7c77f18fe7698974b5e00d",
+      "equal": true
+    },
+    {
+      "path": "wiki/faehigkeiten/index.html",
+      "status": 200,
+      "bytes": 70207,
+      "sha256": "7341eec61d99b3539406d4c1b3925ba95e605fcacf3c508045da729d15b6278e",
+      "expectedSha256": "7341eec61d99b3539406d4c1b3925ba95e605fcacf3c508045da729d15b6278e",
+      "equal": true
+    },
+    {
+      "path": "wiki/ueberlebensbaum/index.html",
+      "status": 200,
+      "bytes": 69038,
+      "sha256": "01b1d9b87a2378cfb3c2b98b01810740ba1eab252279daf6c16ed668ba8aadb1",
+      "expectedSha256": "01b1d9b87a2378cfb3c2b98b01810740ba1eab252279daf6c16ed668ba8aadb1",
+      "equal": true
+    },
+    {
+      "path": "wiki/mechanik/index.html",
+      "status": 200,
+      "bytes": 69290,
+      "sha256": "c8d2eb5785ad4cca4126a3887a5db6b7c8e25b9b7c6b8e552b859740b89f5979",
+      "expectedSha256": "c8d2eb5785ad4cca4126a3887a5db6b7c8e25b9b7c6b8e552b859740b89f5979",
+      "equal": true
+    },
+    {
+      "path": "wiki/camp/index.html",
+      "status": 200,
+      "bytes": 71265,
+      "sha256": "964fe03ff9c8d931778399539239827c586f886ae631902a8b89b94618429537",
+      "expectedSha256": "964fe03ff9c8d931778399539239827c586f886ae631902a8b89b94618429537",
+      "equal": true
+    },
+    {
+      "path": "wiki/camp-lager/index.html",
+      "status": 200,
+      "bytes": 69584,
+      "sha256": "df43932f6400708d06151ebda3461a78069ec6c95e7467ea72d79b6f2c7c6c12",
+      "expectedSha256": "df43932f6400708d06151ebda3461a78069ec6c95e7467ea72d79b6f2c7c6c12",
+      "equal": true
+    },
+    {
+      "path": "wiki/farming/index.html",
+      "status": 200,
+      "bytes": 70512,
+      "sha256": "c78cdf21ea64b8c4cea3019d0a55c9c24261a05445a0bdb05077efa683b4b21f",
+      "expectedSha256": "c78cdf21ea64b8c4cea3019d0a55c9c24261a05445a0bdb05077efa683b4b21f",
+      "equal": true
+    },
+    {
+      "path": "wiki/stromnetz/index.html",
+      "status": 200,
+      "bytes": 69641,
+      "sha256": "de874780974f1ee5942c68f3c6730aa1f8599e3d4d5d68bed72d03afba256f9c",
+      "expectedSha256": "de874780974f1ee5942c68f3c6730aa1f8599e3d4d5d68bed72d03afba256f9c",
+      "equal": true
+    },
+    {
+      "path": "wiki/gruppen/index.html",
+      "status": 200,
+      "bytes": 69013,
+      "sha256": "95fd56f79ff6cc6ab7a03deddf1835433cd765bf13c554c44043da98a0360b0e",
+      "expectedSha256": "95fd56f79ff6cc6ab7a03deddf1835433cd765bf13c554c44043da98a0360b0e",
+      "equal": true
+    },
+    {
+      "path": "wiki/fraktionen/index.html",
+      "status": 200,
+      "bytes": 70204,
+      "sha256": "f6e8b00e8743020995b1d876f6097e265d6c5dc627b3499de66e14a9fd5a2c67",
+      "expectedSha256": "f6e8b00e8743020995b1d876f6097e265d6c5dc627b3499de66e14a9fd5a2c67",
+      "equal": true
+    },
+    {
+      "path": "wiki/handel/index.html",
+      "status": 200,
+      "bytes": 69667,
+      "sha256": "a8ec18f254f27187d66b7163fd1e65ac331e6cdb2d20d042ad526a621b978636",
+      "expectedSha256": "a8ec18f254f27187d66b7163fd1e65ac331e6cdb2d20d042ad526a621b978636",
+      "equal": true
+    },
+    {
+      "path": "wiki/faction-war/index.html",
+      "status": 200,
+      "bytes": 71152,
+      "sha256": "f9382db0bea261e9c12c9e3894e3d238a43e8c9ec414df280efb3913bb62cf0d",
+      "expectedSha256": "f9382db0bea261e9c12c9e3894e3d238a43e8c9ec414df280efb3913bb62cf0d",
+      "equal": true
+    },
+    {
+      "path": "wiki/konvois/index.html",
+      "status": 200,
+      "bytes": 70813,
+      "sha256": "52120539bae5a032e089b7f85a21d77665eb8c10645e5925cb211f73591cdb3d",
+      "expectedSha256": "52120539bae5a032e089b7f85a21d77665eb8c10645e5925cb211f73591cdb3d",
+      "equal": true
+    },
+    {
+      "path": "wiki/fahrzeuge/index.html",
+      "status": 200,
+      "bytes": 69643,
+      "sha256": "fcc03923003a6d25ab7aad75bb244745bfb128005dc385155040acd553f87966",
+      "expectedSha256": "fcc03923003a6d25ab7aad75bb244745bfb128005dc385155040acd553f87966",
+      "equal": true
+    },
+    {
+      "path": "wiki/fahrzeuglager/index.html",
+      "status": 200,
+      "bytes": 68867,
+      "sha256": "ee7e0986222c09064b6f422f05886837d83b827838cc7beea9c02b1575a943ec",
+      "expectedSha256": "ee7e0986222c09064b6f422f05886837d83b827838cc7beea9c02b1575a943ec",
+      "equal": true
+    },
+    {
+      "path": "wiki/versorgung/index.html",
+      "status": 200,
+      "bytes": 70359,
+      "sha256": "429cfce2edb3dceefa450c860175e60efa32055ef732afa1ae216082a5e33d98",
+      "expectedSha256": "429cfce2edb3dceefa450c860175e60efa32055ef732afa1ae216082a5e33d98",
+      "equal": true
+    },
+    {
+      "path": "wiki/funk/index.html",
+      "status": 200,
+      "bytes": 69658,
+      "sha256": "7dd00089595470e57f8464bcd257d4dd3eccd59711a9b42b7609e37d73094b2b",
+      "expectedSha256": "7dd00089595470e57f8464bcd257d4dd3eccd59711a9b42b7609e37d73094b2b",
+      "equal": true
+    },
+    {
+      "path": "wiki/gebiete/index.html",
+      "status": 200,
+      "bytes": 69197,
+      "sha256": "5e4c2924a3b11133961cbedca85ae3c92a14010a96c814fa17baf7fdc356683b",
+      "expectedSha256": "5e4c2924a3b11133961cbedca85ae3c92a14010a96c814fa17baf7fdc356683b",
+      "equal": true
+    },
+    {
+      "path": "wiki/zombies/index.html",
+      "status": 200,
+      "bytes": 68887,
+      "sha256": "e6f4d77f09716bf73f953f0e35de28554de0467e9439703a2c4bb22a7740d482",
+      "expectedSha256": "e6f4d77f09716bf73f953f0e35de28554de0467e9439703a2c4bb22a7740d482",
+      "equal": true
+    },
+    {
+      "path": "wiki/ereignisse/index.html",
+      "status": 200,
+      "bytes": 69118,
+      "sha256": "afecca6117e6dc7c9198b9da79658abd9d927571c5e341ac35c5d400255e93d3",
+      "expectedSha256": "afecca6117e6dc7c9198b9da79658abd9d927571c5e341ac35c5d400255e93d3",
+      "equal": true
+    },
+    {
+      "path": "wiki/jahreszeiten/index.html",
+      "status": 200,
+      "bytes": 68524,
+      "sha256": "0aa3230607c81101c87cf4345337258642cd8b39b699d121ec14bde86ec86d08",
+      "expectedSha256": "0aa3230607c81101c87cf4345337258642cd8b39b699d121ec14bde86ec86d08",
+      "equal": true
+    },
+    {
+      "path": "wiki/radios/index.html",
+      "status": 200,
+      "bytes": 68357,
+      "sha256": "1d644962f29a25b495e18e99eadb82eaf3767e99d5cda2beca8d8017080ad982",
+      "expectedSha256": "1d644962f29a25b495e18e99eadb82eaf3767e99d5cda2beca8d8017080ad982",
+      "equal": true
+    },
+    {
+      "path": "wiki/gesten/index.html",
+      "status": 200,
+      "bytes": 67913,
+      "sha256": "0305cff83894aab92c66f9b0757632c7283378d745a7c8c4e7c0a997ffc8d1d8",
+      "expectedSha256": "0305cff83894aab92c66f9b0757632c7283378d745a7c8c4e7c0a997ffc8d1d8",
+      "equal": true
+    },
+    {
+      "path": "wiki/temperatur/index.html",
+      "status": 200,
+      "bytes": 65894,
+      "sha256": "5ee9983e83503e0dc541c0cbac412eea1eca85e16d2e642b6677579bee228ad1",
+      "expectedSha256": "5ee9983e83503e0dc541c0cbac412eea1eca85e16d2e642b6677579bee228ad1",
+      "equal": true
+    },
+    {
+      "path": "wiki/index.html",
+      "status": 200,
+      "bytes": 90665,
+      "sha256": "9012baeb225447a259abe8847cd7e382e6557affa0de86f67f91d39057f61387",
+      "expectedSha256": "9012baeb225447a259abe8847cd7e382e6557affa0de86f67f91d39057f61387",
+      "equal": true
+    },
+    {
+      "path": "wiki/assets/wiki.css",
+      "status": 200,
+      "bytes": 25687,
+      "sha256": "afeddf42394aa42de2b4dee61ac3e8d3455bf1dade9bc59332d53e055e4adfac",
+      "expectedSha256": "afeddf42394aa42de2b4dee61ac3e8d3455bf1dade9bc59332d53e055e4adfac",
+      "equal": true
+    },
+    {
+      "path": "wiki/assets/wiki.js",
+      "status": 200,
+      "bytes": 7792,
+      "sha256": "8eed3b5078de97f64dff9feb5142b69e6725b25009f090f5823658157a8fb475",
+      "expectedSha256": "8eed3b5078de97f64dff9feb5142b69e6725b25009f090f5823658157a8fb475",
+      "equal": true
+    },
+    {
+      "path": "wiki/assets/screens/berufswahl-20261025.png",
+      "status": 200,
+      "bytes": 1836823,
+      "sha256": "9ef3745a9a5fde880b22bc5ea65611674b8447c78b8af214a312ba882ddc6b29",
+      "expectedSha256": "9ef3745a9a5fde880b22bc5ea65611674b8447c78b8af214a312ba882ddc6b29",
+      "equal": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 10044,
+      "sha256": "56d1b62749718cc9edadf639d7c484da2ed2c11a4a39b40bd32024c0eddcd3eb",
+      "expectedSha256": "56d1b62749718cc9edadf639d7c484da2ed2c11a4a39b40bd32024c0eddcd3eb",
+      "equal": true
+    },
+    {
+      "path": "regelwerk.html",
+      "status": 200,
+      "bytes": 10058,
+      "sha256": "ccd2fc2af507f5b92e304131d5fc891d41f7a194b660b99db565134e73866377",
+      "expectedSha256": "ccd2fc2af507f5b92e304131d5fc891d41f7a194b660b99db565134e73866377",
+      "equal": true
+    },
+    {
+      "path": "assets/ingame.js",
+      "status": 200,
+      "bytes": 1636,
+      "sha256": "14fcbdfc63b06e8cbfd1927717588028c40356c4d7d028c2f934944903bac86a",
+      "expectedSha256": "14fcbdfc63b06e8cbfd1927717588028c40356c4d7d028c2f934944903bac86a",
+      "equal": true
+    }
+  ],
+  "retiredSamples": [
+    {
+      "path": "wiki/assets/screens/camp-kueche.jpg",
+      "status": 404,
+      "removed": true
+    },
+    {
+      "path": "wiki/assets/screens/faehigkeiten.jpg",
+      "status": 404,
+      "removed": true
+    },
+    {
+      "path": "wiki/assets/screens/inventar.jpg",
+      "status": 404,
+      "removed": true
+    }
+  ],
+  "verified": true
+}

@@ -31,9 +31,13 @@ Prüfbelege: [Layoutmessungen und Browseransichten](docs/wiki-20261026/).
 Build und Link-/Bild-/JSON-Prüfung: 38 HTML-Seiten. Auf sieben exemplarischen
 Mobil-/Tablet-/Desktopansichten zwischen 320 und 1920 Pixeln kein horizontaler
 Seitenüberlauf oder beschädigtes geladenes Bild. Sichtbare Browserbedienung
-bestätigt Suche, Artikelnavigation und mobile Themenübersicht. Veröffentlichung
-und öffentliche Rücklese werden gesondert protokolliert. Keine neue Ingame-
-Abnahme behauptet, keine Spielressource geändert oder neu gestartet.
+bestätigt Suche, Artikelnavigation und mobile Themenübersicht. Veröffentlicht
+als `8591eab`, Pages-Lauf `40299082939` erfolgreich; 42 öffentliche Dateien
+vollständig bytegleich zurückgelesen. Entfernte alte Bildadressen liefern 404.
+Die originale F4-Browserhülle lädt die neue Seite, navigiert intern und schließt
+per F4 aus dem Websitefokus. Belege im oben verlinkten Prüfverzeichnis.
+Keine neue native Ingame-Abnahme behauptet, keine Spielressource geändert
+oder neu gestartet.
 
 ## Historie · erste Redaktion am 17.10.2026
 
