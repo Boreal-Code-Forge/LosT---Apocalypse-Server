@@ -20,7 +20,8 @@ function search() {
     const link = document.createElement('a'); link.href = a.url;
     const category = document.createElement('small'); category.textContent = a.planned ? 'Bald verfügbar' : a.category;
     const title = document.createElement('strong'); title.textContent = a.title;
-    link.append(category, title); list.append(link);
+    const excerpt = document.createElement('p'); excerpt.textContent = a.summary || 'Dieser Bereich ist noch in Entwicklung.';
+    link.append(category, title, excerpt); list.append(link);
   }
 }
 input.addEventListener('input', search);
@@ -89,4 +90,25 @@ if(mapImage){
   viewport.addEventListener('pointermove',event=>{if(!drag)return;viewport.scrollLeft=drag.left+drag.x-event.clientX;viewport.scrollTop=drag.top+drag.y-event.clientY;});
   for(const name of ['pointerup','pointercancel','lostpointercapture'])viewport.addEventListener(name,()=>{drag=null;viewport.classList.remove('dragging');});
   window.addEventListener('resize',()=>{measure();draw(scale);});
+}
+
+// Read progress and section marker; no timers or network traffic.
+const progressBar=document.querySelector('.reading-progress');
+let progressQueued=false;
+function updateProgress(){
+  progressQueued=false;
+  const distance=document.documentElement.scrollHeight-innerHeight;
+  progressBar.style.width=`${distance>0?Math.min(100,Math.max(0,scrollY/distance*100)):0}%`;
+}
+if(progressBar){
+  addEventListener('scroll',()=>{if(!progressQueued){progressQueued=true;requestAnimationFrame(updateProgress);}},{passive:true});
+  addEventListener('resize',updateProgress);updateProgress();
+}
+if('IntersectionObserver' in window && document.querySelector('.toc')){
+  const links=[...document.querySelectorAll('.toc a')];
+  const observer=new IntersectionObserver(entries=>{
+    const current=entries.find(e=>e.isIntersecting);if(!current)return;
+    for(const link of links){if(link.hash===`#${current.target.id}`)link.setAttribute('aria-current','true');else link.removeAttribute('aria-current');}
+  },{rootMargin:'-5% 0px -60% 0px',threshold:0});
+  document.querySelectorAll('.article-section').forEach(s=>observer.observe(s));
 }

@@ -1,75 +1,20 @@
 {
-  "reviewedAt": "2026-10-17",
+  "reviewedAt": "2026-10-26",
   "sourceRepository": "https://github.com/MaxSmoke87/-LosT-.git",
-  "sourceCommit": "007c57e89e1b959f726831157f16afe9dca8f7e5",
+  "sourceCommit": "654c24411e60ba5a989cb40e4d6dad08d2d4abf5",
   "sourceTrees": {
-    "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2",
-    "[lost_santos]/ls_hud/web/apocalypse": "587a44ec1e6ba5f264c0ba38c3bcb8590d778483",
-    "[lost_santos]/ls_medical/html": "33c7a602ebab3e108d57f20764408821a620c035"
+    "[lost_santos]/ls_identity": "aefcb011d509d2f6ad8f617f5315e4f9dad5116b"
   },
   "kind": "Original HTML/CSS/JS rendered in browser with fictional fixture values; not gameplay screenshots.",
-  "fixture": "content/ui-examples.js",
-  "previewTool": "tools/preview-game-ui.mjs",
+  "captureEvidence": "docs/creator-profession-20261025/README-DE.md in the source repository",
   "images": [
     {
-      "file": "screens/camp-kueche.jpg",
-      "sha256": "0081e9df2d8241e40bf719697c0cf407a214ec5dd68e5d8de182acfa8bf3f0ae",
+      "file": "screens/berufswahl-20261025.png",
+      "sha256": "9ef3745a9a5fde880b22bc5ea65611674b8447c78b8af214a312ba882ddc6b29",
       "width": 1920,
-      "height": 1080
-    },
-    {
-      "file": "screens/faehigkeiten.jpg",
-      "sha256": "c66763c7a72fa32e74df46629cb13d758887d63bc18f0cc992e3acf34b44987b",
-      "width": 1920,
-      "height": 1080
-    },
-    {
-      "file": "screens/fahrzeuglager.jpg",
-      "sha256": "7519c1c4a7a732f0874636b4723ca0b8b5113dd133bb37e2eeef5856124638d4",
-      "width": 1920,
-      "height": 1080
-    },
-    {
-      "file": "screens/fahrzeugtechnik.jpg",
-      "sha256": "cbf897ac55650ab37d7b33af91d62d6232e270394691b9079fb4eeeeb2cec66e",
-      "width": 1920,
-      "height": 1080
-    },
-    {
-      "file": "screens/handwerk.jpg",
-      "sha256": "c0d03e564d2f9864d362ae787beff918bc4e13c5c3d9b785d8e506c566faf891",
-      "width": 1920,
-      "height": 1080
-    },
-    {
-      "file": "screens/inventar.jpg",
-      "sha256": "7d0791c7a2316b247a066f31ca534d68742746f0eb62ebc7691fa2fb2193f91a",
-      "width": 1920,
-      "height": 1080
-    },
-    {
-      "file": "screens/logbuch.jpg",
-      "sha256": "df04b1056b2be96596c658edee09f3262ab9168af7fafb75bb7d640440b3835e",
-      "width": 1920,
-      "height": 1080
-    },
-    {
-      "file": "screens/loot.jpg",
-      "sha256": "8e264f3f2283723a0281a33da9ebb5d00919ccca9c5d178846da3274e6922792",
-      "width": 1920,
-      "height": 1080
-    },
-    {
-      "file": "screens/medizin.jpg",
-      "sha256": "edfb6b058c1bcd90d6292684ad22f1d788f7e845646bcd871c24c6e5049390c1",
-      "width": 1920,
-      "height": 1080
-    },
-    {
-      "file": "screens/social.jpg",
-      "sha256": "c78b15d3a21141adba7562dfd0bcc472968550931cfd228cb7048c5caa1fe59d",
-      "width": 1920,
-      "height": 1080
+      "height": 1080,
+      "source": "docs/creator-profession-20261025/creator-profession-1920.png",
+      "sourceBlob": "20eabd78438a5cd0ed39cc4450f2bef2258de601"
     }
   ],
   "map": {

@@ -1,4 +1,41 @@
-# Wiki · erste Redaktion am 17.10.2026
+# Wiki · Ausgabe 02 · 26.10.2026
+
+Der gesamte Artikelbestand wurde mit dem veröffentlichten Projektstand
+`654c24411e60ba5a989cb40e4d6dad08d2d4abf5` abgeglichen. Ressourcenübersicht,
+aktuelle READMEs, jüngere Nachweise und die jeweiligen fachlichen Regeln sind
+die Grundlage; lokale offene Arbeiten wurden nicht als ausgelieferter Stand
+übernommen. `content/wiki-sources.json` enthält die Einzelzuordnung.
+
+34 Anleitungen und ein leerer Platzhalter für Körpertemperatur/Wetterschutz.
+Die fünf inzwischen entwickelten bisherigen Platzhalter sind echte Anleitungen;
+sechs neue Themen ergänzen das Handbuch. Camp-Radius und alte Wohnmodulbeschreibung
+sind durch Grundstücksblöcke, Baukamera und getrennte persönliche Claims ersetzt.
+Konvois erklären virtuelle Versorgung statt frei entnehmbarer Inventargegenstände.
+Spezifische noch fehlende Talent-/Rezept-/Regenfänger-/Jagdgerätefunktionen sind
+benannt. Händlerbeschreibungen behaupten keine automatisch erzeugten Sortimente,
+fest eingerichteten Weltstandorte oder zusätzliche globale Münzbudgets.
+
+Dunkle Feldhandbuchgestaltung mit dezentem Grün/Rot, drei Einstiegswegen,
+themenspezifischen Kurzinfos, nummerierten Anleitungen und lesbaren Tabellen.
+Beschreibende Navigationstitel bleiben auch bei erzählerischen Artikelüberschriften
+auffindbar. Volltextsuche ohne JSON-Feldnamen, mit lesbaren Ergebnis-Kurztexten.
+GIF auf der sichtbaren Website, beschrifteter Wiki-Banner in Discord-Metadaten.
+Alle bisherigen Adressen, Regelwerktexte und die F4-Brücke bleiben erhalten.
+
+Zehn veraltete Aufnahmen entfernt; nur ein visuell geprüfter, unverändert kopierter
+Creator aus dem 25.10.-Nachweis neu aufgenommen. Karte weiterhin unverändertes
+8K-Original: Die historischen Grenzen vom 16.10. sind ausdrücklich als solche
+benannt, aktuelle Grenzen/Besitz im Spiel beziehungsweise am Taktiktisch nachsehen.
+
+Prüfbelege: [Layoutmessungen und Browseransichten](docs/wiki-20261026/).
+Build und Link-/Bild-/JSON-Prüfung: 38 HTML-Seiten. Auf sieben exemplarischen
+Mobil-/Tablet-/Desktopansichten zwischen 320 und 1920 Pixeln kein horizontaler
+Seitenüberlauf oder beschädigtes geladenes Bild. Sichtbare Browserbedienung
+bestätigt Suche, Artikelnavigation und mobile Themenübersicht. Veröffentlichung
+und öffentliche Rücklese werden gesondert protokolliert. Keine neue Ingame-
+Abnahme behauptet, keine Spielressource geändert oder neu gestartet.
+
+## Historie · erste Redaktion am 17.10.2026
 
 Auf Betreiberauftrag Spieler-Wiki aus dem offiziellen Git-Stand abgeleitet. Maßgeblicher Commit und Quelldatei-Objekte stehen in `content/wiki-sources.json`. Lokale offene Änderungen im offiziellen Checkout nicht übernommen. Keine Server-/Datenbank-/Discord-Aktion.
 

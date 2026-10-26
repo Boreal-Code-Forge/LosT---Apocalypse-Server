@@ -1,142 +1,213 @@
 {
   "repository": "https://github.com/MaxSmoke87/-LosT-.git",
-  "commit": "007c57e89e1b959f726831157f16afe9dca8f7e5",
-  "reviewedAt": "2026-10-17",
+  "commit": "654c24411e60ba5a989cb40e4d6dad08d2d4abf5",
+  "reviewedAt": "2026-10-26",
   "articles": {
     "erste-schritte": {
-      "[lost_santos]/ls_inventory/README-DE.md": "59d09eb7cac6b399b5916688c865734f43fe04fc",
-      "[lost_santos]/ls_characters/README-DE.md": "786997a2fbcd93d530dc1082e6ab91d3d08ffefd",
+      "[lost_santos]/ls_inventory/README-DE.md": "6861d8199dc4b6d3dc1005aeb2815734e608a3b5",
+      "[lost_santos]/ls_characters/README-DE.md": "107b8bd0c34f9033e21fcae556684faf42ea266e",
       "[lost_santos]/ls_inventory/shared/arrival-guide.json": "35519fc10aacc6957f2193c9c8b6f938a63f4fa4",
-      "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2"
+      "[lost_santos]/ls_inventory/web": "075e6e9eefb353692f2f45660dd811dcb3236553",
+      "[lost_santos]/ls_skills/server/background.lua": "0ce3522f83bbb14705bd7b33b2efbdd3ee9ea0e5",
+      "docs/creator-profession-20261025/README-DE.md": "eabac6758a3dcd97a0d92db2d53bdaae0bb9a0e9",
+      "[lost_santos]/ls_inventory/shared/professions.lua": "40b9e66dfd015f32cee3ee431431ee94d219c067"
     },
     "steuerung": {
-      "[lost_santos]/ls_inventory/client/main.lua": "7d9efa1b8142adb59385bf7fbef0914380b3c44d",
+      "[lost_santos]/ls_inventory/client/main.lua": "5a50b6caeec4abfd5aee1c64cc834594986ff439",
       "[lost_santos]/ls_medical/client/menu.lua": "279e318e1703f2feff145b32c6d256ec6bbaf400",
       "[lost_santos]/ls_social/client/main.lua": "47d6d746983d9df70adcb3e71b7a4b9f3d3607d1",
       "[lost_santos]/ls_emotes/config.lua": "3aeeffd7709f11fd8c3f985734f4f4cc1045318b",
-      "[lost_santos]/ls_hud/client/survival_navigation.lua": "156ac99d7ac71d8b8743da071f023aebfd039323"
+      "[lost_santos]/ls_hud/client/survival_navigation.lua": "8448dc8ec2f021c4922e1f98de0b43a5163903b9",
+      "[lost_santos]/ls_handbook/client.lua": "87c5661b215149d9969482c6eebb04163ad740e9",
+      "[lost_santos]/ls_bases/hammer-client.lua": "b43674c550bb60b4eb6dc23388a0dc02778cf0aa",
+      "[lost_santos]/ls_voice/README-DE.md": "0513f31f61076874cc97284d2a99fee5bf12c80f"
     },
     "karte": {
       "docs/atlas-symbols-20261016/README-DE.md": "0fa5c7732ebad019dde6ba953f52a5a3bb8a7deb",
       "docs/atlas-symbols-20261016/tiles-build.json": "c438c4c8d8840d2e4008ab218b156a9796e1b18c"
     },
+    "orientierung": {
+      "[lost_santos]/ls_hud/README.md": "fc4b25568df672646e04bb2cf6e1c90951df4632",
+      "[lost_santos]/ls_hud/client/survival_navigation.lua": "8448dc8ec2f021c4922e1f98de0b43a5163903b9",
+      "[lost_santos]/ls_social/README-DE.md": "86b627727b539fc584a2936ad872b13f781bf5ab",
+      "[lost_santos]/ls_zones/README-DE.md": "5469cdac6fcb4bb5e35b7f0825f6bbca93fdd56a"
+    },
     "inventar": {
-      "[lost_santos]/ls_inventory/README-DE.md": "59d09eb7cac6b399b5916688c865734f43fe04fc",
-      "[lost_santos]/ls_inventory/client/main.lua": "7d9efa1b8142adb59385bf7fbef0914380b3c44d",
-      "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2"
+      "[lost_santos]/ls_inventory/README-DE.md": "6861d8199dc4b6d3dc1005aeb2815734e608a3b5",
+      "[lost_santos]/ls_inventory/client/main.lua": "5a50b6caeec4abfd5aee1c64cc834594986ff439",
+      "[lost_santos]/ls_inventory/web": "075e6e9eefb353692f2f45660dd811dcb3236553",
+      "[lost_santos]/ls_inventory/shared/engine.lua": "5fa51d4f5c2ac33c1ded5d05c84d1a5f7c8635e0",
+      "[lost_santos]/ls_inventory/shared/helmets.lua": "07429e152d87c891a7aa6c7421d83aa493c1bc35",
+      "[lost_santos]/ls_inventory/shared/protection.lua": "86ad9799e09c2d44ad578b198d50fd614d6f988f"
     },
     "looten": {
-      "[lost_santos]/ls_inventory/README-DE.md": "59d09eb7cac6b399b5916688c865734f43fe04fc",
-      "[lost_santos]/ls_inventory/LOOT-DE.md": "e49b51acec061c47f67c28d0f68a2be2345b98d3",
-      "[lost_santos]/ls_hunting/README-DE.md": "badcd5f746156d298bb4e28ec5242b0ec0a4c050",
-      "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2"
+      "[lost_santos]/ls_inventory/README-DE.md": "6861d8199dc4b6d3dc1005aeb2815734e608a3b5",
+      "[lost_santos]/ls_inventory/LOOT-DE.md": "b8e36e7ed79efb0f324a55979cdee7ed0496759a",
+      "[lost_santos]/ls_hunting/README-DE.md": "b34067cc7f0cf41b4d7a08cf85e0f15732444766",
+      "[lost_santos]/ls_inventory/web": "075e6e9eefb353692f2f45660dd811dcb3236553",
+      "[lost_santos]/ls_inventory/server/world-props.lua": "d28fa094994987196eaed8208c6cf0ae67e67ad8",
+      "[lost_santos]/ls_inventory/server/loot-economy.lua": "a26a9394fb08bc0155ed81cb0c3978fcbaff005f",
+      "[lost_santos]/ls_zones/server/main.lua": "057aef3313c7420bb68bf5a4ac0cef3ed2a413a9"
+    },
+    "naturressourcen": {
+      "docs/natural-resources-20261023/README-DE.md": "489ac0af501584d74c0fc6cf075b82692d66534b",
+      "docs/resource-harvest-20261025/README-DE.md": "107c8584bef1ff2a8b4eacecc9ecb79725d194ff",
+      "docs/fallwood-20261025/README-DE.md": "6212c51c78b3044ed61e279f8523273056e89973"
+    },
+    "jagd": {
+      "[lost_santos]/ls_hunting/README-DE.md": "b34067cc7f0cf41b4d7a08cf85e0f15732444766",
+      "[lost_santos]/ls_inventory/README-DE.md": "6861d8199dc4b6d3dc1005aeb2815734e608a3b5",
+      "[lost_santos]/ls_hunting/client/main.lua": "abe8ba974ca61ddf4fc8a8c4486d8c33731eed4f"
+    },
+    "angeln": {
+      "[lost_santos]/ls_inventory/shared/fishing.lua": "3d513aea670e28e8c30e53adf478f32f1fdaa481",
+      "[lost_santos]/ls_inventory/client/fishing.lua": "e2c69caf4b9ef8f6186d44d1460c130530714a60",
+      "[lost_santos]/ls_inventory/server/fishing.lua": "f6d0b253a7f582d542d87968a161c21650092614"
     },
     "crafting": {
-      "[lost_santos]/ls_inventory/README-DE.md": "59d09eb7cac6b399b5916688c865734f43fe04fc",
-      "[lost_santos]/ls_inventory/shared/camp-crafting.lua": "2722d690676e9e99c4ebf1ff8dfd41fe39b27713",
-      "[lost_santos]/ls_bases/README-DE.md": "f1e21e68120a9a3fe7323a49a7a45647b7f44a5d",
-      "[lost_santos]/ls_hunting/README-DE.md": "badcd5f746156d298bb4e28ec5242b0ec0a4c050",
-      "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2"
+      "[lost_santos]/ls_inventory/README-DE.md": "6861d8199dc4b6d3dc1005aeb2815734e608a3b5",
+      "[lost_santos]/ls_inventory/shared/camp-crafting.lua": "0a0a057bad5b04441d814a78fd699b11da9ab534",
+      "[lost_santos]/ls_bases/README-DE.md": "a8502dfe231b4b16646dbaa3b6e0fd01748faa4e",
+      "[lost_santos]/ls_hunting/README-DE.md": "b34067cc7f0cf41b4d7a08cf85e0f15732444766",
+      "[lost_santos]/ls_inventory/web": "075e6e9eefb353692f2f45660dd811dcb3236553"
     },
     "medizin": {
-      "[lost_santos]/ls_medical/README-DE.md": "f226a2a5a9387d3828570513346bb6d058c22ac3",
+      "[lost_santos]/ls_medical/README-DE.md": "a1a0d079ab547dd03b264c1dd66cd5115d51d967",
       "[lost_santos]/ls_medical/shared/injuries.lua": "da18e7467bec05447f2da5c61224b5e72a81ef05",
       "[lost_santos]/ls_medical/client/menu.lua": "279e318e1703f2feff145b32c6d256ec6bbaf400",
       "[lost_santos]/ls_medical/html": "33c7a602ebab3e108d57f20764408821a620c035"
     },
-    "faehigkeiten": {
-      "[lost_santos]/ls_skills/README-DE.md": "36daaf1df0d59063e8b2a1a9642f66e6c3743694",
-      "[lost_santos]/ls_skills/server/medicine-tree.lua": "5d9c180f51126ca85fb855ec41213b90bedcd08a",
-      "[lost_santos]/ls_skills/server/mechanic-tree.lua": "fbaeb53f3f8c4aef823979af0ab69f62f0762b16",
-      "[lost_santos]/ls_skills/server/combat-trees.lua": "2d46e24e47fec06a7568ed1715968a6da25fa36f",
-      "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2"
+    "berufe": {
+      "[lost_santos]/ls_skills/server/catalog.lua": "339ac7cc61f5ba920d491328905aa88a431c8da0",
+      "[lost_santos]/ls_skills/server/background.lua": "0ce3522f83bbb14705bd7b33b2efbdd3ee9ea0e5",
+      "docs/creator-profession-20261025/README-DE.md": "eabac6758a3dcd97a0d92db2d53bdaae0bb9a0e9"
     },
-    "fahrzeuge": {
-      "[lost_santos]/ls_vehicles/README-DE.md": "82aba9c7ced637bba9246ff2b1bc725934f6bcd6",
-      "[lost_santos]/ls_vehicles/VITALWERTE-DE.md": "4005533dcfb831405bf9794bdc15ca1c8159a3b6",
-      "[lost_santos]/ls_inventory/FAHRZEUGE-DE.md": "8d87e69037553cbda5fa4d9ca118066d3ecf96b2",
-      "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2"
+    "faehigkeiten": {
+      "[lost_santos]/ls_skills/README-DE.md": "42ff2c0939af773fdd38a223388c7ceb48163796",
+      "[lost_santos]/ls_skills/server/catalog.lua": "339ac7cc61f5ba920d491328905aa88a431c8da0",
+      "[lost_santos]/ls_skills/server/background.lua": "0ce3522f83bbb14705bd7b33b2efbdd3ee9ea0e5",
+      "[lost_santos]/ls_skills/server/trees.lua": "88307e58c0c79b7d81201359f6aaa29d64a49d04",
+      "[lost_santos]/ls_skills/server/field-trees.lua": "cef4345f0616e329a02d834696bc5cc2d8a6fff7",
+      "[lost_santos]/ls_skills/server/farming.lua": "c7258415239dfd4ed980fc9c9ea3a1461be875d4",
+      "[lost_santos]/ls_skills/server/combat-trees.lua": "2d46e24e47fec06a7568ed1715968a6da25fa36f",
+      "[lost_santos]/ls_skills/server/body-tree.lua": "3e59727f72777f94523c6be80855bf38aafbd277"
+    },
+    "ueberlebensbaum": {
+      "[lost_santos]/ls_skills/server/field-trees.lua": "cef4345f0616e329a02d834696bc5cc2d8a6fff7",
+      "docs/skills-professions-20261025/UMSETZUNG-DE.md": "360a577fe5e6a302721a5c1ba61ceedd28bce942",
+      "[lost_santos]/ls_inventory/server/nature.lua": "8210bd870902cdc9c4223370f897fd9eb214238e",
+      "[lost_santos]/ls_inventory/server/fishing.lua": "f6d0b253a7f582d542d87968a161c21650092614",
+      "[lost_santos]/ls_hunting/server/main.lua": "6be6bc408dcad870f2ed5f0ed6844540f6d7698e"
     },
     "mechanik": {
       "[lost_santos]/ls_vehicles/FORSCHUNG-DE.md": "0250f33c75a56c1a658276886e99310506224af6",
       "[lost_santos]/ls_vehicles/MECHANIK-DE.md": "a11168c936dd23e30729ef96f1d8cadc5ca29fb4",
-      "[lost_santos]/ls_skills/README-DE.md": "36daaf1df0d59063e8b2a1a9642f66e6c3743694",
-      "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2"
+      "[lost_santos]/ls_skills/README-DE.md": "42ff2c0939af773fdd38a223388c7ceb48163796",
+      "[lost_santos]/ls_inventory/web": "075e6e9eefb353692f2f45660dd811dcb3236553"
+    },
+    "camp": {
+      "[lost_santos]/ls_bases/README-DE.md": "a8502dfe231b4b16646dbaa3b6e0fd01748faa4e",
+      "[lost_santos]/ls_bases/construction.lua": "fbd9cf007be57edabcb8fe19a43e10043267e9a6",
+      "[lost_santos]/ls_bases/hammer-client.lua": "b43674c550bb60b4eb6dc23388a0dc02778cf0aa",
+      "docs/basebuilding-2-20261024/README-DE.md": "3511e041c962f4a76202ad23322dd03b7eca7840",
+      "docs/hammer-mode-20261025/README-DE.md": "f35e503699ecfc225c99c989de366acb75a14ebb",
+      "[lost_santos]/ls_skills/server/field-trees.lua": "cef4345f0616e329a02d834696bc5cc2d8a6fff7"
+    },
+    "camp-lager": {
+      "[lost_santos]/ls_bases/README-DE.md": "a8502dfe231b4b16646dbaa3b6e0fd01748faa4e",
+      "[lost_santos]/ls_social/README-DE.md": "86b627727b539fc584a2936ad872b13f781bf5ab",
+      "[lost_santos]/ls_factions/README-DE.md": "b9628b946be5746d4d7d214717d7e44fe75934e9",
+      "docs/basebuilding-2-20261024/README-DE.md": "3511e041c962f4a76202ad23322dd03b7eca7840"
+    },
+    "farming": {
+      "[lost_santos]/ls_inventory/shared/farming.lua": "9fbd5f47ebd49b98c6886497138236e314f171b0",
+      "[lost_santos]/ls_inventory/server/farming.lua": "7667e8f7fd29429eea8e32e99ff6aeca16cb4180",
+      "[lost_santos]/ls_skills/server/farming.lua": "c7258415239dfd4ed980fc9c9ea3a1461be875d4",
+      "docs/base-cereals-20261025/README-DE.md": "bb07e9e8d772f164886215c90b17dd8bf5d375b5",
+      "[lost_santos]/ls_inventory/shared/field-crops.lua": "0ce7ef675d64ea2979d48e777edf3e3d19dcdb3c"
+    },
+    "stromnetz": {
+      "[lost_santos]/ls_inventory/README-DE.md": "6861d8199dc4b6d3dc1005aeb2815734e608a3b5",
+      "[lost_santos]/ls_inventory/RESSOURCENVERSORGUNG-DE.md": "3e14fcd33646b1f077eb472d067f3a90390f8e96",
+      "docs/basebuilding-2-20261024/README-DE.md": "3511e041c962f4a76202ad23322dd03b7eca7840",
+      "[lost_santos]/ls_inventory/shared/power-network.lua": "f7884b6590499a1c97007a940df40e64a863a438",
+      "[lost_santos]/ls_inventory/client/power-network.lua": "058fd53baea764e74d9a7cd13c017ed69bf36545"
+    },
+    "gruppen": {
+      "[lost_santos]/ls_social/README-DE.md": "86b627727b539fc584a2936ad872b13f781bf5ab",
+      "[lost_santos]/ls_social/client/main.lua": "47d6d746983d9df70adcb3e71b7a4b9f3d3607d1",
+      "[lost_santos]/ls_hud/web/apocalypse": "710414f99b8879e01243220f84d18cd0e446d6f5"
+    },
+    "fraktionen": {
+      "[lost_santos]/ls_factions/README-DE.md": "b9628b946be5746d4d7d214717d7e44fe75934e9",
+      "[lost_santos]/ls_factions/server/economy.lua": "05f8d1e124645c137f135e90cdc470af31de8190",
+      "[lost_santos]/ls_factions/shared/defaults.json": "8810236c9a3a4f4665c4f464ae4189357a7f18a9",
+      "docs/quest-membership-20261021/README-DE.md": "b16f5a26b8c806314e1605b29e29276708ffad50",
+      "docs/FRAKTIONSTERRITORIEN-KONZEPT-DE.md": "392eea725257f5f031f8bc94f81c252e43f6e854"
+    },
+    "handel": {
+      "[lost_santos]/ls_factions/README-DE.md": "b9628b946be5746d4d7d214717d7e44fe75934e9",
+      "[lost_santos]/ls_factions/server/economy.lua": "05f8d1e124645c137f135e90cdc470af31de8190",
+      "[lost_santos]/ls_factions/shared/rules.lua": "45ded341652b696599f20e514ff373e6adfcde6f"
+    },
+    "faction-war": {
+      "[lost_santos]/ls_factions/README-DE.md": "b9628b946be5746d4d7d214717d7e44fe75934e9",
+      "[lost_santos]/ls_factions/shared/war-rules.lua": "f7bccef7b7d36cf993ab06109866ce0704c6a630",
+      "[lost_santos]/ls_factions/server/war.lua": "066a2cdc8124e4a21f70a4ddc9122e06d73e6eaa",
+      "docs/faction-war-supply-20261020/README-DE.md": "3b61d776c255e254f6f4e9a740dd8a451983bf88"
+    },
+    "konvois": {
+      "[lost_santos]/ls_factions/shared/war-rules.lua": "f7bccef7b7d36cf993ab06109866ce0704c6a630",
+      "[lost_santos]/ls_factions/server/war.lua": "066a2cdc8124e4a21f70a4ddc9122e06d73e6eaa",
+      "docs/faction-war-supply-20261020/README-DE.md": "3b61d776c255e254f6f4e9a740dd8a451983bf88"
+    },
+    "fahrzeuge": {
+      "[lost_santos]/ls_vehicles/README-DE.md": "95f19e5c722371415a4e658e935322b324aa6daf",
+      "[lost_santos]/ls_vehicles/VITALWERTE-DE.md": "4005533dcfb831405bf9794bdc15ca1c8159a3b6",
+      "[lost_santos]/ls_inventory/FAHRZEUGE-DE.md": "8d87e69037553cbda5fa4d9ca118066d3ecf96b2",
+      "[lost_santos]/ls_inventory/web": "075e6e9eefb353692f2f45660dd811dcb3236553"
     },
     "fahrzeuglager": {
       "[lost_santos]/ls_vehicles/MECHANIK-DE.md": "a11168c936dd23e30729ef96f1d8cadc5ca29fb4",
-      "[lost_santos]/ls_social/README-DE.md": "41e395c75d0c356c096847f0ee816bddf2e55f67",
-      "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2"
-    },
-    "camp": {
-      "[lost_santos]/ls_bases/README-DE.md": "f1e21e68120a9a3fe7323a49a7a45647b7f44a5d",
-      "[lost_santos]/ls_social/README-DE.md": "41e395c75d0c356c096847f0ee816bddf2e55f67",
-      "[lost_santos]/ls_inventory/web": "77cff78de491e883dab36ac38b7f97a5dfd4bab2"
-    },
-    "camp-lager": {
-      "[lost_santos]/ls_bases/README-DE.md": "f1e21e68120a9a3fe7323a49a7a45647b7f44a5d",
-      "[lost_santos]/ls_medical/README-DE.md": "f226a2a5a9387d3828570513346bb6d058c22ac3",
-      "[lost_santos]/ls_social/README-DE.md": "41e395c75d0c356c096847f0ee816bddf2e55f67"
-    },
-    "jagd": {
-      "[lost_santos]/ls_hunting/README-DE.md": "badcd5f746156d298bb4e28ec5242b0ec0a4c050",
-      "[lost_santos]/ls_inventory/README-DE.md": "59d09eb7cac6b399b5916688c865734f43fe04fc"
+      "[lost_santos]/ls_social/README-DE.md": "86b627727b539fc584a2936ad872b13f781bf5ab",
+      "[lost_santos]/ls_inventory/web": "075e6e9eefb353692f2f45660dd811dcb3236553"
     },
     "versorgung": {
-      "[lost_santos]/ls_inventory/RESSOURCENVERSORGUNG-DE.md": "51fd2f4d7c4c11f048198d0656100fd42bf2ef87",
-      "[lost_santos]/ls_hunting/README-DE.md": "badcd5f746156d298bb4e28ec5242b0ec0a4c050"
+      "[lost_santos]/ls_inventory/RESSOURCENVERSORGUNG-DE.md": "3e14fcd33646b1f077eb472d067f3a90390f8e96",
+      "docs/basebuilding-2-20261024/README-DE.md": "3511e041c962f4a76202ad23322dd03b7eca7840",
+      "docs/pump-fuel-20261023/README-DE.md": "b288daa7d1bc1f43373b5f0ededb31206c85409a"
     },
-    "orientierung": {
-      "[lost_santos]/ls_hud/README.md": "7d36ca34ca398db76fccf2ef7a6ac245e092a48b",
-      "[lost_santos]/ls_hud/client/survival_navigation.lua": "156ac99d7ac71d8b8743da071f023aebfd039323",
-      "[lost_santos]/ls_social/README-DE.md": "41e395c75d0c356c096847f0ee816bddf2e55f67",
-      "[lost_santos]/ls_zones/README-DE.md": "d5821e242a2709c558265282ee820bb8ce121e93"
-    },
-    "gruppen": {
-      "[lost_santos]/ls_social/README-DE.md": "41e395c75d0c356c096847f0ee816bddf2e55f67",
-      "[lost_santos]/ls_social/client/main.lua": "47d6d746983d9df70adcb3e71b7a4b9f3d3607d1",
-      "[lost_santos]/ls_hud/web/apocalypse": "587a44ec1e6ba5f264c0ba38c3bcb8590d778483"
+    "funk": {
+      "[lost_santos]/ls_voice/README-DE.md": "0513f31f61076874cc97284d2a99fee5bf12c80f",
+      "[lost_santos]/ls_voice/shared/config.lua": "5d56e925aa188b290b5d8f9dd4ba9d7ba336adae"
     },
     "gebiete": {
-      "[lost_santos]/ls_zones/README-DE.md": "d5821e242a2709c558265282ee820bb8ce121e93"
+      "[lost_santos]/ls_zones/README-DE.md": "5469cdac6fcb4bb5e35b7f0825f6bbca93fdd56a",
+      "[lost_santos]/ls_factions/shared/war-rules.lua": "f7bccef7b7d36cf993ab06109866ce0704c6a630"
     },
     "zombies": {
-      "[lost_santos]/ls_zombies/README-DE.md": "d0ee2ea02275a45f9347d57ed7823f363ba413ad",
+      "[lost_santos]/ls_zombies/README-DE.md": "0d4ab3b7b12dcbe39b826fd36062e6750fe97e3f",
       "[lost_santos]/ls_gates/README-DE.md": "abfcdd9488a353be9630fa55d36fbf532c519bd8",
-      "[lost_santos]/ls_skills/README-DE.md": "36daaf1df0d59063e8b2a1a9642f66e6c3743694"
+      "[lost_santos]/ls_skills/README-DE.md": "42ff2c0939af773fdd38a223388c7ceb48163796"
     },
     "ereignisse": {
-      "[lost_santos]/ls_events/README-DE.md": "fb5c7ba351a87235f6842d638c16686725f7b19d"
+      "[lost_santos]/ls_events/README-DE.md": "c4dc40febdd1fee7d67142bf7c1dd779870a8314",
+      "[lost_santos]/ls_events/server/main.lua": "17f0d3f8252f512f4fdc98f6f336f159394e7d7d"
     },
     "jahreszeiten": {
-      "[lost_santos]/ls_weather/README-DE.md": "f06d8281b81a3c9ea788b3d66b1d0aadb0172558"
+      "[lost_santos]/ls_weather/README-DE.md": "f2cea2779dfd913db9f71fa68d63206c57ca0bc5",
+      "[lost_santos]/ls_weather/common/seasons.lua": "9073dfef96adcb2eb44bc780df47a16e13b3f1e2"
+    },
+    "radios": {
+      "[lost_santos]/ls_radio/README-DE.md": "f6a5e13ade2d6179bb2dd379527c86a66381039b"
     },
     "gesten": {
       "[lost_santos]/ls_emotes/config.lua": "3aeeffd7709f11fd8c3f985734f4f4cc1045318b",
       "[lost_santos]/ls_emotes/client/NUI/LSEmoteMenu.lua": "8bbd03d1892eef2e7d207b8a37ae3d4890380d9a",
       "[lost_santos]/ls_sit/README-DE.md": "dd67d8abf00259c425cbf502e8ed2bc30829ab2b"
     },
-    "radios": {
-      "[lost_santos]/ls_radio/README-DE.md": "c6fd0383f940c501467dff3799cc248e35c0f548"
-    },
-    "angeln": {
-      "[lost_santos]/ls_hunting/README-DE.md": "badcd5f746156d298bb4e28ec5242b0ec0a4c050"
-    },
-    "farming": {
-      "[lost_santos]/ls_bases/README-DE.md": "f1e21e68120a9a3fe7323a49a7a45647b7f44a5d"
-    },
-    "fraktionen": {
-      "[lost_santos]/ls_social/README-DE.md": "41e395c75d0c356c096847f0ee816bddf2e55f67",
-      "LOST-SANTOS-ROADMAP.md": "3206e518e41bf2cc75088ca7858df4b5b8366c7b"
-    },
-    "berufe": {
-      "[lost_santos]/ls_skills/README-DE.md": "36daaf1df0d59063e8b2a1a9642f66e6c3743694"
-    },
-    "ueberlebensbaum": {
-      "[lost_santos]/ls_hunting/README-DE.md": "badcd5f746156d298bb4e28ec5242b0ec0a4c050"
-    },
     "temperatur": {
-      "[lost_santos]/ls_weather/README-DE.md": "f06d8281b81a3c9ea788b3d66b1d0aadb0172558"
+      "[lost_santos]/ls_weather/README-DE.md": "f2cea2779dfd913db9f71fa68d63206c57ca0bc5"
     }
   }
 }

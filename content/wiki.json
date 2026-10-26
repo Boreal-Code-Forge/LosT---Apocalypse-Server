@@ -1,34 +1,1930 @@
 {
-  "reviewedAt": "2026-10-17",
+  "reviewedAt": "2026-10-26",
   "articles": [
-    {"slug":"erste-schritte","title":"Deine ersten Schritte","category":"Ankommen","summary":"Ankommen, Gepäck sichern und den ersten Ausflug vorbereiten.","sources":["[lost_santos]/ls_inventory/README-DE.md","[lost_santos]/ls_characters/README-DE.md","[lost_santos]/ls_inventory/shared/arrival-guide.json","[lost_santos]/ls_inventory/web"],"sections":[{"title":"Nach der Ankunft","text":"Für neue Charaktere beginnt Lost Santos mit einer erzählten Ankunft und der Charaktererstellung. Anschließend kannst du eine geführte Einführung wählen oder direkt selbst losziehen. Die Einführung ist freiwillig.","steps":["Sieh dich an der Absturzstelle nach deinem persönlichen Gepäck um und durchsuche es über die Interaktion.","Öffne mit TAB dein Inventar und nimm brauchbare Vorräte mit.","Mit L öffnest du das Logbuch. Dort findest du die ersten Ziele und deine Fähigkeiten.","Prüfe Nahrung, Wasser und medizinische Vorräte, bevor du längere Strecken zurücklegst."]},{"title":"Dein persönliches Gepäck","text":"Die Einstiegsbehälter besitzen persönliche, einmalige Vorräte. Entnommenes Gepäck füllt sich nicht durch erneutes Einloggen auf. Ein ziviler Startrucksack gehört zur dokumentierten Einstiegsausrüstung; eine Landkarte wird höchstens einmal pro Charakter als Startfund vergeben."},{"title":"Das erste Logbuchziel","text":"Bei „Was der Absturz übrig ließ“ durchsuchst du das verstreute Tutorial-Gepäck und nimmst mindestens einen Fund mit. Du kannst Ziele vormerken oder später fortsetzen. Die gefundenen Vorräte sind bereits dein Gewinn."}],"related":["steuerung","inventar","orientierung"],"media":[{"file":"screens/logbuch.jpg","title":"Dein erster Auftrag im Logbuch","caption":"Im Bereich „Aufträge“ stehen deine Ziele. Der ausgewählte Eintrag zeigt die einzelnen Schritte und den bisherigen Fortschritt.","alt":"Dein erster Auftrag im Logbuch – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"steuerung","title":"Tasten & Bedienung","category":"Ankommen","summary":"Die wichtigsten Standardtasten auf einen Blick.","sources":["[lost_santos]/ls_inventory/client/main.lua","[lost_santos]/ls_medical/client/menu.lua","[lost_santos]/ls_social/client/main.lua","[lost_santos]/ls_emotes/config.lua","[lost_santos]/ls_hud/client/survival_navigation.lua"],"sections":[{"title":"Schnellübersicht","text":"Das sind die voreingestellten Tasten. Persönliche FiveM-Tastenbelegungen können davon abweichen. Beachte bei Aktionen die eingeblendeten Hinweise.","table":{"headers":["Taste","Funktion"],"rows":[["TAB","Inventar öffnen / schließen"],["L","Logbuch und Fähigkeiten"],["M","Medizin / eigener Zustand"],["F2","Social-Menü"],["F3","Emote-Menü"],["F1","Kleidung anpassen"],["1–3","Waffen-Schnellplätze"],["4–6","Gegenstands-Schnellplätze"],["F","Gürtel-Taschenlampe nehmen / einstecken"],["R","Nachladen"],["ESC","Menü schließen / Pausemenü"]]}},{"title":"Mit der Welt interagieren","text":"Benutze das Zielauge an Behältern, Fahrzeugen, Modulen oder anderen Spielern. Je nach Einstellung gibt es auch einen Prompt-Modus. Die verfügbaren Aktionen hängen vom Ziel und deiner Ausrüstung ab."},{"title":"Aktionen abbrechen","text":"Viele Arbeiten lassen sich über X oder ESC abbrechen. Welche Taste gerade gilt, zeigt die Aktionsanzeige. Bei Bauplatzierung bestätigt E die Position; das Mausrad dreht die Vorschau."}],"related":["erste-schritte","camp","fahrzeuge"]},
-    {"slug":"karte","title":"Feldatlas · die 8K-Karte","category":"Ankommen","summary":"Los Santos und Blaine County in voller Originalauflösung erkunden.","map":true,"sources":["docs/atlas-symbols-20261016/README-DE.md","docs/atlas-symbols-20261016/tiles-build.json"],"sections":[{"title":"Die vollständige Karte","text":"Der Feldatlas zeigt Straßen, Landschaft und eingezeichnete Gebiete. Mit + und − vergrößerst du die Ansicht; am Computer kannst du die vergrößerte Karte mit der Maus verschieben. Auf dem Handy navigierst du durch Scrollen. „Einpassen“ bringt dich zur Übersicht zurück."},{"title":"Originalauflösung statt Vorschaubild","text":"Die Karte liegt unverändert mit 8.192 × 9.216 Pixeln vor. Zunächst lädt eine kleine Vorschau. Beim Vergrößern oder über „8K laden“ wird das vollständige Original nachgeladen. Über den Originallink kannst du es direkt im Browser öffnen."},{"title":"Stand der eingezeichneten Gebiete","text":"Die eingezeichneten Symbole und Grenzen entsprechen dem Atlasstand vom 16. Oktober 2026. Änderungen im laufenden Spiel können davon abweichen."}],"related":["orientierung","gebiete","erste-schritte"]},
-    {"slug":"inventar","title":"Inventar & Ausrüstung","category":"Überleben","summary":"Taschen, Gewicht, Kleidung und Schnellplätze sinnvoll nutzen.","sources":["[lost_santos]/ls_inventory/README-DE.md","[lost_santos]/ls_inventory/client/main.lua","[lost_santos]/ls_inventory/web"],"sections":[{"title":"Platz und Gewicht","text":"Dein Inventar besteht aus Rastern. Gegenstände belegen unterschiedlich viele Felder; zusätzlich zählt das Gewicht. Kleidung und Rucksäcke bringen eigene Taschen mit. Ein freies Feld allein reicht deshalb nicht immer zum Mitnehmen.","list":["Verschiebe Gegenstände per Drag & Drop zwischen erreichbaren Rastern.","Nutze die Gegenstandsdetails für Benutzen, Ausrüsten und weitere passende Aktionen.","Prüfe Tascheninhalte, bevor du Kleidung oder Behälter wechselst."]},{"title":"Kleidung und Schutz","text":"Ausrüstung wird an den passenden Körperplätzen getragen. F1 öffnet die Kleidungsanpassung. Schutzkleidung, Westen und Helme erfüllen unterschiedliche Aufgaben; ein optisch schweres Outfit ist kein Ersatz für die tatsächlichen Gegenstandswerte."},{"title":"Schnellzugriff und Munition","text":"Die Plätze 1–3 sind für Waffen vorgesehen, 4–6 für benutzbare Gegenstände. Munitionsboxen öffnest du über ihre Gegenstandsaktion. Dabei wird die Box in die passende Munition umgewandelt; dafür brauchst du genügend Platz und freie Traglast."}],"related":["looten","crafting","medizin"],"media":[{"file":"screens/inventar.jpg","title":"Inventar und Ausrüstung","caption":"Links liegen deine Taschen, in der Mitte die Ausrüstungsplätze und rechts die Details des ausgewählten Gegenstands. Unten erreichst du die Schnellplätze.","alt":"Inventar und Ausrüstung – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"looten","title":"Loot & Vorräte","category":"Überleben","summary":"Fundstellen durchsuchen und mit gemeinsamen Vorräten umgehen.","sources":["[lost_santos]/ls_inventory/README-DE.md","[lost_santos]/ls_inventory/LOOT-DE.md","[lost_santos]/ls_hunting/README-DE.md","[lost_santos]/ls_inventory/web"],"sections":[{"title":"Suchen und mitnehmen","text":"Visiere eine geeignete Fundstelle mit dem Zielauge an und wähle „Durchsuchen“. Warte auf den Abschluss und übernimm die Funde ins eigene Inventar. Eine Suche kann auch leer ausgehen. Nicht jedes sichtbare Objekt ist eine nutzbare Fundstelle."},{"title":"Der Ort bestimmt den Fund","text":"Medizinbehälter, Lebensmittelvorräte, Werkstätten und Baustellen haben verschiedene Fundschwerpunkte. Suche Werkzeuge und Ersatzteile gezielt an passenden Orten. Müllbehälter ersetzen kein Waffenlager."},{"title":"Gemeinsame Bestände","text":"Normale Weltvorräte werden mit anderen Spielern geteilt. Persönliches Einstiegsgepäck bildet eine Ausnahme. Nicht jede Quelle hat denselben Auffüllrhythmus; wiederholtes Öffnen erzeugt keinen neuen Vorrat."},{"title":"Wirtschaftswoche","text":"Jagdpopulation, Fahrzeug-Wochenfunde und allgemeine Ressourcen orientieren sich am gemeinsamen Wochenwechsel am Sonntag um 18 Uhr deutscher Zeit. Der neue wirtschaftliche Stand wird beim ersten vollständigen Serverstart nach dieser Grenze übernommen. Gesicherte persönliche Bestände und Camp-Lager werden dadurch nicht pauschal geleert."}],"related":["versorgung","jagd","ereignisse"],"media":[{"file":"screens/loot.jpg","title":"Eine durchsuchte Vorratskiste","caption":"Eigene Taschen links, gefundene Vorräte rechts. Über „Mitnehmen“ oder „Alles nehmen“ übernimmst du die Beute.","alt":"Eine durchsuchte Vorratskiste – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"crafting","title":"Handwerk & Kochen","category":"Überleben","summary":"Unterwegs herstellen und die Arbeitsplätze im Camp nutzen.","sources":["[lost_santos]/ls_inventory/README-DE.md","[lost_santos]/ls_inventory/shared/camp-crafting.lua","[lost_santos]/ls_bases/README-DE.md","[lost_santos]/ls_hunting/README-DE.md","[lost_santos]/ls_inventory/web"],"sections":[{"title":"Ein Rezept ausführen","text":"Öffne den Herstellungsbereich im Inventar und wähle ein verfügbares Rezept. Die Ansicht zeigt Zutaten, Werkzeuge, Menge, Dauer und gegebenenfalls den benötigten Arbeitsplatz. Trage erforderliche Werkzeuge bei dir und halte Platz für das Ergebnis frei."},{"title":"Produktion im Camp","text":"An gebauten Modulen stehen passende Rezepte bereit. Zutaten können aus den zugänglichen verbundenen Camp-Lagern kommen; das persönliche Wohnlager bleibt getrennt. Fertige Produkte landen im allgemeinen Lagerbereich des ausführenden Moduls. Höhere Modulstufen erschließen weitere Rezepte."},{"title":"Küche und Lebensmittel","text":"Die Küche verarbeitet unter anderem Rohwasser und Fleisch. Höhere Stufen bieten aufwendigere und haltbarere Mahlzeiten. Achte auf Verfallszeiten: Verdorbene Nahrung lässt sich nicht mehr regulär essen oder weiterverarbeiten. Unbehandeltes Wasser ist riskant; nutze saubere Quellen oder koche es ab."},{"title":"Tierverwertung","text":"Unter Handwerk → Tierverwertung verarbeitest du Kadaver und Transportstücke. Neben Fleisch und Fell können weitere Materialien wie Knochen, Fett, Sehnen oder Federn anfallen. Mehrere Arbeitsschritte greifen auf denselben verbleibenden Tierbestand zu."}],"related":["camp","jagd","inventar"],"media":[{"file":"screens/handwerk.jpg","title":"Ein Rezept auswählen","caption":"Die Rezeptliste steht links. Rechts siehst du das Ergebnis, den Materialbedarf und die Schaltfläche zum Herstellen.","alt":"Ein Rezept auswählen – originale Lost-Santos-Oberfläche mit Beispieldaten"},{"file":"screens/camp-kueche.jpg","title":"Herstellung an der Camp-Küche","caption":"Am gebauten Modul zeigt die Produktionsansicht passende Rezepte, verfügbare Zutaten und die gewünschte Anzahl an Durchgängen.","alt":"Herstellung an der Camp-Küche – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"medizin","title":"Verletzungen & Hilfe","category":"Überleben","summary":"Befunde lesen, Wunden versorgen und anderen aufhelfen.","sources":["[lost_santos]/ls_medical/README-DE.md","[lost_santos]/ls_medical/shared/injuries.lua","[lost_santos]/ls_medical/client/menu.lua","[lost_santos]/ls_medical/html"],"sections":[{"title":"Die Patientenakte","text":"Mit M öffnest du deinen Zustand. Die Akte zeigt betroffene Körperbereiche und Befunde wie Blutung, Brüche, Schmerz oder Infektion. Über „Untersuchen“ am anderen Spieler erreichst du dessen Akte. Wie genau die Diagnose ausfällt, hängt auch von deinen Medizinkenntnissen ab."},{"title":"Wunden behandeln","text":"Wähle in der Akte die Verletzung und ein verfügbares Behandlungsmittel. Verbände stillen Blutungen, sterile Gaze unterstützt die saubere Versorgung, und Desinfektion reinigt Wunden. Brüche und Infektionen brauchen passende Maßnahmen. Unterwegs ist die Behandlung eingeschränkter als an einer Krankenstation."},{"title":"Wenn jemand am Boden liegt","text":"Über „Untersuchen“ kannst du einem geeigneten Patienten „Auf die Beine helfen“. Dafür wird grundsätzlich ein Verband gebraucht; erlernte Fähigkeiten können die Versorgung verbessern. Eine vorhandene Adrenalinspritze ermöglicht in der letzten Kraft unter den angezeigten Voraussetzungen das eigene Aufstehen mit G. Evakuierung und Hilfe vor Ort sind unterschiedliche Wege."},{"title":"Erholen im Camp","text":"Medizinmodule verbessern Behandlung und Erholung mit ihrer Ausbaustufe. Nutze dort die angebotene Behandlung oder das Ausruhen. Hunger und Durst beeinflussen die Heilung. Aufhelfen allein bedeutet nicht, dass alle Verletzungen verschwunden sind."}],"related":["faehigkeiten","camp","inventar"],"media":[{"file":"screens/medizin.jpg","title":"Die Patientenakte","caption":"Wähle am Körperdiagramm eine betroffene Stelle. Rechts stehen Befunde, verfügbare Behandlungsmittel und die Versorgung an der Krankenstation.","alt":"Die Patientenakte – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"faehigkeiten","title":"Fähigkeiten & Fortschritt","category":"Entwicklung","summary":"Erfahrung sammeln, Punkte verteilen und Wissen aufbauen.","sources":["[lost_santos]/ls_skills/README-DE.md","[lost_santos]/ls_skills/server/medicine-tree.lua","[lost_santos]/ls_skills/server/mechanic-tree.lua","[lost_santos]/ls_skills/server/combat-trees.lua","[lost_santos]/ls_inventory/web"],"sections":[{"title":"Dein Fortschritt im Logbuch","text":"Unter Logbuch → Fähigkeiten findest du deine Fachbereiche und Skillbäume. Mechanik, Medizin, Körper sowie Schusswaffen, Nahkampf und Explosives besitzen bereits dokumentierte Spielanbindungen. Ein angezeigter weiterer Fachbereich bedeutet noch nicht, dass sein eigener Baum fertig ist."},{"title":"Punkte bewusst verteilen","text":"Level bringen Punkte für die jeweiligen Bäume. Die Reihenfolge deiner Auswahl bestimmt deine frühe Spezialisierung. Lies die Voraussetzungen am Knoten: Werkzeuge, Bauteilwissen und passende Arbeitsplätze bleiben auch nach dem Erlernen nötig."},{"title":"Erfahrung durch passende Tätigkeiten","text":"Mechanik belohnt neue Forschungserkenntnisse und geeignete, tatsächlich verbessernde Arbeiten. Medizin belohnt die Versorgung echter Verletzungen anderer. Die Kampffähigkeiten erhalten Erfahrung aus zugeordneten Zombie-Kills. Waffen sind bereits ohne ausgebauten Kampfbaum nutzbar; dokumentierte Schadensboni dieser Bäume gelten gegen Zombies, nicht gegen Spieler."}],"related":["mechanik","medizin","zombies"],"media":[{"file":"screens/faehigkeiten.jpg","title":"Der Mechanik-Skillbaum","caption":"Links wechselst du den Fachbereich. Rechts siehst du Fortschritt, freie Punkte und die verknüpften Knoten des gewählten Baums.","alt":"Der Mechanik-Skillbaum – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"fahrzeuge","title":"Fahrzeuge nutzen","category":"Unterwegs","summary":"Funde prüfen, Ladung transportieren und die Technik im Blick behalten.","sources":["[lost_santos]/ls_vehicles/README-DE.md","[lost_santos]/ls_vehicles/VITALWERTE-DE.md","[lost_santos]/ls_inventory/FAHRZEUGE-DE.md","[lost_santos]/ls_inventory/web"],"sections":[{"title":"Ein Fund ist kein Neuwagen","text":"Fahrzeuge besitzen einen gespeicherten Zustand. Fehlende Teile, Schäden, Flüssigkeiten und Batterie beeinflussen ihre Nutzbarkeit. Prüfe den Fund, bevor du eine längere Fahrt planst. Ein neuer Login repariert ihn nicht."},{"title":"Inventar und Technik öffnen","text":"Am Fahrzeugheck erreichst du über das Zielauge das Fahrzeuginventar, sofern das Fahrzeug einen Laderaum unterstützt. Am Motorbereich öffnest du „Fahrzeugtechnik ansehen“. Dort wählst du Baugruppen und konkrete Teile aus. Welche Detailwerte erkennbar sind, hängt von deinen Kenntnissen ab."},{"title":"Betriebsstoffe und Verschleiß","text":"Kraftstoff, Öl, Kühlmittel und Batterieladung erfüllen unterschiedliche Aufgaben. Fahrbetrieb und Schäden wirken sich auf die Technik aus. Ein voller Tank behebt keinen Motorschaden. Sorge vor längeren Ausflügen für passende Vorräte und Werkzeug."},{"title":"Große Transporte","text":"Der Wastelander bietet eigene Aktionen für den Fahrzeugtransport. Jagdkadaver lassen sich je nach Fahrzeug ins Raster oder auf geeignete Außenladeplätze verladen. Die angebotene Aktion und die tatsächliche Platzprüfung entscheiden, ob eine Ladung passt."}],"related":["mechanik","versorgung","fahrzeuglager"],"media":[{"file":"screens/fahrzeugtechnik.jpg","title":"Bauteil auswählen und Reparatur prüfen","caption":"Wähle ein Bauteil an den Seiten der technischen Akte. In der Mitte stehen Zustand, mögliche Arbeit, Werkzeuge und Materialbedarf.","alt":"Bauteil auswählen und Reparatur prüfen – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"mechanik","title":"Reparatur & Forschung","category":"Entwicklung","summary":"Bauteile erforschen und passende Reparaturen freischalten.","sources":["[lost_santos]/ls_vehicles/FORSCHUNG-DE.md","[lost_santos]/ls_vehicles/MECHANIK-DE.md","[lost_santos]/ls_skills/README-DE.md","[lost_santos]/ls_inventory/web"],"sections":[{"title":"Warum eine Reparatur gesperrt sein kann","text":"Für Reparatur und Einbau brauchst du den passenden Fahrzeugknoten, ausreichendes Bauteilwissen, Werkzeuge und Materialien. Bestimmte Arbeiten erfordern zusätzlich eine Werkstatt. Die Technikansicht nennt die Anforderungen.","table":{"headers":["Unterwegs mit passendem Werkzeug","Werkstatt erforderlich"],"rows":[["Räder, Bremsen, Batterie","Motor, Getriebe, Tank"],["Türen, Motorhaube, Heckklappe","Stoßdämpfer und Chassis"]]}},{"title":"Teile zerlegen und erforschen","steps":["Gehe in eine öffentliche Werkstatt oder an ein geeignetes eigenes Mechanikmodul.","Öffne Handwerk → Fahrzeugforschung und wähle ein konkretes Bauteil.","Prüfe Herkunft und angezeigten Wissenszuwachs.","Starte „Teil zerlegen und erforschen“. Das Teil wird dabei verbraucht und dein Werkzeug beansprucht."],"text":"Wissen ist an Bauteile und Fahrzeugmodelle beziehungsweise Familien gebunden. Die Bauteilakte im Mechanikbereich zeigt, was noch fehlt. Ausbauen und Erforschen sind bereits ohne Reparaturfreischaltung möglich."},{"title":"Werkstatt und Umbauten","text":"Das Mechanikmodul hat drei Stufen. Fahrzeugkategorie, erlernte Knoten, Rezept und Wissen bestimmen die verfügbaren Arbeiten. Baupläne und Upgrade-Teile müssen tatsächlich vorhanden sein. Ein freigeschalteter Skillknoten allein erzeugt kein Fahrzeug und kein Tuningteil."}],"related":["faehigkeiten","fahrzeuglager","camp"],"media":[{"file":"screens/fahrzeugtechnik.jpg","title":"Bauteil auswählen und Reparatur prüfen","caption":"Wähle ein Bauteil an den Seiten der technischen Akte. In der Mitte stehen Zustand, mögliche Arbeit, Werkzeuge und Materialbedarf.","alt":"Bauteil auswählen und Reparatur prüfen – originale Lost-Santos-Oberfläche mit Beispieldaten"},{"file":"screens/faehigkeiten.jpg","title":"Der Mechanik-Skillbaum","caption":"Links wechselst du den Fachbereich. Rechts siehst du Fortschritt, freie Punkte und die verknüpften Knoten des gewählten Baums.","alt":"Der Mechanik-Skillbaum – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"fahrzeuglager","title":"Fahrzeuglager & Bergung","category":"Unterwegs","summary":"Fahrzeuge im Camp registrieren, einlagern und zurückholen.","sources":["[lost_santos]/ls_vehicles/MECHANIK-DE.md","[lost_santos]/ls_social/README-DE.md","[lost_santos]/ls_inventory/web"],"sections":[{"title":"Ein Lager einrichten","steps":["Öffne am gebauten Mechanikmodul „Werkstatt: Aufträge & Fahrzeuglager“.","Lege über die Modulverwaltung einen Parkplatz im Camp fest. E bestätigt, ESC bricht ab.","Bringe das Fahrzeug mit ausgeschaltetem Motor an den Parkplatz, steige aus und wähle „Registrieren & einlagern“."],"text":"Die drei Modulstufen bieten jeweils 2, 4 oder 8 registrierte Fahrzeugplätze. Auch ausgeparkte registrierte Fahrzeuge belegen einen Platz. Der Ausparkbereich muss frei sein."},{"title":"Was bleibt erhalten?","text":"Einlagern speichert unter anderem Zustand, Ladung, technische Teile und Tuning. Es repariert das Fahrzeug nicht. Eine Registrierung regelt geschützte Arbeiten am Fahrzeug; sie ist keine zusätzliche Fahrsperre."},{"title":"Bergung ist keine kostenlose Lieferung","text":"Bei einer Fernbergung wird die Inventarladung des Fahrzeugs entfernt. Schäden und eingebaute technische Teile bleiben erhalten. Danach gilt eine Wartezeit von 15 Minuten. Pro Fahrzeug ist eine Bergung je vollständiger Serverperiode vorgesehen. Personen im Fahrzeug und laufende Arbeiten verhindern die Bergung."}],"related":["fahrzeuge","mechanik","gruppen"],"media":[{"file":"screens/fahrzeuglager.jpg","title":"Registrierte Fahrzeuge im Camp","caption":"Links steht der Fahrzeugbestand, rechts die Auswahl mit ihrer verfügbaren Aktion. Eingelagerte Fahrzeuge lassen sich am eingerichteten Parkplatz ausparken.","alt":"Registrierte Fahrzeuge im Camp – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"camp","title":"Dein Camp","category":"Camp & Gemeinschaft","summary":"Gründen, Module planen und gemeinsam ausbauen.","sources":["[lost_santos]/ls_bases/README-DE.md","[lost_santos]/ls_social/README-DE.md","[lost_santos]/ls_inventory/web"],"sections":[{"title":"Ein Camp gründen","steps":["Stelle unter Crafting → Basebuilding ein Base-Gründungsset her.","Benutze das Set und wähle einen erlaubten Bauplatz.","Drehe die Vorschau mit dem Mausrad und bestätige mit E.","Nach erfolgreichem Aufbau erhältst du das Camp-Planungsbuch."],"text":"Die dokumentierte Grundlage erlaubt ein Camp je Charakter mit einem Bauradius von 15 Metern. Die Bauvorschau zeigt erlaubte und gesperrte Positionen."},{"title":"Vom Plan zum Modul","text":"Im Planungsbuch wählst und platzierst du ein Modul. An seinem Interaktionspunkt öffnest du mit dem Zielauge die Baustelle und zahlst Werkstoffe ein. Sind alle Materialien vorhanden, kann mit dem erforderlichen Werkstatthammer gebaut oder ausgebaut werden. Eingezahltes Material bleibt bei einem Bauabbruch an der Baustelle."},{"title":"Module und Lager","text":"Wohnen, Kochen, Lagern, Handwerk, Medizin und Mechanik erfüllen unterschiedliche Aufgaben. Öffne gebaute Module mit dem Zielauge. Produktionsrezepte und Lagerkapazitäten richten sich nach der Ausbaustufe. Das Planungsbuch kann auch Bereiche zeigen, deren Fachsystem noch in Entwicklung ist."},{"title":"Zusammen bauen","text":"In der Nähe können Mitspieler Materialien beitragen. Für dauerhaften gemeinsamen Zugriff kann die Clanleitung ein Camp zuordnen und Rollen vergeben. Persönliches Wohnen bleibt beim ursprünglichen Campbesitzer. Welche Aktionen du ausführen darfst, hängt von den vergebenen Rechten ab."}],"related":["camp-lager","crafting","gruppen"],"media":[{"file":"screens/camp-kueche.jpg","title":"Herstellung an der Camp-Küche","caption":"Am gebauten Modul zeigt die Produktionsansicht passende Rezepte, verfügbare Zutaten und die gewünschte Anzahl an Durchgängen.","alt":"Herstellung an der Camp-Küche – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"camp-lager","title":"Lager & Wohnen","category":"Camp & Gemeinschaft","summary":"Gemeinsame Vorräte, persönliche Lager und Rückgabe nach einer Evakuierung.","sources":["[lost_santos]/ls_bases/README-DE.md","[lost_santos]/ls_medical/README-DE.md","[lost_santos]/ls_social/README-DE.md"],"sections":[{"title":"Vorräte aufteilen","text":"Am gebauten Modul öffnest du das Modullager über das Zielauge. Das Wohnmodul besitzt ein persönliches Lager. Öffentliche Modullager und zugängliche Hauptlagerbereiche können die Camp-Produktion gemeinsam versorgen. Private Wohnvorräte werden dafür nicht automatisch verbraucht."},{"title":"Mehr Platz durch Ausbau","text":"Lager wachsen mit der Modulstufe. Ein voller Lagerbereich wird nicht durch weitere Einlagerungsversuche größer. Je nach Hauptlagerstufe stehen eigene Bereiche für allgemeine Gegenstände, Nahrung/Wasser und Materialien zur Verfügung. Clanrollen können den Zugriff auf einzelne Bereiche begrenzen."},{"title":"Wohnen und Evakuierung","text":"Ein gebautes Wohnmodul kann dein Ziel bei einer genehmigten Evakuierung sein. Die Wohnstufe beeinflusst, welche noch vorhandenen Gegenstände zurückgegeben werden: Grundkleidung mit Inhalt, auf Stufe 2 zusätzlich Accessoires und Waffen der Schnellplätze 1–3, auf Stufe 3 alle mitgeführten Gegenstände. Bereits entnommene Dinge werden nicht neu erzeugt. Rückgaben landen im persönlichen Wohnlager oder in der gesicherten Rückgabeablage."}],"related":["camp","medizin","gruppen"]},
-    {"slug":"jagd","title":"Jagd & Tierverwertung","category":"Überleben","summary":"Jagen, Kadaver transportieren und den Fund vollständig verwerten.","sources":["[lost_santos]/ls_hunting/README-DE.md","[lost_santos]/ls_inventory/README-DE.md"],"sections":[{"title":"Tiere in der Welt","text":"Jagdtiere reagieren je nach Art mit Flucht, Verteidigung oder Angriff. Auch Schüsse und Zombies können sie beeinflussen. Nicht jede Gegend bietet dieselben Tiere. Der Wochenbestand ist endlich; ein erlegtes Tier erscheint nicht einfach nach dem nächsten Einloggen neu."},{"title":"Am Kadaver","text":"Mit einem geeigneten, verwendbaren Messer erreichst du über das Zielauge die angebotenen Aktionen: Fleisch oder Fell entnehmen, einpacken, tragen beziehungsweise schleifen oder Transportstücke abtrennen. Welche Optionen erscheinen, hängt vom Tier und seiner verbleibenden Ausbeute ab."},{"title":"Transport und Verarbeitung","text":"Nutze „Auf nahes Fahrzeug verladen“ am Kadaver oder die Verladeaktion am Fahrzeug. Zuerst zählt der tatsächliche Inventarplatz; geeignete Fahrzeuge unterstützen anschließend begrenzte Außenladung. Große Tiere müssen gegebenenfalls zerlegt werden. G beziehungsweise ESC legt einen getragenen Kadaver ab. Im Camp führt Handwerk → Tierverwertung zur vollständigen Verarbeitung."},{"title":"Begrenzte Ausbeute und Verderb","text":"Feldverwertung und Camp-Handwerk greifen auf denselben Restbestand zu. Transportstücke behalten Alter und Verderbzeit. Verarbeite deine Beute rechtzeitig; ein Ortswechsel macht sie nicht frisch."}],"related":["crafting","fahrzeuge","looten"]},
-    {"slug":"versorgung","title":"Betriebsstoffe & Strom","category":"Unterwegs","summary":"Kraftstoff abfüllen, Öl beschaffen und einen Generator betreiben.","sources":["[lost_santos]/ls_inventory/RESSOURCENVERSORGUNG-DE.md","[lost_santos]/ls_hunting/README-DE.md"],"sections":[{"title":"Passendes Werkzeug mitnehmen","table":{"headers":["Quelle","Benötigt"],"rows":[["Zapfsäule ohne Strom","Leerer 10-Liter-Kanister, Handpumpe, Umfüllschlauch"],["Zapfsäule mit Generator","Leerer 10-Liter-Kanister und laufender Generator in Reichweite"],["Kraftstofftank / registrierter Tankanhänger","Leerer 10-Liter-Kanister und Umfüllschlauch"],["Öl / Kühlmittel","Leeres passendes 1-Liter-Gebinde oder leere Flasche und Trichter"]]},"text":"Öffne die Quelle über das Zielauge. Die tatsächlichen Vorräte sind begrenzt und werden geteilt. Eine sichtbare Quelle kann leer sein."},{"title":"Generator aufstellen","text":"Benutze das Generator-Item und wähle „Generator aufstellen“. Über das Zielauge kannst du ihn prüfen, befüllen, starten, ausschalten und einpacken. Vor Befüllen oder Einpacken muss er ausgeschaltet sein. Bedienung und Einpacken sind an den Besitzer gebunden; der Strom kann Geräten anderer Spieler in Reichweite dienen."},{"title":"Laufzeit beachten","text":"Der dokumentierte Generator besitzt einen 20-Liter-Tank und versorgt einen Umkreis von 12 Metern. Sein Kraftstoff läuft auch während einer Server-Auszeit weiter, wenn er eingeschaltet gespeichert wurde. Stromversorgung ist nur bei entsprechend eingerichteten Geräten und Rezepten nötig."}],"related":["fahrzeuge","crafting","looten"]},
-    {"slug":"orientierung","title":"Karte, GPS & HUD","category":"Ankommen","summary":"Orientierung hängt von deiner Ausrüstung ab.","sources":["[lost_santos]/ls_hud/README.md","[lost_santos]/ls_hud/client/survival_navigation.lua","[lost_santos]/ls_social/README-DE.md","[lost_santos]/ls_zones/README-DE.md"],"sections":[{"title":"Deine Karte benutzen","text":"Die große Karte ist an ein Karten-Item gebunden. Benutze die Karte im Inventar; auch der Befehl /karte öffnet sie, wenn die Voraussetzungen erfüllt sind. Minimap und GPS-Anzeigen hängen von deiner Ausrüstung und den persönlichen Einstellungen ab."},{"title":"Die Anzeige anpassen","text":"Im ESC-Menü erreichst du die HUD-Anpassung. Dort kannst du verfügbare Blöcke verschieben, skalieren oder ausblenden und deinen Oberflächenstil wählen. Spielernamen und der eingeblendete Pager lassen sich ebenfalls einstellen."},{"title":"Andere Spieler finden","text":"Gruppenmarker benötigen ein Kartenwerkzeug oder GPS; Clanmarker benötigen GPS. Die Marker erscheinen für passende Mitglieder in derselben Spielwelt. Eine Gruppe ersetzt die benötigte Ausrüstung nicht."},{"title":"Gebiete erkennen","text":"Die Karte unterscheidet gespeicherte Gebietsgrenzen. Achte zusätzlich auf den PvP-Hinweis im HUD und die tatsächliche Umgebung. Eine Gefahrenzone bezeichnet erhöhte Zombiegefahr und ist nicht automatisch eine PvP-Zone."}],"related":["karte","gruppen","gebiete","steuerung"]},
-    {"slug":"gruppen","title":"Freunde, Gruppen & Clans","category":"Camp & Gemeinschaft","summary":"Zusammen losziehen und Camp-Rechte gezielt vergeben.","sources":["[lost_santos]/ls_social/README-DE.md","[lost_santos]/ls_social/client/main.lua","[lost_santos]/ls_hud/web/apocalypse"],"sections":[{"title":"Social öffnen","text":"Mit F2 oder ESC → Spielerübersicht öffnest du das Social-Menü. Dort findest du die Onlineübersicht, Freunde, Fraktionsanzeige, Clan und Pager. Freundschafts- und Gruppeneinladungen laufen über die Spielerinteraktion."},{"title":"Gruppe oder Clan?","text":"Eine Gruppe ist für das gemeinsame Unterwegssein gedacht. Ein Clan besitzt Namen, Kürzel, Mitglieder und Leitung. Beide sind auf sechs Mitglieder einschließlich Leitung begrenzt; beim Clan zählen auch Offline-Mitglieder mit. Beitrittsanfragen und Einladungen müssen bestätigt werden."},{"title":"Pager und Privatsphäre","text":"Der Pager bietet globale, Fraktions-, Clan-, Gruppen- und private Kanäle. Standardmäßig liest du ihn im Menü; bei Bedarf kannst du ausgewählte Kanäle im HUD einblenden. Blockieren und Stummschalten stehen zur Verfügung."},{"title":"Gemeinsame Camp-Rechte","text":"Die Clanleitung kann ein eigenes Camp zuordnen und Rollen wie Baumeister, Lagerwart oder Mechaniker vergeben. Eine Einladung allein gibt niemandem automatisch alle Rechte. Lager-, Produktions-, Bau- und Fahrzeugrechte können gezielt freigegeben werden."}],"related":["camp","camp-lager","orientierung"],"media":[{"file":"screens/social.jpg","title":"Spielerübersicht und Pager","caption":"Das Social-Menü verbindet Spielerübersicht, Freunde, Gruppe und Clan mit dem Pager. Die gezeigten Namen und Nachrichten sind erfunden.","alt":"Spielerübersicht und Pager – originale Lost-Santos-Oberfläche mit Beispieldaten"}]},
-    {"slug":"gebiete","title":"PvE, Safezones & PvP","category":"Die Welt","summary":"Was die verschiedenen Gebiete bedeuten.","sources":["[lost_santos]/ls_zones/README-DE.md"],"sections":[{"title":"Gebietsarten","table":{"headers":["Bereich","Bedeutung"],"rows":[["Normale Welt","PvE; keine Angriffe auf andere Spieler"],["Gefahrenzone","Höhere Zombiegefahr; weiterhin PvE"],["Safezone","Geschützter Bereich; Waffenhandlungen sind gesperrt"],["PvP-Gebiet","Spielerkampf, jeder gegen jeden; Safe-Unterzonen bleiben geschützt"]]},"text":"Ein militärisches Lootgebiet ist nicht allein wegen seiner Beute PvP. Maßgeblich ist die ausgewiesene Gebietsart."},{"title":"Beim Wechsel","text":"Das Betreten und Verlassen einer PvP-Arena wird anhand deiner Position erkannt. Der Wechsel heilt dich nicht und leert dein Inventar nicht. Der HUD-Hinweis informiert über den PvP-Zustand."},{"title":"Das Regelwerk gilt zusätzlich","text":"Die Zufahrtsstraßen ins PvP-Gebiet dürfen nicht abgecampt werden. Alle Community- und Spielregeln findest du im separat verlinkten Regelwerk."}],"related":["orientierung","zombies","ereignisse"]},
-    {"slug":"zombies","title":"Zombies & Lärm","category":"Die Welt","summary":"Aufmerksamkeit vermeiden und Begegnungen vorbereiten.","sources":["[lost_santos]/ls_zombies/README-DE.md","[lost_santos]/ls_gates/README-DE.md","[lost_santos]/ls_skills/README-DE.md"],"sections":[{"title":"Die Umgebung hört mit","text":"Zombies reagieren auf Sicht und Geräusche. Schüsse, Arbeiten an Toren und besondere Ereignisse können Aufmerksamkeit auslösen. Ein Schalldämpfer verändert die Geräuschwirkung, macht einen Ausflug aber nicht automatisch sicher."},{"title":"Ausrüstung und Rückweg","text":"Prüfe Munition, Zustand und medizinische Vorräte vor einem gefährlichen Gebiet. Kampfskills können gegen Zombies helfen. Plane trotzdem eine Rückzugsmöglichkeit und achte auf weitere Gegner in deiner Umgebung."},{"title":"Tore bewegen","text":"Geeignete Schiebetore der Grundkarte lassen sich über „Tor schieben“ greifen. Bewege dich entlang der Schiene; E oder X lässt los. Geschlossene Tore können ein Hindernis bilden, ihre Bewegung macht aber selbst Lärm."}],"related":["medizin","gebiete","ereignisse"]},
-    {"slug":"ereignisse","title":"Weltereignisse","category":"Die Welt","summary":"Versorgungsabwürfe, Absturzstellen und Konvois bergen Chancen und Gefahren.","sources":["[lost_santos]/ls_events/README-DE.md"],"sections":[{"title":"Ein Signal in der Welt","text":"Versorgungsabwürfe, Helikopterabstürze und Militärkonvois können als gemeinsame Weltereignisse stattfinden. Eine Meldung nennt die grobe Gegend, und ein Suchkreis hilft auf der Karte. Zeitpunkt und Häufigkeit hängen von den eingerichteten Ereignissen ab."},{"title":"Vor Ort","text":"Abwürfe landen mit einer Fallschirmkiste, Abstürze und Konvois hinterlassen Wracks. Fackeln und Lärm machen den Ort erkennbar und können Zombies anziehen. Beim Annähern kann eine Horde eintreffen. Nimm ausreichend Ausrüstung mit und bleib nicht nur auf die Kiste konzentriert."},{"title":"Verschlossene Kisten","text":"Wähle über das Zielauge „Kiste aufbrechen“. Beim Schlossknacken bestätigst du mit E oder Leertaste im Trefferfeld. Fehler machen Lärm und können den Dietrich kosten. Nach dem Entsperren kann die Kiste durchsucht werden. Die Beute wird mit anderen Spielern geteilt; Ereignisse bleiben nur begrenzte Zeit bestehen."}],"related":["zombies","looten","orientierung"]},
-    {"slug":"jahreszeiten","title":"Wetter & Jahreszeiten","category":"Die Welt","summary":"Der Kalender verändert die Atmosphäre von Los Santos.","sources":["[lost_santos]/ls_weather/README-DE.md"],"sections":[{"title":"Eine Saison pro Kalenderwoche","text":"Der erste Montag eines Monats beginnt mit Frühling, der zweite mit Sommer, der dritte mit Herbst und der vierte mit Winter. Gibt es einen fünften Montag, beginnt erneut Frühling. Der Wechsel ist um 00:00 Uhr deutscher Zeit. Tage vor dem ersten Montag gehören noch zur Saisonwoche des Vormonats."},{"title":"Übergänge statt Schalter","text":"Am Wochenende können sich bereits Wetterfronten der nächsten Saison zeigen. Winterwochen bringen eine anhaltende Winterlandschaft mit ruhigen Phasen, Schnee und Blizzard. Das Team kann Wetterlagen auch gezielt beeinflussen."},{"title":"Gemeinsame Atmosphäre","text":"PvE- und PvP-Gebiete teilen Wetter und Spielzeit. Die beschleunigte Spieluhr ist vom echten Wochenkalender getrennt. Der Wetterkalender allein führt noch keine Körpertemperatur- oder Kleidungsschäden ein."}],"related":["orientierung","versorgung","erste-schritte"]},
-    {"slug":"gesten","title":"Gesten & Sitzplätze","category":"Camp & Gemeinschaft","summary":"Emotes auswählen, Favoriten speichern und eine Pause machen.","sources":["[lost_santos]/ls_emotes/config.lua","[lost_santos]/ls_emotes/client/NUI/LSEmoteMenu.lua","[lost_santos]/ls_sit/README-DE.md"],"sections":[{"title":"Das Emote-Menü","text":"F3 öffnet das Emote-Menü. Suche nach einer passenden Animation oder nutze die Kategorien. Über den Stern speicherst du Favoriten. X beendet eine laufende Animation; F3 oder ESC schließt das Menü."},{"title":"Sitzen und Liegen","text":"An eingerichteten Sitz- und Liegeplätzen bietet die Interaktion passende Aktionen an. Nicht jede sichtbare Sitzfläche ist bereits als Platz hinterlegt. Nutze die eingeblendeten Hinweise zum Hinsetzen und Aufstehen."}],"related":["steuerung","camp","gruppen"]},
-    {"slug":"radios","title":"Radios in der Welt","category":"Die Welt","summary":"Aufnahmen hören und laufende Weltgeräte ausschalten.","sources":["[lost_santos]/ls_radio/README-DE.md"],"sections":[{"title":"Wenn ein Gerät spielt","text":"Eingerichtete Radios und Funkgeräte können Aufnahmen in ihrer Umgebung wiedergeben. Andere Spieler in derselben Spielwelt hören dieselbe laufende Aufnahme. Die Lautstärke hängt von deiner Entfernung ab."},{"title":"Ausschalten","text":"An einem nahen laufenden Gerät kannst du die angebotene Aktion zum Ausschalten nutzen. Damit wird es nicht automatisch zu einem mitnehmbaren Inventargegenstand. Geräusche können bereits vorhandene Zombies anlocken; Ausschalten lässt angelockte Gegner nicht verschwinden."}],"related":["zombies","ereignisse"]},
-    {"slug":"angeln","title":"Angeln","category":"Bald verfügbar","status":"planned","sources":["[lost_santos]/ls_hunting/README-DE.md"]},
-    {"slug":"farming","title":"Farming","category":"Bald verfügbar","status":"planned","sources":["[lost_santos]/ls_bases/README-DE.md"]},
-    {"slug":"fraktionen","title":"Fraktionen & Reputation","category":"Bald verfügbar","status":"planned","sources":["[lost_santos]/ls_social/README-DE.md","LOST-SANTOS-ROADMAP.md"]},
-    {"slug":"berufe","title":"Berufswahl & Startskillung","category":"Bald verfügbar","status":"planned","sources":["[lost_santos]/ls_skills/README-DE.md"]},
-    {"slug":"ueberlebensbaum","title":"Überlebens-Skillbaum","category":"Bald verfügbar","status":"planned","sources":["[lost_santos]/ls_hunting/README-DE.md"]},
-    {"slug":"temperatur","title":"Körpertemperatur & Wetterschutz","category":"Bald verfügbar","status":"planned","sources":["[lost_santos]/ls_weather/README-DE.md"]}
+    {
+      "slug": "erste-schritte",
+      "title": "Deine ersten Schritte",
+      "category": "Ankommen",
+      "summary": "Dein erster Abend: ankommen, versorgen, einen Weg finden.",
+      "sources": [
+        "[lost_santos]/ls_inventory/README-DE.md",
+        "[lost_santos]/ls_characters/README-DE.md",
+        "[lost_santos]/ls_inventory/shared/arrival-guide.json",
+        "[lost_santos]/ls_inventory/web",
+        "[lost_santos]/ls_skills/server/background.lua",
+        "docs/creator-profession-20261025/README-DE.md",
+        "[lost_santos]/ls_inventory/shared/professions.lua"
+      ],
+      "sections": [
+        {
+          "title": "Ein neues Leben beginnt",
+          "text": "Nach der erzählten Ankunft erstellst du deinen Überlebenden: Identität, früherer Beruf und Startlevel, anschließend das Aussehen. Du kannst die freiwillige Einführung nutzen oder direkt losziehen. Survival und freiwilliges Rollenspiel haben beide ihren Platz."
+        },
+        {
+          "title": "Die ersten zehn Minuten",
+          "steps": [
+            "Durchsuche dein persönliches Gepäck an der Absturzstelle mit dem Alt-Auge.",
+            "Öffne TAB, nimm die Vorräte mit und prüfe Taschen, Gewicht, Nahrung und Wasser.",
+            "Mit L erreichst du Reise, Aufträge und Fähigkeiten im Logbuch. Merke dir dein nächstes Ziel vor.",
+            "F4 öffnet Regelwerk und Wiki direkt im Spiel. Suche dir vor dem ersten Ausflug einen Rückweg und eine sichere Versorgung."
+          ]
+        },
+        {
+          "title": "Dein Gepäck ist persönlich",
+          "text": "Die Einstiegsbehälter enthalten einmalige persönliche Vorräte. Ein neuer Login füllt sie nicht auf. Das Berufsmenü zeigt, welche vorhandenen Gegenstände dein früherer Beruf mitbringt; noch nicht verfügbare Extras sind ausdrücklich gekennzeichnet."
+        },
+        {
+          "title": "Was kommt danach?",
+          "text": "Du entscheidest: Nahrung suchen, Rohstoffe sammeln, ein Camp aufbauen oder eines der beiden Lager kennenlernen. Fraktionen bieten eigene Aufgaben und gemeinsame Ziele. Als Lonewolf kannst du unabhängig bleiben."
+        }
+      ],
+      "related": [
+        "berufe",
+        "steuerung",
+        "looten",
+        "fraktionen"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "compass",
+      "quick": [
+        "TAB · Inventar",
+        "L · Logbuch und Fähigkeiten",
+        "F4 · Handbuch im Spiel"
+      ]
+    },
+    {
+      "slug": "steuerung",
+      "title": "Tasten & Bedienung",
+      "category": "Ankommen",
+      "summary": "Die wichtigsten Standardtasten auf einen Blick.",
+      "sources": [
+        "[lost_santos]/ls_inventory/client/main.lua",
+        "[lost_santos]/ls_medical/client/menu.lua",
+        "[lost_santos]/ls_social/client/main.lua",
+        "[lost_santos]/ls_emotes/config.lua",
+        "[lost_santos]/ls_hud/client/survival_navigation.lua",
+        "[lost_santos]/ls_handbook/client.lua",
+        "[lost_santos]/ls_bases/hammer-client.lua",
+        "[lost_santos]/ls_voice/README-DE.md"
+      ],
+      "sections": [
+        {
+          "title": "Deine wichtigsten Tasten",
+          "text": "Standardbelegungen. Bereits gespeicherte FiveM-Belegungen können abweichen; du kannst sie in den Einstellungen ändern.",
+          "table": {
+            "headers": [
+              "Taste",
+              "Funktion"
+            ],
+            "rows": [
+              [
+                "TAB",
+                "Inventar"
+              ],
+              [
+                "L",
+                "Logbuch, Aufträge und Fähigkeiten"
+              ],
+              [
+                "Alt halten",
+                "Weltobjekt anvisieren und Aktion auswählen"
+              ],
+              [
+                "M",
+                "Patientenakte / eigener Zustand"
+              ],
+              [
+                "F1",
+                "Kleidungsanpassung"
+              ],
+              [
+                "F2",
+                "Spielerübersicht, Freunde, Gruppe, Clan und Pager"
+              ],
+              [
+                "F3",
+                "Emotes"
+              ],
+              [
+                "F4",
+                "Regelwerk und Wiki im Spiel"
+              ],
+              [
+                "1–3 / 4–6",
+                "Waffen / benutzbare Gegenstände im Schnellzugriff"
+              ],
+              [
+                "R",
+                "Nachladen"
+              ],
+              [
+                "F",
+                "Gürtel-Taschenlampe nehmen / einstecken"
+              ],
+              [
+                "B mit Bauhammer",
+                "Hammer-Baumodus umschalten"
+              ],
+              [
+                "Feststelltaste halten",
+                "Mit eingeschaltetem Handfunkgerät senden"
+              ],
+              [
+                "^",
+                "Nähe: Flüstern, Normal, Rufen"
+              ],
+              [
+                "X / ESC",
+                "Je nach eingeblendetem Hinweis abbrechen oder schließen"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Alt ist dein Werkzeug für die Welt",
+          "text": "Halte die linke Alt-Taste, visiere das Objekt an und wähle die passende Aktion. Ganze zugeordnete Props sind auswählbar; freie Interaktionspunkte bleiben punktbezogen. Die Optionen hängen von Gegenstand, Entfernung, Welt und Berechtigung ab."
+        },
+        {
+          "title": "Planen ist noch nicht bauen",
+          "text": "Im Camp-Planungsbuch folgt die Vorschau zunächst der Maus. Ein Klick fixiert sie, „Bauplatz bestätigen“ legt den Bauplan an. Gebaut wird anschließend vor Ort mit Material und Hammer. Die Planung macht deine Figur nicht unverwundbar."
+        }
+      ],
+      "related": [
+        "camp",
+        "funk",
+        "inventar"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "compass",
+      "quick": [
+        "Standardtasten sind umbelegbar",
+        "Alt für Weltinteraktionen",
+        "X / ESC nach eingeblendetem Hinweis"
+      ]
+    },
+    {
+      "slug": "karte",
+      "title": "Feldatlas & Orientierung",
+      "category": "Ankommen",
+      "summary": "Straßen und Landschaft erkunden – mit dem vollständigen 8K-Atlas.",
+      "map": true,
+      "sources": [
+        "docs/atlas-symbols-20261016/README-DE.md",
+        "docs/atlas-symbols-20261016/tiles-build.json"
+      ],
+      "sections": [
+        {
+          "title": "Die vollständige Karte",
+          "text": "Der Feldatlas zeigt Straßen, Landschaft und eingezeichnete Gebiete. Mit + und − vergrößerst du die Ansicht; am Computer kannst du die vergrößerte Karte mit der Maus verschieben. Auf dem Handy navigierst du durch Scrollen. „Einpassen“ bringt dich zur Übersicht zurück."
+        },
+        {
+          "title": "Originalauflösung statt Vorschaubild",
+          "text": "Die Karte liegt unverändert mit 8.192 × 9.216 Pixeln vor. Zunächst lädt eine kleine Vorschau. Beim Vergrößern oder über „8K laden“ wird das vollständige Original nachgeladen. Über den Originallink kannst du es direkt im Browser öffnen."
+        },
+        {
+          "title": "Stand der eingezeichneten Gebiete",
+          "text": "Die eingebrannten Grenzen und Symbole stammen vom 16. Oktober 2026. Nutze für aktuelle PvP-Grenzen die Karte und Hinweise im Spiel, für Gebietsbesitz den taktischen Fraktionstisch. Dieser Atlas ist eine Orientierungshilfe ohne Live-Status."
+        }
+      ],
+      "related": [
+        "orientierung",
+        "gebiete",
+        "faction-war"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "compass",
+      "quick": [
+        "8K wird erst bei Aktion geladen",
+        "Eingebrannte Gebietsgrenzen: Stand 16.10.",
+        "Aktuellen Gebietsbesitz am Taktiktisch ansehen"
+      ]
+    },
+    {
+      "slug": "orientierung",
+      "title": "Karte, GPS & HUD",
+      "category": "Ankommen",
+      "summary": "Orientierung hängt von deiner Ausrüstung ab.",
+      "sources": [
+        "[lost_santos]/ls_hud/README.md",
+        "[lost_santos]/ls_hud/client/survival_navigation.lua",
+        "[lost_santos]/ls_social/README-DE.md",
+        "[lost_santos]/ls_zones/README-DE.md"
+      ],
+      "sections": [
+        {
+          "title": "Deine Karte benutzen",
+          "text": "Die große Karte ist an ein Karten-Item gebunden. Benutze die Karte im Inventar; auch der Befehl /karte öffnet sie, wenn die Voraussetzungen erfüllt sind. Minimap und GPS-Anzeigen hängen von deiner Ausrüstung und den persönlichen Einstellungen ab."
+        },
+        {
+          "title": "Die Anzeige anpassen",
+          "text": "Unter ESC erreichst du HUD-Anpassung und Einstellungen. Verschiebe, skaliere oder blende die angebotenen Blöcke aus und wähle deinen Stil. Spielernamen, Pager und Funkanzeige lassen sich gezielt einstellen. Deine bevorzugte Darstellung verändert keine Spielregeln."
+        },
+        {
+          "title": "Andere Spieler finden",
+          "text": "Gruppenmarker benötigen ein Kartenwerkzeug oder GPS; Clanmarker benötigen GPS. Die Marker erscheinen für passende Mitglieder in derselben Spielwelt. Eine Gruppe ersetzt die benötigte Ausrüstung nicht."
+        },
+        {
+          "title": "Gebiete erkennen",
+          "text": "Die Karte unterscheidet gespeicherte Gebietsgrenzen. Achte zusätzlich auf den PvP-Hinweis im HUD und die tatsächliche Umgebung. Eine Gefahrenzone bezeichnet erhöhte Zombiegefahr und ist nicht automatisch eine PvP-Zone."
+        }
+      ],
+      "related": [
+        "karte",
+        "funk",
+        "gruppen",
+        "steuerung"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "compass",
+      "quick": [
+        "Karten-Item für die große Karte",
+        "GPS / Kartenwerkzeug für Gruppenmarker",
+        "ESC · HUD einstellen"
+      ]
+    },
+    {
+      "slug": "inventar",
+      "title": "Inventar & Ausrüstung",
+      "category": "Überleben",
+      "summary": "Taschen, Gewicht, Kleidung und Schnellplätze sinnvoll nutzen.",
+      "sources": [
+        "[lost_santos]/ls_inventory/README-DE.md",
+        "[lost_santos]/ls_inventory/client/main.lua",
+        "[lost_santos]/ls_inventory/web",
+        "[lost_santos]/ls_inventory/shared/engine.lua",
+        "[lost_santos]/ls_inventory/shared/helmets.lua",
+        "[lost_santos]/ls_inventory/shared/protection.lua"
+      ],
+      "sections": [
+        {
+          "title": "Platz und Gewicht",
+          "text": "Dein Inventar besteht aus Rastern. Gegenstände belegen unterschiedlich viele Felder; zusätzlich zählt das Gewicht. Kleidung und Rucksäcke bringen eigene Taschen mit. Ein freies Feld allein reicht deshalb nicht immer zum Mitnehmen.",
+          "list": [
+            "Verschiebe Gegenstände per Drag & Drop zwischen erreichbaren Rastern.",
+            "Nutze die Gegenstandsdetails für Benutzen, Ausrüsten und weitere passende Aktionen.",
+            "Prüfe Tascheninhalte, bevor du Kleidung oder Behälter wechselst."
+          ]
+        },
+        {
+          "title": "Kleidung und Schutz",
+          "text": "Ausrüstung wird an den passenden Körperplätzen getragen. F1 öffnet die Kleidungsanpassung. Schutzkleidung, Westen und Helme erfüllen unterschiedliche Aufgaben; ein optisch schweres Outfit ist kein Ersatz für die tatsächlichen Gegenstandswerte."
+        },
+        {
+          "title": "Schnellzugriff und Munition",
+          "text": "Die Plätze 1–3 sind für Waffen vorgesehen, 4–6 für benutzbare Gegenstände. Munitionsboxen öffnest du über ihre Gegenstandsaktion. Dabei wird die Box in die passende Munition umgewandelt; dafür brauchst du genügend Platz und freie Traglast."
+        },
+        {
+          "title": "Zustand und Traglast im Blick",
+          "text": "Werkzeuge und Ausrüstung können verschleißen. Größere Stapel durch erlernte Packroutine gelten nur für geeignete Gegenstände; ihr Gewicht bleibt unverändert. Ein größeres Raster oder eine freie Ecke hebt die Traglast nicht auf."
+        },
+        {
+          "title": "Helm, Weste und Schutzkleidung",
+          "text": "Diese Schutzarten wirken getrennt. Geeignete Helme mindern PvP-Kopftreffer und verlieren dabei Zustand; nicht jede Kopfbedeckung ist ein Schutzhelm. Westen stellen Panzerung bereit, andere geeignete Kleidungsstücke tragen zum Zombieschutz bei. Entscheidend sind die tatsächlichen Gegenstandswerte und ihr Zustand."
+        }
+      ],
+      "related": [
+        "looten",
+        "crafting",
+        "medizin"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "pack",
+      "quick": [
+        "Raster UND Gewicht begrenzen dich",
+        "Kleidung und Rucksäcke liefern Taschen",
+        "Zustand deiner Werkzeuge im Blick behalten"
+      ]
+    },
+    {
+      "slug": "looten",
+      "title": "Loot & Vorräte",
+      "category": "Überleben",
+      "summary": "Fundstellen durchsuchen und mit gemeinsamen Vorräten umgehen.",
+      "sources": [
+        "[lost_santos]/ls_inventory/README-DE.md",
+        "[lost_santos]/ls_inventory/LOOT-DE.md",
+        "[lost_santos]/ls_hunting/README-DE.md",
+        "[lost_santos]/ls_inventory/web",
+        "[lost_santos]/ls_inventory/server/world-props.lua",
+        "[lost_santos]/ls_inventory/server/loot-economy.lua",
+        "[lost_santos]/ls_zones/server/main.lua"
+      ],
+      "sections": [
+        {
+          "title": "Suchen und mitnehmen",
+          "text": "Halte Alt, visiere eine zugeordnete Fundstelle an und wähle die Suchaktion. Nach Abschluss kannst du die vorhandenen Funde übernehmen. Nicht jedes sichtbare Objekt ist lootbar. Ganze zugeordnete Props lassen sich an ihrer erreichbaren Oberfläche auswählen; du musst keinen unsichtbaren Mittelpunkt treffen."
+        },
+        {
+          "title": "Der Ort bestimmt den Fund",
+          "text": "Medizinbehälter, Lebensmittelvorräte, Werkstätten und Baustellen haben verschiedene Fundschwerpunkte. Suche Werkzeuge und Ersatzteile gezielt an passenden Orten. Müllbehälter ersetzen kein Waffenlager."
+        },
+        {
+          "title": "Gemeinsame Bestände",
+          "text": "Normale Weltvorräte werden mit anderen Spielern geteilt. Persönliches Einstiegsgepäck bildet eine Ausnahme. Nicht jede Quelle hat denselben Auffüllrhythmus; wiederholtes Öffnen erzeugt keinen neuen Vorrat."
+        },
+        {
+          "title": "Safezonen bleiben Versorgungsorte",
+          "text": "Behälter in normalen Safezonen sind vom Weltloot ausgeschlossen und zählen nicht als verfügbare Wochenfundstellen. Die nördliche Startzone ist die Ausnahme. Persönliches Startgepäck, eigene Lager und andere Spezialinteraktionen folgen ihren eigenen Regeln."
+        },
+        {
+          "title": "Wirtschaftswoche",
+          "text": "Jagdpopulation, Fahrzeug-Wochenfunde und allgemeine Ressourcen orientieren sich am gemeinsamen Wochenwechsel am Sonntag um 18 Uhr deutscher Zeit. Der neue wirtschaftliche Stand wird beim ersten vollständigen Serverstart nach dieser Grenze übernommen. Gesicherte persönliche Bestände und Camp-Lager werden dadurch nicht pauschal geleert."
+        }
+      ],
+      "related": [
+        "naturressourcen",
+        "versorgung",
+        "fraktionen",
+        "ueberlebensbaum"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "pack",
+      "quick": [
+        "Alt → Durchsuchen → mitnehmen",
+        "Gemeinsamer endlicher Weltvorrat",
+        "Normale Safezonen ohne Behälterloot"
+      ]
+    },
+    {
+      "slug": "naturressourcen",
+      "title": "Was die Natur hergibt",
+      "category": "Überleben",
+      "summary": "Beeren sammeln, Holz gewinnen, Stein abbauen und Wasser aufbereiten.",
+      "sections": [
+        {
+          "title": "Abseits der Vorratskisten",
+          "text": "In eingerichteten Naturgebieten findest du wilde Beeren, Obst, Gemüse, Holz, Stein, Sand und Wasser. Halte Alt am passenden Prop oder an der Sammelfläche. Nicht jeder beliebige Busch oder Felsen ist eine nutzbare Quelle."
+        },
+        {
+          "title": "Was du mitnehmen solltest",
+          "table": {
+            "headers": [
+              "Vorhaben",
+              "Ausrüstung"
+            ],
+            "rows": [
+              [
+                "Wilde Früchte, Fallholz, kleine Steine",
+                "Platz und Traglast"
+              ],
+              [
+                "Rohholz gewinnen",
+                "Geeignetes Beil oder Axt"
+              ],
+              [
+                "Stein abbauen",
+                "Spitzhacke"
+              ],
+              [
+                "Sand gewinnen",
+                "Schaufel und leerer Sack"
+              ],
+              [
+                "Wasser entnehmen",
+                "Leere Flasche"
+              ],
+              [
+                "Wrack verwerten",
+                "Schweißausrüstung und Schraubenschlüssel"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Ein Vorrat für alle",
+          "text": "Viele Quellen zeigen ihren verbleibenden Vorrat. Leere Bäume, Felsen und Wracks bleiben als Weltobjekte stehen und liefern bis zur Erholung nichts mehr. Zusätzliche lose Äste verschwinden nach Entnahme und erscheinen später wieder. Bestände sind gemeinsam; der nächste Spieler bekommt keinen persönlichen neuen Baum."
+        },
+        {
+          "title": "Aus Rohstoffen wird Ausrüstung",
+          "text": "Nutze das Handwerk für Bretter, Bauholz, Säcke, Sandsäcke und weitere vorhandene Rezepte. Geeignete Wracks liefern Metallteile und Schrauben. Die Rezeptansicht zeigt Werkzeuge und Zutaten; Sammeln und lauter Abbau können Zombies aufmerksam machen."
+        },
+        {
+          "title": "Wasser ist nicht gleich Trinkwasser",
+          "text": "Natürliches Süßwasser ist unbehandelt. Koche es am kleinen Feuer oder an der Campküche ab. Meerwasser ist ein eigener untrinkbarer Rohstoff und lässt sich nicht mit dem normalen Abkochrezept zu Trinkwasser machen. Wasserentnahme braucht weiterhin Flaschen und Zeit."
+        }
+      ],
+      "sources": [
+        "docs/natural-resources-20261023/README-DE.md",
+        "docs/resource-harvest-20261025/README-DE.md",
+        "docs/fallwood-20261025/README-DE.md"
+      ],
+      "related": [
+        "crafting",
+        "ueberlebensbaum",
+        "farming",
+        "looten"
+      ],
+      "quick": [
+        "Alt am passenden Weltobjekt",
+        "Werkzeug, Flaschen und Traglast prüfen",
+        "Gemeinsame Vorräte und Erholung"
+      ],
+      "icon": "pack",
+      "navTitle": "Naturressourcen",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "slug": "jagd",
+      "title": "Jagd & Tierverwertung",
+      "category": "Überleben",
+      "summary": "Jagen, Kadaver transportieren und den Fund vollständig verwerten.",
+      "sources": [
+        "[lost_santos]/ls_hunting/README-DE.md",
+        "[lost_santos]/ls_inventory/README-DE.md",
+        "[lost_santos]/ls_hunting/client/main.lua"
+      ],
+      "sections": [
+        {
+          "title": "Tiere in der Welt",
+          "text": "Jagdtiere reagieren je nach Art mit Flucht, Verteidigung oder Angriff. Auch Schüsse und Zombies können sie beeinflussen. Nicht jede Gegend bietet dieselben Tiere. Der Wochenbestand ist endlich; ein erlegtes Tier erscheint nicht einfach nach dem nächsten Einloggen neu."
+        },
+        {
+          "title": "Am Kadaver",
+          "text": "Mit einem geeigneten, verwendbaren Messer erreichst du über das Zielauge die angebotenen Aktionen: Fleisch oder Fell entnehmen, einpacken, tragen beziehungsweise schleifen oder Transportstücke abtrennen. Welche Optionen erscheinen, hängt vom Tier und seiner verbleibenden Ausbeute ab."
+        },
+        {
+          "title": "Transport und Verarbeitung",
+          "text": "Nutze „Auf nahes Fahrzeug verladen“ am Kadaver oder die Verladeaktion am Fahrzeug. Zuerst zählt der tatsächliche Inventarplatz; geeignete Fahrzeuge unterstützen anschließend begrenzte Außenladung. Große Tiere müssen gegebenenfalls zerlegt werden. G beziehungsweise ESC legt einen getragenen Kadaver ab. Im Camp führt Handwerk → Tierverwertung zur vollständigen Verarbeitung."
+        },
+        {
+          "title": "Begrenzte Ausbeute und Verderb",
+          "text": "Feldverwertung und Camp-Handwerk greifen auf denselben Restbestand zu. Transportstücke behalten Alter und Verderbzeit. Verarbeite deine Beute rechtzeitig; ein Ortswechsel macht sie nicht frisch."
+        }
+      ],
+      "related": [
+        "crafting",
+        "fahrzeuge",
+        "looten"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "pack",
+      "quick": [
+        "Geeignetes Messer nötig",
+        "Verwertung teilt denselben Restbestand",
+        "Haltbarkeit bleibt auch beim Transport"
+      ]
+    },
+    {
+      "slug": "angeln",
+      "title": "Ruhe am Wasser. Zug an der Leine.",
+      "category": "Überleben",
+      "sources": [
+        "[lost_santos]/ls_inventory/shared/fishing.lua",
+        "[lost_santos]/ls_inventory/client/fishing.lua",
+        "[lost_santos]/ls_inventory/server/fishing.lua"
+      ],
+      "reviewedAt": "2026-10-26",
+      "summary": "Angelrute bauen, einen Platz am Ufer finden und den Fang einholen.",
+      "sections": [
+        {
+          "title": "Bereit zum Auswerfen",
+          "steps": [
+            "Stelle eine Angelrute unter Natur · Angeln her oder besorge eine intakte Rute.",
+            "Stell dich zu Fuß an eine geeignete Wasserfläche und blick aufs Wasser. Benutze die Rute im Inventar.",
+            "Köder sind optional. Mit Köder beißen Fische schneller, und größere Fänge werden wahrscheinlicher.",
+            "Warte auf den Biss. Halte und löse Maustaste oder Leertaste, damit die Fangzone am Fisch bleibt. X kappt die Leine."
+          ]
+        },
+        {
+          "title": "Meer oder Süßwasser",
+          "text": "Du kannst an geeigneten Küsten, Seen und Flüssen angeln; eine erkannte erreichbare Wasserfläche ist Voraussetzung. Es gibt kleine, mittlere und große Fische. Manchmal ziehst du Müll aus dem Wasser. Köder verringern dessen Chance, garantieren aber keinen Fang."
+        },
+        {
+          "title": "Auch Fische sind endlich",
+          "text": "Gewässerabschnitte teilen sich einen begrenzten Fischbestand. Der Standard sind acht Fische je 200-Meter-Abschnitt mit zwei Stunden Erholung. Deine Rute verschleißt bei einem Biss. Ein neuer Login frischt Bestand und Werkzeug nicht auf."
+        },
+        {
+          "title": "Vom Fang zur Mahlzeit",
+          "text": "Unter Natur · Angeln nimmst du Fische aus und stellst Köder aus geeigneten Resten her. Fischfleisch lässt sich weiterverarbeiten; Gräten und andere Nebenprodukte bleiben als Materialien nützlich. Die konkrete Rezeptauswahl steht im Handwerk."
+        }
+      ],
+      "related": [
+        "crafting",
+        "jagd",
+        "naturressourcen"
+      ],
+      "quick": [
+        "Angelrute im Inventar benutzen",
+        "Köder optional, Platz im Gepäck nötig",
+        "Maustaste / Leertaste · X bricht ab"
+      ],
+      "icon": "pack",
+      "navTitle": "Angeln"
+    },
+    {
+      "slug": "crafting",
+      "title": "Handwerk & Kochen",
+      "category": "Überleben",
+      "summary": "Unterwegs herstellen und die Arbeitsplätze im Camp nutzen.",
+      "sources": [
+        "[lost_santos]/ls_inventory/README-DE.md",
+        "[lost_santos]/ls_inventory/shared/camp-crafting.lua",
+        "[lost_santos]/ls_bases/README-DE.md",
+        "[lost_santos]/ls_hunting/README-DE.md",
+        "[lost_santos]/ls_inventory/web"
+      ],
+      "sections": [
+        {
+          "title": "Ein Rezept ausführen",
+          "text": "Öffne den Herstellungsbereich im Inventar und wähle ein verfügbares Rezept. Die Ansicht zeigt Zutaten, Werkzeuge, Menge, Dauer und gegebenenfalls den benötigten Arbeitsplatz. Trage erforderliche Werkzeuge bei dir und halte Platz für das Ergebnis frei."
+        },
+        {
+          "title": "Produktion im Camp",
+          "text": "Fertige Arbeitsplätze und ihre nahe Ausstattung erschließen passende Rezepte. Die Ansicht nennt die erforderliche Arbeitsplatzstufe, Werkzeuge und Materialien. Zugängliche gemeinsame Campvorräte können einfließen; persönliche Lager bleiben getrennt. Freigeschaltete Talente ersetzen keinen tatsächlich fehlenden Arbeitsplatz."
+        },
+        {
+          "title": "Küche und Lebensmittel",
+          "text": "Die Küche verarbeitet unter anderem Rohwasser und Fleisch. Höhere Stufen bieten aufwendigere und haltbarere Mahlzeiten. Achte auf Verfallszeiten: Verdorbene Nahrung lässt sich nicht mehr regulär essen oder weiterverarbeiten. Unbehandeltes Wasser ist riskant; nutze saubere Quellen oder koche es ab."
+        },
+        {
+          "title": "Tierverwertung",
+          "text": "Unter Handwerk → Tierverwertung verarbeitest du Kadaver und Transportstücke. Neben Fleisch und Fell können weitere Materialien wie Knochen, Fett, Sehnen oder Federn anfallen. Mehrere Arbeitsschritte greifen auf denselben verbleibenden Tierbestand zu."
+        },
+        {
+          "title": "Weizen, Mais und die Küche",
+          "text": "Aus eigenem Weizen entsteht mit Hammer Mehl, daraus an der Campküche Brot. Mais dient als Nahrung und Gemüsezutat. Gesperrte Talentrezepte sind noch keine herstellbaren Produkte; die angezeigte Rezeptliste ist maßgeblich."
+        }
+      ],
+      "related": [
+        "camp",
+        "jagd",
+        "inventar"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "pack",
+      "quick": [
+        "Rezeptliste zeigt echte Anforderungen",
+        "Arbeitsplatz und Werkzeug beachten",
+        "Persönliche Lager bleiben getrennt"
+      ]
+    },
+    {
+      "slug": "medizin",
+      "title": "Verletzungen & Hilfe",
+      "category": "Überleben",
+      "summary": "Befunde lesen, Wunden versorgen und anderen aufhelfen.",
+      "sources": [
+        "[lost_santos]/ls_medical/README-DE.md",
+        "[lost_santos]/ls_medical/shared/injuries.lua",
+        "[lost_santos]/ls_medical/client/menu.lua",
+        "[lost_santos]/ls_medical/html"
+      ],
+      "sections": [
+        {
+          "title": "Die Patientenakte",
+          "text": "Mit M öffnest du deinen Zustand. Die Akte zeigt betroffene Körperbereiche und Befunde wie Blutung, Brüche, Schmerz oder Infektion. Über „Untersuchen“ am anderen Spieler erreichst du dessen Akte. Wie genau die Diagnose ausfällt, hängt auch von deinen Medizinkenntnissen ab."
+        },
+        {
+          "title": "Wunden behandeln",
+          "text": "Wähle in der Akte die Verletzung und ein verfügbares Behandlungsmittel. Verbände stillen Blutungen, sterile Gaze unterstützt die saubere Versorgung, und Desinfektion reinigt Wunden. Brüche und Infektionen brauchen passende Maßnahmen. Unterwegs ist die Behandlung eingeschränkter als an einer Krankenstation."
+        },
+        {
+          "title": "Wenn jemand am Boden liegt",
+          "text": "Über „Untersuchen“ kannst du einem geeigneten Patienten „Auf die Beine helfen“. Dafür wird grundsätzlich ein Verband gebraucht; erlernte Fähigkeiten können die Versorgung verbessern. Eine vorhandene Adrenalinspritze ermöglicht in der letzten Kraft unter den angezeigten Voraussetzungen das eigene Aufstehen mit G. Evakuierung und Hilfe vor Ort sind unterschiedliche Wege."
+        },
+        {
+          "title": "Erholen im Camp",
+          "text": "Medizinmodule verbessern Behandlung und Erholung mit ihrer Ausbaustufe. Nutze dort die angebotene Behandlung oder das Ausruhen. Hunger und Durst beeinflussen die Heilung. Aufhelfen allein bedeutet nicht, dass alle Verletzungen verschwunden sind."
+        },
+        {
+          "title": "Komfort ist Unterstützung",
+          "text": "Eine geeignete stationäre Campumgebung kann deine Erholung verbessern. Gute Nahrung und Wasser helfen; Bewegung oder neue Schäden können Ruhephasen beenden. Behandlung, Aufhelfen und vollständige Genesung sind verschiedene Schritte."
+        }
+      ],
+      "related": [
+        "faehigkeiten",
+        "camp",
+        "inventar"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "pack",
+      "quick": [
+        "M · Deine Patientenakte",
+        "Alt → Untersuchen bei anderen",
+        "Aufhelfen ist keine vollständige Heilung"
+      ]
+    },
+    {
+      "slug": "berufe",
+      "title": "Dein Leben vor dem Ausbruch",
+      "category": "Entwicklung",
+      "sources": [
+        "[lost_santos]/ls_skills/server/catalog.lua",
+        "[lost_santos]/ls_skills/server/background.lua",
+        "docs/creator-profession-20261025/README-DE.md"
+      ],
+      "reviewedAt": "2026-10-26",
+      "summary": "Wähle deinen früheren Beruf und verteile die ersten Level im Charakterersteller.",
+      "sections": [
+        {
+          "title": "Eine Entscheidung bei der Erstellung",
+          "text": "Die Reihenfolge lautet Identität → Beruf und Startlevel → Aussehen. Der frühere Beruf ist ein einmaliger Startvorsprung für diesen Charakter. Du legst ihn im Charakterersteller fest und änderst ihn später nicht im Logbuch."
+        },
+        {
+          "title": "Fünf plus drei",
+          "text": "Jeder reguläre Beruf verteilt fünf festgelegte Startlevel. Dazu verteilst du drei weitere Level auf reguläre Fähigkeiten; Nahkampf, Schusswaffen und Explosives sind von diesen drei freien Leveln ausgenommen. Die Vorschau zeigt das Ergebnis und die noch freien Talentpunkte."
+        },
+        {
+          "title": "Welche Vorgeschichte passt zu dir?",
+          "table": {
+            "headers": [
+              "Beruf",
+              "Schwerpunkt"
+            ],
+            "rows": [
+              [
+                "Mechaniker",
+                "Mechanik, Handwerk, Plündern"
+              ],
+              [
+                "Arzt",
+                "Medizin, Kochen, Plündern"
+              ],
+              [
+                "Polizist",
+                "Plündern, Körper, Schusswaffen, Nahkampf"
+              ],
+              [
+                "Soldat",
+                "Überleben, Körper, Schusswaffen, Explosives"
+              ],
+              [
+                "Bauarbeiter",
+                "Bauen, Handwerk, Körper, Nahkampf"
+              ],
+              [
+                "Feuerwehrmann",
+                "Körper, Medizin, Plündern, Nahkampf"
+              ],
+              [
+                "Koch",
+                "Kochen, Handwerk, Nahkampf"
+              ],
+              [
+                "Jäger",
+                "Überleben, Plündern, Körper, Schusswaffen"
+              ],
+              [
+                "Gärtner",
+                "Farming, Überleben, Kochen"
+              ],
+              [
+                "Waffentechniker",
+                "Waffentechnik, Handwerk, Schusswaffen"
+              ],
+              [
+                "Sicherheitsdienst",
+                "Plündern, Körper, Nahkampf, Schusswaffen"
+              ],
+              [
+                "Forstarbeiter",
+                "Überleben, Körper, Handwerk, Nahkampf"
+              ],
+              [
+                "Arbeitsloser",
+                "Fünf Berufspunkte selbst verteilen"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Ohne festgelegten Beruf",
+          "text": "Als Arbeitsloser verteilst du die fünf Berufspunkte selbst: höchstens zwei je regulärer Fähigkeit und höchstens einen Kampfpunkt insgesamt. Die drei zusätzlichen regulären Level kommen wie bei allen anderen dazu."
+        },
+        {
+          "title": "Dein Weg bleibt offen",
+          "text": "Die ursprüngliche Berufsverteilung bestimmt die Fähigkeiten mit voller Praxis-XP. Andere Fächer wachsen mit halber Praxis-XP und bleiben ebenso erreichbar. Wähle deine Talente später selbst im Fähigkeitenbuch; verfügbare Startgegenstände und noch fehlende Extras stehen bereits in der Berufsvorschau."
+        }
+      ],
+      "related": [
+        "erste-schritte",
+        "faehigkeiten"
+      ],
+      "icon": "spark",
+      "quick": [
+        "Identität → Beruf → Aussehen",
+        "5 Berufslevel + 3 freie reguläre Level",
+        "100 % / 50 % Praxis-XP nach Berufsverteilung"
+      ],
+      "media": [
+        {
+          "file": "screens/berufswahl-20261025.png",
+          "title": "Dein früherer Beruf im Charakterersteller",
+          "alt": "Originaler Charakterersteller mit Beruf Arzt und zusätzlich verteilten Medizinleveln",
+          "caption": "Originaloberfläche vom 25.10. mit Beispieldaten. Die Vorschau trennt Startlevel, freie Talentpunkte und Fähigkeiten mit voller Praxis-XP.",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "navTitle": "Berufe & Startlevel"
+    },
+    {
+      "slug": "faehigkeiten",
+      "title": "Fähigkeiten & Fortschritt",
+      "category": "Entwicklung",
+      "summary": "13 Fachbereiche. Dein Beruf gibt den Vorsprung, du bestimmst den Ausbau.",
+      "sources": [
+        "[lost_santos]/ls_skills/README-DE.md",
+        "[lost_santos]/ls_skills/server/catalog.lua",
+        "[lost_santos]/ls_skills/server/background.lua",
+        "[lost_santos]/ls_skills/server/trees.lua",
+        "[lost_santos]/ls_skills/server/field-trees.lua",
+        "[lost_santos]/ls_skills/server/farming.lua",
+        "[lost_santos]/ls_skills/server/combat-trees.lua",
+        "[lost_santos]/ls_skills/server/body-tree.lua"
+      ],
+      "sections": [
+        {
+          "title": "Das Fähigkeitenbuch",
+          "text": "Öffne L → Fähigkeiten. Alle Charaktere haben Zugang zu denselben 13 Bäumen: Mechanik, Medizin, Handwerk, Bauen, Kochen, Farming, Überleben, Plündern, Körper, Waffentechnik, Nahkampf, Schusswaffen und Explosives."
+        },
+        {
+          "title": "Level und Talentpunkte sind verschieden",
+          "text": "Jedes erreichte Level liefert einen Punkt im jeweiligen Fach. Höchstlevel ist 15; jeder Baum hat 15 bezahlte Einpunkt-Knoten. Du kaufst die gewünschten Knoten selbst. Startlevel kaufen keine Talente automatisch. Vorgänger und tatsächliche Anforderungen bleiben bestehen."
+        },
+        {
+          "title": "Praxis zahlt sich aus",
+          "text": "Die Fähigkeiten, die durch die ursprünglichen fünf Berufspunkte abgedeckt sind, erhalten 100 % der normalen Praxis-XP. Andere Fähigkeiten erhalten 50 %. Die drei zusätzlich verteilten Startlevel verändern diese Zuordnung nicht. Alle Fähigkeiten bleiben erlernbar."
+        },
+        {
+          "title": "Was ein Schloss am Knoten bedeutet",
+          "text": "„Kommt später“ bezeichnet eine noch fehlende Spielfunktion. Solche Knoten können keine Punkte verbrauchen. Vorhandene Grundaktionen bleiben nutzbar; ein sichtbarer Baum verspricht noch nicht jede darin vorgesehene Rezept- oder Spezialfunktion."
+        },
+        {
+          "title": "Lernen durch echte Tätigkeiten",
+          "text": "Je nach Fach zählen beispielsweise verbessernde Reparaturen, neue Forschungskenntnisse, Versorgung anderer, bezahlte Bauarbeiten, Anbau oder geeignete Sammelaktionen. Wiederholtes Öffnen eines Menüs erzeugt keine Praxis. Kampfschadensboni der Kampf-Skillbäume gelten gegen Zombies, nicht gegen Spieler."
+        },
+        {
+          "title": "Ausdauer und Körper",
+          "text": "Auch dein Körper entwickelt sich durch passende Strecke zu Fuß. Seine Talente unterstützen beispielsweise Ausdauer, Hunger- und Durstverbrauch, Sturzfolgen oder Widerstand gegen Infektion. Der jeweilige Knoten nennt die konkrete Wirkung; das ersetzt keine Behandlung und macht dich nicht unverwundbar."
+        }
+      ],
+      "related": [
+        "berufe",
+        "mechanik",
+        "farming",
+        "ueberlebensbaum"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "spark",
+      "quick": [
+        "13 Bäume · Höchstlevel 15",
+        "Talentpunkte selbst investieren",
+        "Schloss = kommt später"
+      ]
+    },
+    {
+      "slug": "ueberlebensbaum",
+      "title": "Überleben lernen",
+      "category": "Entwicklung",
+      "sources": [
+        "[lost_santos]/ls_skills/server/field-trees.lua",
+        "docs/skills-professions-20261025/UMSETZUNG-DE.md",
+        "[lost_santos]/ls_inventory/server/nature.lua",
+        "[lost_santos]/ls_inventory/server/fishing.lua",
+        "[lost_santos]/ls_hunting/server/main.lua"
+      ],
+      "reviewedAt": "2026-10-26",
+      "summary": "Gewinnung, Jagdverwertung und Werkzeugschonung über echte Tätigkeiten verbessern.",
+      "sections": [
+        {
+          "title": "Wissen aus dem Alltag",
+          "text": "Überleben hat einen eigenen Baum im Fähigkeitenbuch. Passende Naturgewinnung, Tierverwertung und Angeln sind an die Fachpraxis angebunden. Dein Berufsprofil bestimmt, ob Praxis mit vollem oder halbem Wert zählt."
+        },
+        {
+          "title": "Deine Spezialisierung",
+          "text": "Verfügbare Talente verbessern Gewinnungszeit, erlaubte Entnahmemengen, Zerlegezeit oder Werkzeugschonung. Je Staffel gilt die höchste erlernte Wirkung. Lies den genauen Wert am Knoten, bevor du einen Punkt ausgibst."
+        },
+        {
+          "title": "Keine Rohstoffe aus dem Nichts",
+          "text": "Ein Ertragsbonus entnimmt weiterhin aus dem tatsächlich vorhandenen gemeinsamen Vorrat. Eine leere Quelle bleibt leer. Werkzeuge, Platz, Gewicht und konkrete Standortregeln bleiben erforderlich."
+        },
+        {
+          "title": "Fährten und weitere Ausbauten",
+          "text": "Noch fehlende Spezialfunktionen wie die vorgesehene Fährtenkunde sind mit „Kommt später“ gesperrt. Du kannst dafür keine Talentpunkte ausgeben. Der vorhandene Sammel- und Jagdalltag bleibt davon unabhängig spielbar."
+        }
+      ],
+      "related": [
+        "naturressourcen",
+        "jagd",
+        "angeln",
+        "faehigkeiten"
+      ],
+      "icon": "spark",
+      "quick": [
+        "L → Fähigkeiten → Überleben",
+        "Boni nutzen vorhandene Quellenvorräte",
+        "Fehlende Spezialfunktionen bleiben gesperrt"
+      ],
+      "navTitle": "Überlebens-Skillbaum"
+    },
+    {
+      "slug": "mechanik",
+      "title": "Reparatur & Forschung",
+      "category": "Entwicklung",
+      "summary": "Bauteile erforschen und passende Reparaturen freischalten.",
+      "sources": [
+        "[lost_santos]/ls_vehicles/FORSCHUNG-DE.md",
+        "[lost_santos]/ls_vehicles/MECHANIK-DE.md",
+        "[lost_santos]/ls_skills/README-DE.md",
+        "[lost_santos]/ls_inventory/web"
+      ],
+      "sections": [
+        {
+          "title": "Warum eine Reparatur gesperrt sein kann",
+          "text": "Für Reparatur und Einbau brauchst du den passenden Fahrzeugknoten, ausreichendes Bauteilwissen, Werkzeuge und Materialien. Bestimmte Arbeiten erfordern zusätzlich eine Werkstatt. Die Technikansicht nennt die Anforderungen.",
+          "table": {
+            "headers": [
+              "Unterwegs mit passendem Werkzeug",
+              "Werkstatt erforderlich"
+            ],
+            "rows": [
+              [
+                "Räder, Bremsen, Batterie",
+                "Motor, Getriebe, Tank"
+              ],
+              [
+                "Türen, Motorhaube, Heckklappe",
+                "Stoßdämpfer und Chassis"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Teile zerlegen und erforschen",
+          "steps": [
+            "Gehe in eine öffentliche Werkstatt oder an ein geeignetes eigenes Mechanikmodul.",
+            "Öffne Handwerk → Fahrzeugforschung und wähle ein konkretes Bauteil.",
+            "Prüfe Herkunft und angezeigten Wissenszuwachs.",
+            "Starte „Teil zerlegen und erforschen“. Das Teil wird dabei verbraucht und dein Werkzeug beansprucht."
+          ],
+          "text": "Wissen ist an Bauteile und Fahrzeugmodelle beziehungsweise Familien gebunden. Die Bauteilakte im Mechanikbereich zeigt, was noch fehlt. Ausbauen und Erforschen sind bereits ohne Reparaturfreischaltung möglich."
+        },
+        {
+          "title": "Werkstatt und Umbauten",
+          "text": "Das Mechanikmodul hat drei Stufen. Fahrzeugkategorie, erlernte Knoten, Rezept und Wissen bestimmen die verfügbaren Arbeiten. Baupläne und Upgrade-Teile müssen tatsächlich vorhanden sein. Ein freigeschalteter Skillknoten allein erzeugt kein Fahrzeug und kein Tuningteil."
+        }
+      ],
+      "related": [
+        "faehigkeiten",
+        "fahrzeuglager",
+        "camp"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "spark",
+      "quick": [
+        "Werkzeug + Wissen + Talent + Arbeitsplatz",
+        "Forschung verbraucht das konkrete Teil",
+        "Anforderungen stehen in der Technikansicht"
+      ]
+    },
+    {
+      "slug": "camp",
+      "title": "Dein Camp",
+      "category": "Camp & Gemeinschaft",
+      "summary": "Vom ersten Grundstück bis zum Haus mit Werkstatt, Garten und Strom.",
+      "sources": [
+        "[lost_santos]/ls_bases/README-DE.md",
+        "[lost_santos]/ls_bases/construction.lua",
+        "[lost_santos]/ls_bases/hammer-client.lua",
+        "docs/basebuilding-2-20261024/README-DE.md",
+        "docs/hammer-mode-20261025/README-DE.md",
+        "[lost_santos]/ls_skills/server/field-trees.lua"
+      ],
+      "sections": [
+        {
+          "title": "Deinen Platz beanspruchen",
+          "steps": [
+            "Stelle das Base-Gründungsset her und benutze es an einem erlaubten Bauplatz.",
+            "Setze die Gründungsflagge und wähle vier kantenverbundene Grundstücksblöcke. Jeder Block misst 15 × 15 Meter; der Flaggenblock gehört dazu.",
+            "Öffne das erhaltene Planungsbuch. Dort verwaltest du Baukatalog, Baupläne und Grundstück."
+          ]
+        },
+        {
+          "title": "Entwerfen in der freien Baukamera",
+          "text": "Wähle ein Bauteil im Katalog. Die Vorschau folgt der Maus; Linksklick fixiert sie. Ziehe die Achsen oder nutze die Werte für Position, Drehung und Neigung. Rechte Maustaste mit WASD bewegt die Kamera, Q/E verändert ihre Höhe, das Mausrad zoomt. R dreht ein ausgewähltes Teil um 90°. Mit „Bauplatz bestätigen“ speicherst du den Plan. Mehrfachplatzierung hilft bei Reihen von Bauteilen."
+        },
+        {
+          "title": "Den Bauplan Wirklichkeit werden lassen",
+          "text": "Gehe zum Bauplatz, zahle über Alt die Werkstoffe ein und baue mit dem Werkstatthammer. Mit Hammer in der Hand schaltet B den Baumodus ein: Alt konzentriert sich auf Bauaktionen und markiert erreichbare Teile. Erfolgreiches Bauen oder Ausbauen beansprucht den Hammer. Ein Plan allein verbraucht noch nicht die vollständigen Baukosten."
+        },
+        {
+          "title": "Ein Camp wächst mit dir",
+          "text": "Böden, Wände, Fenster, Türen, Rasterdächer, Möbel und Arbeitsplätze lassen sich kombinieren. Arbeitsplatzausbauten verlangen passende Ausstattung in der Nähe. Befestigungen besitzen eigene Ausbauketten: feste Teile Holz → Stein → Metall, Torflügel Holz → verstärktes Holz → Blech. Hauswände und Hausdächer erhalten dadurch nicht automatisch dieselbe Materialkette."
+        },
+        {
+          "title": "Mehr Land durch Baupraxis",
+          "text": "Zusätzliche Blöcke kosten Material. Abgeschlossene bezahlte Bauarbeiten entwickeln Bauen weiter. Deine Figur bleibt während der Planung sichtbar und verwundbar.",
+          "table": {
+            "headers": [
+              "Bauen-Level",
+              "Maximale Grundstücksblöcke"
+            ],
+            "rows": [
+              [
+                "0",
+                "4"
+              ],
+              [
+                "3",
+                "6"
+              ],
+              [
+                "6",
+                "8"
+              ],
+              [
+                "10",
+                "12"
+              ],
+              [
+                "15",
+                "16"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Gemeinsam zu Hause",
+          "text": "Clanrollen regeln Bau, Nutzung und Lagerzugriff. Schlafplatz und persönlicher Lagerbehälter werden getrennt beansprucht. Unverschlossene Türen sind bedienbar; zum Verriegeln braucht es die passenden Camprechte. Ein allgemeines Raid- oder Sprengsystem ist daraus noch nicht abzuleiten."
+        },
+        {
+          "title": "Ausstattung und kommende Funktionen",
+          "text": "Regenwasserfänger sowie Zerlege-, Gerbe- und Trockengestelle sind als Bauobjekte vorhanden. Automatische Regenfüllung und die zusätzlichen sichtbaren Verarbeitungsabläufe sind noch in Entwicklung. Ihre Platzierung allein aktiviert diese Funktionen nicht."
+        }
+      ],
+      "related": [
+        "camp-lager",
+        "stromnetz",
+        "farming",
+        "gruppen"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "home",
+      "quick": [
+        "Vier verbundene 15 × 15-m-Startblöcke",
+        "Planen im Buch · Bauen am Objekt",
+        "B mit Werkstatthammer: Baumodus"
+      ]
+    },
+    {
+      "slug": "camp-lager",
+      "title": "Lager & Wohnen",
+      "category": "Camp & Gemeinschaft",
+      "summary": "Physische Vorräte, persönliche Plätze und eine geordnete gemeinsame Basis.",
+      "sources": [
+        "[lost_santos]/ls_bases/README-DE.md",
+        "[lost_santos]/ls_social/README-DE.md",
+        "[lost_santos]/ls_factions/README-DE.md",
+        "docs/basebuilding-2-20261024/README-DE.md"
+      ],
+      "sections": [
+        {
+          "title": "Kisten, Regale und Packtisch",
+          "text": "Öffne gebaute Lagerbehälter über Alt. Der Packtisch verwaltet die echten Kisten und Regale des Camps; er erzeugt keinen zusätzlichen unsichtbaren Stauraum. Ab Stufe 2 gibt es Benennung und Lagerzuordnung, auf Stufe 3 Einsortieren mit Behalten-Markierungen."
+        },
+        {
+          "title": "Deine persönlichen Plätze",
+          "text": "Beanspruche Schlafplatz und persönlichen Lagerbehälter separat. Der Schlafplatz bestimmt Rückkehr und Komfort, das Lager die Ausrüstungssicherung. Persönliche Vorräte werden nicht als gemeinsames Produktionsmaterial verbraucht. Verlorene Claims löschen private Gegenstände nicht; über /abholablage erreichst du die charaktereigene Rückgabe."
+        },
+        {
+          "title": "Erholung braucht eine Umgebung",
+          "text": "Schlafplatz, Überdachung, Sitzmöbel und elektrische Ausstattung können stationäre Erholung im Camp verbessern. Nahrung, Wasser und medizinische Versorgung bleiben wichtig. Ein Bett beseitigt nicht jede Verletzung sofort."
+        },
+        {
+          "title": "Noch kein eigenes Camp?",
+          "text": "Eingerichtete NPC-Übergangslager bieten persönliche 10 × 10 Felder. Solange du keine eigene Base gegründet hast, kannst du einlagern. Danach bleiben vorhandene Vorräte abholbar; neue Einzahlungen sind gesperrt. Alle solchen NPCs öffnen dasselbe persönliche Übergangslager."
+        },
+        {
+          "title": "Nahrung richtig lagern",
+          "text": "Haltbarkeit bleibt Teil des Alltags. Ein angeschlossener Kühlschrank hilft nur während tatsächlicher Stromversorgung. Generator leer, Leitung getrennt oder Leistung überlastet? Dann ist die Kühlung nicht gesichert."
+        }
+      ],
+      "related": [
+        "camp",
+        "stromnetz",
+        "medizin"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "home",
+      "quick": [
+        "Packtisch verwaltet physische Lager",
+        "Schlafplatz und Privatlager getrennt claimen",
+        "/abholablage für private Rückgaben"
+      ]
+    },
+    {
+      "slug": "farming",
+      "title": "Dein Garten nach dem Ende",
+      "category": "Camp & Gemeinschaft",
+      "sources": [
+        "[lost_santos]/ls_inventory/shared/farming.lua",
+        "[lost_santos]/ls_inventory/server/farming.lua",
+        "[lost_santos]/ls_skills/server/farming.lua",
+        "docs/base-cereals-20261025/README-DE.md",
+        "[lost_santos]/ls_inventory/shared/field-crops.lua"
+      ],
+      "reviewedAt": "2026-10-26",
+      "summary": "Vom Saatkorn bis zur Ernte: fünf Sorten, vier Wachstumsstufen und echte Pflege.",
+      "sections": [
+        {
+          "title": "Einen Pflanzplatz schaffen",
+          "text": "Baue einen Pflanzkübel, ein Beet oder ein Gewächshaus im Camp. Die fertigen Objekte bieten einen, vier oder zwölf Pflanzplätze. Über Alt wählst du den Platz und die Saat. Bepflanzte Beete kannst du nicht einfach einpacken."
+        },
+        {
+          "title": "Säen, pflegen, ernten",
+          "steps": [
+            "Nimm passendes Saatgut und Wasser oder unbehandeltes Süßwasser mit. Meerwasser ist ungeeignet.",
+            "Säe am freien Pflanzplatz. Die erste Wassergabe gehört zur Aussaat.",
+            "Nach jedem Wachstumsschritt erneut gießen. Ohne Wasser wartet die Pflanze, statt automatisch weiterzuwachsen.",
+            "Optional pro gewässerter Wachstumsstufe Knochendünger einsetzen. Er verkürzt diese Stufe.",
+            "Die vierte Stufe ist erntereif. Ernte über Alt und sichere Früchte sowie Saatgut."
+          ]
+        },
+        {
+          "title": "Fünf Sorten und dein Anbauwissen",
+          "text": "Die Freigaben lernst du im Farming-Baum. Weitere Talente können Ertrag, zusätzliche Saat oder Wachstum verbessern.",
+          "table": {
+            "headers": [
+              "Sorte",
+              "Zugang"
+            ],
+            "rows": [
+              [
+                "Karotten",
+                "Freier Einstieg"
+              ],
+              [
+                "Kartoffeln",
+                "Erstes Anbauwissen"
+              ],
+              [
+                "Tomaten",
+                "Zweite Stufe Anbauwissen"
+              ],
+              [
+                "Weizen und Mais",
+                "Dritte Stufe Anbauwissen"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Wie lange wächst es?",
+          "text": "Drei gewässerte Übergänge führen zur Reife. Bei einem dreistündigen Spieltag dauert das normalerweise ungefähr sechs echte Stunden, bei durchgehender Düngung ungefähr drei. Fehlende Pflege verlängert die Zeit; eine andere Tageslänge verändert sie ebenfalls."
+        },
+        {
+          "title": "Mehr als rohe Karotten",
+          "text": "Weizen lässt sich mit einem Hammer zu Mehl und an der Campküche zu Brot verarbeiten. Mais ist Nahrung und Gemüsezutat. Die vorhandenen Saatgutrezepte erlauben die Weiterverwendung geeigneter Ernteprodukte."
+        },
+        {
+          "title": "Die Felder draußen",
+          "text": "Das saisonale Paleto-Mischfeld bietet Karotten, Kartoffeln und Tomaten. Die Saison beeinflusst das Vorkommen. Weizen und Mais gehören zum eigenen Anbau und sind keine zusätzlichen Wildfeldsorten."
+        }
+      ],
+      "related": [
+        "camp",
+        "naturressourcen",
+        "crafting",
+        "faehigkeiten"
+      ],
+      "quick": [
+        "1 / 4 / 12 Pflanzplätze",
+        "Nach jeder Wachstumsstufe gießen",
+        "Karotten frei · weitere Sorten per Talent"
+      ],
+      "icon": "home",
+      "navTitle": "Farming & Anbau"
+    },
+    {
+      "slug": "stromnetz",
+      "title": "Licht in der Dunkelheit",
+      "category": "Camp & Gemeinschaft",
+      "summary": "Generatoren, Solar und Batterien zu einem funktionierenden Stromnetz verbinden.",
+      "sections": [
+        {
+          "title": "Dein erstes Kabel",
+          "steps": [
+            "Stelle Stromquelle und Verbraucher auf. Unter Elektrik findest du die vorhandenen Bauteile und das Kabelwerkzeug.",
+            "Wähle mit dem Kabelwerkzeug einen Ausgang und anschließend einen Eingang. G setzt Zwischenpunkte.",
+            "Rechtsklick am Anschluss entfernt die Leitung, ESC beendet das Werkzeug.",
+            "Prüfe Quelle, Schalter und Leistung, bevor du dich auf Licht oder Kühlung verlässt."
+          ]
+        },
+        {
+          "title": "Was die Bauteile machen",
+          "table": {
+            "headers": [
+              "Bauteil",
+              "Aufgabe"
+            ],
+            "rows": [
+              [
+                "Generator",
+                "Kraftstoff in verfügbare Leistung umsetzen"
+              ],
+              [
+                "Solar",
+                "Strom aus der verfügbaren Sonneneinstrahlung"
+              ],
+              [
+                "Batterie",
+                "Energie speichern; Ladung und Zustand bleiben beim Einpacken erhalten"
+              ],
+              [
+                "Schalter",
+                "Einen Leitungszweig schalten"
+              ],
+              [
+                "Dreifachverteiler / Stromzweig",
+                "Leistung aufteilen oder einen Abzweig einstellen"
+              ],
+              [
+                "Quellenkombinierer",
+                "Geeignete Quellen im gerichteten Netz zusammenführen"
+              ],
+              [
+                "Lampe / Campgerät",
+                "Versorgung tatsächlich verbrauchen"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Leistung ist begrenzt",
+          "text": "Verbraucher teilen sich die verfügbare Leistung. Eine Leitung allein garantiert keinen laufenden Verbraucher. Für direkte Leitungen gelten bis zu 40 Meter und zehn Zwischenpunkte; Drahtbedarf wird je angefangene fünf Meter berechnet."
+        },
+        {
+          "title": "Vor dem Umbau",
+          "text": "Löse Leitungen, bevor du verbundene Geräte versetzt oder einpackst. Kühlschränke werten nur tatsächlich gelieferte Stromzeit. Ausschalten und Neustart machen gelagerte Nahrung nicht wieder frisch."
+        }
+      ],
+      "sources": [
+        "[lost_santos]/ls_inventory/README-DE.md",
+        "[lost_santos]/ls_inventory/RESSOURCENVERSORGUNG-DE.md",
+        "docs/basebuilding-2-20261024/README-DE.md",
+        "[lost_santos]/ls_inventory/shared/power-network.lua",
+        "[lost_santos]/ls_inventory/client/power-network.lua"
+      ],
+      "related": [
+        "versorgung",
+        "camp-lager",
+        "camp"
+      ],
+      "quick": [
+        "Elektrik im Herstellungsmenü",
+        "Ausgang → Eingang verbinden",
+        "Quelle und Verbraucher teilen Leistung"
+      ],
+      "icon": "home",
+      "navTitle": "Elektrik & Stromnetz",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "slug": "gruppen",
+      "title": "Freunde, Gruppen & Clans",
+      "category": "Camp & Gemeinschaft",
+      "summary": "Zusammen losziehen und Camp-Rechte gezielt vergeben.",
+      "sources": [
+        "[lost_santos]/ls_social/README-DE.md",
+        "[lost_santos]/ls_social/client/main.lua",
+        "[lost_santos]/ls_hud/web/apocalypse"
+      ],
+      "sections": [
+        {
+          "title": "Social öffnen",
+          "text": "Mit F2 oder ESC → Spielerübersicht öffnest du das Social-Menü. Dort findest du die Onlineübersicht, Freunde, Fraktionsanzeige, Clan und Pager. Freundschafts- und Gruppeneinladungen laufen über die Spielerinteraktion."
+        },
+        {
+          "title": "Gruppe oder Clan?",
+          "text": "Eine Gruppe ist für das gemeinsame Unterwegssein gedacht. Ein Clan besitzt Namen, Kürzel, Mitglieder und Leitung. Beide sind auf sechs Mitglieder einschließlich Leitung begrenzt; beim Clan zählen auch Offline-Mitglieder mit. Beitrittsanfragen und Einladungen müssen bestätigt werden."
+        },
+        {
+          "title": "Pager und Privatsphäre",
+          "text": "Der Pager bietet globale, Fraktions-, Clan-, Gruppen- und private Kanäle. Standardmäßig liest du ihn im Menü; bei Bedarf kannst du ausgewählte Kanäle im HUD einblenden. Blockieren und Stummschalten stehen zur Verfügung."
+        },
+        {
+          "title": "Gemeinsame Camp-Rechte",
+          "text": "Die Clanleitung kann ein Camp zuordnen und Rollen für Bau, Lager, Werkstatt und andere Aufgaben vergeben. Persönliche Schlaf- und Lagerplätze werden getrennt beansprucht. Beim Verlust der Clanrechte werden Claims freigegeben; private Inhalte bleiben in der charaktereigenen Abholablage."
+        }
+      ],
+      "related": [
+        "camp",
+        "funk",
+        "fraktionen",
+        "orientierung"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "home",
+      "quick": [
+        "F2 · Spielerübersicht",
+        "Gruppe und Clan: jeweils bis zu 6",
+        "Einladung ist noch kein volles Camprecht"
+      ]
+    },
+    {
+      "slug": "fraktionen",
+      "title": "Zwei Flaggen. Deine Entscheidung.",
+      "category": "Fraktionen & Konflikt",
+      "sources": [
+        "[lost_santos]/ls_factions/README-DE.md",
+        "[lost_santos]/ls_factions/server/economy.lua",
+        "[lost_santos]/ls_factions/shared/defaults.json",
+        "docs/quest-membership-20261021/README-DE.md",
+        "docs/FRAKTIONSTERRITORIEN-KONZEPT-DE.md"
+      ],
+      "reviewedAt": "2026-10-26",
+      "summary": "S.A.R.A., New Dawn oder dein eigener Weg als Lonewolf.",
+      "sections": [
+        {
+          "title": "S.A.R.A. – Was von der Ordnung blieb",
+          "text": "Aus Polizisten, Sanitätern und Versorgungskräften entstand die San Andreas Reconstruction Authority. Im alten Sägewerk versucht die gewählte Präsidentin des Aufsichtsrats Nora Whitaker, eine Ordnung aufzubauen, der Menschen wieder vertrauen können. Zwischen Hilfe, Regeln und alten Machtansprüchen wird jede Kiste zur Entscheidung."
+        },
+        {
+          "title": "New Dawn – Ein Morgen unter Mercer",
+          "text": "Elias Mercer brachte in einer aufgegebenen FOB der Nationalgarde in der Grand-Senora-Wüste Generatoren und Werkstätten zum Laufen. Seine Leute bekommen Essen, ein Bett und Schutz. Viele lieben ihn – während Wahlen warten und Arbeit, Vorräte und bewaffnete Wachen seiner Kontrolle unterstehen."
+        },
+        {
+          "title": "Ein gebrochener Handschlag",
+          "text": "Der Streit um einen geborgenen Vorratskonvoi trennte die früheren Partner. Beide brauchen Handel und Versorgung, beide kämpfen in verlassenen Depots um dieselben Kisten. Du kannst dich einem Lager anschließen oder als Lonewolf unabhängig bleiben."
+        },
+        {
+          "title": "So schließt du dich an",
+          "text": "Sprich mit den eingerichteten Ansprechpartnern und verfolge die angebotene Aufnahmequest. Erst der ausdrückliche Abschluss beim zuständigen Fraktionschef bestätigt den Beitritt. Einfaches Annehmen oder Erfüllen der Ziele allein reicht nicht."
+        },
+        {
+          "title": "Dein Beitrag zählt",
+          "text": "Aufträge, geeignete Lieferungen und Faction-War-Erfolge können Ruf bringen. Die Lagertafel zeigt Bedarf und Versorgung; vorhandene Lagerbestände und erfolgreiche Konvois tragen dazu bei. Wochenbedarfe richten sich nach Lagerbevölkerung und Saison. Fraktionsfunk hilft bei der Abstimmung."
+        },
+        {
+          "title": "Austritt und Rückkehr",
+          "text": "Ein regulärer Austritt ist möglich, kostet zunächst Ruf beim verlassenen Lager und sperrt einen neuen Beitritt für 48 echte Stunden. Andere Rufwerte bleiben getrennt. Lies die angezeigten Voraussetzungen am Ansprechpartner."
+        }
+      ],
+      "related": [
+        "handel",
+        "faction-war",
+        "konvois",
+        "funk"
+      ],
+      "quick": [
+        "S.A.R.A. / New Dawn / Lonewolf",
+        "Beitritt beim zuständigen Chef bestätigen",
+        "Ruf und Versorgung sind lagerbezogen"
+      ],
+      "icon": "flag",
+      "navTitle": "Fraktionen & Ruf"
+    },
+    {
+      "slug": "handel",
+      "title": "Handeln, helfen, Vorräte sichern",
+      "category": "Fraktionen & Konflikt",
+      "summary": "Mit NPCs sprechen, Waren tauschen und Aufträge für ein Lager erledigen.",
+      "sections": [
+        {
+          "title": "Beim Händler",
+          "text": "Wähle einen eingerichteten Händler über Alt an und öffne sein Angebot. Preis, Warenbestand, passende Währung und mögliche Mitgliedschafts- oder Rufanforderungen stehen im Angebot. Nicht jeder Händler hat dieselben Zugangsregeln. Die bestätigte Anzeige ist maßgeblich."
+        },
+        {
+          "title": "Endlicher Vorrat, echte Kasse",
+          "text": "Händler haben tatsächliche Depotbestände. Beim An- und Verkauf wechseln Waren und Zahlungsmittel gemeinsam den Besitzer. Ein leeres Depot erzeugt keine Ware, eine leere Kasse zahlt keine unendlichen Münzen. Ankaufspreise liegen unter dem entsprechenden Verkaufspreis; Versorgung und Ruf können den Preis beeinflussen."
+        },
+        {
+          "title": "Währung mitnehmen",
+          "text": "Handelsmünzen und fraktionsbezogene Marken sind physische Gegenstände. Ein angezeigter Rufwert ist kein Münzguthaben. Bei Markentausch gelten die angebotenen Kurse, vorhandene Bestände und Limits."
+        },
+        {
+          "title": "Aufträge annehmen und abschließen",
+          "text": "NPCs können Warenabgaben, Transporte, Erkundung, Besuche oder Ziele mit Infiziertenabschüssen anbieten. Verfolge den Stand im Logbuch. Manche Aufträge gehen allein, andere mit einer festen Gruppe. Erst beim geforderten Abschluss wird die Belohnung freigegeben; volle Taschen verhindern nicht, dass eine bereits reservierte Belohnung später abgeholt werden kann."
+        },
+        {
+          "title": "Kein blinder Rückkauf",
+          "text": "Direkt beim selben Depot gekaufte Ware zählt nicht einfach wieder als neuer Versorgungsfund. Verkaufte Waffen behalten ihren tatsächlichen Zustand und Anbauteile. Prüfe deshalb Angebot und Gegenstandsdetails, bevor du bestätigst."
+        }
+      ],
+      "sources": [
+        "[lost_santos]/ls_factions/README-DE.md",
+        "[lost_santos]/ls_factions/server/economy.lua",
+        "[lost_santos]/ls_factions/shared/rules.lua"
+      ],
+      "related": [
+        "fraktionen",
+        "looten",
+        "inventar"
+      ],
+      "icon": "flag",
+      "quick": [
+        "Bestand und Kasse sind endlich",
+        "Ruf ist keine Münzwährung",
+        "Angebot und Zugang am NPC prüfen"
+      ],
+      "navTitle": "Händler & Aufträge",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "slug": "faction-war",
+      "title": "Das umkämpfte Land",
+      "category": "Fraktionen & Konflikt",
+      "summary": "Lootgebiete erobern, Angriffe abwehren und unter wechselnden Flaggen bestehen.",
+      "sections": [
+        {
+          "title": "Die Lage am Kartentisch",
+          "text": "Taktische Tische und Terminals zeigen den Stand der verknüpften Gebiete: Besitzer, Ressource, mögliche Versorgung und laufende Einsätze. Fraktionsmitglieder öffnen die Karte über Alt oder /factionwar. Wähle eine Fläche für die Gebietsakte. Neue Gebiete starten unter Outlaw-Kontrolle."
+        },
+        {
+          "title": "Ein Gebiet einnehmen",
+          "steps": [
+            "Zwischen 18 und 0 Uhr deutscher Zeit ein feindliches Gebiet aufsuchen. Gegnerische Anwesenheit kann die Besitzer alarmieren.",
+            "Besatzung bekämpfen und am zentralen Kontrollgerät die Einnahme für die eigene Fraktion starten. Eine vorherige Planung ist möglich, aber nicht zwingend.",
+            "Lebend im festgelegten Kontrollbereich bleiben. Der Standardtimer läuft fünf Minuten. Lebende Verteidiger im Bereich pausieren ihn.",
+            "Fehlen lebende Angreifer 30 Sekunden, bricht die Einnahme ab. Bei erfolgreichem Ablauf wechselt der Besitz; Flaggen und Meldungen zeigen das Ergebnis."
+          ]
+        },
+        {
+          "title": "Outlaws warten nicht auf euch",
+          "text": "Im Angriffszeitraum können sich stündlich zufällige Outlaw-Angriffe formieren. Fünf Minuten Vorwarnung geben Zeit zur Anreise, danach folgen fünf Minuten Wellenangriff. Erst am Ende entscheidet der lebende Widerstand im Kontrollbereich über den Besitz. Anschließend schützt ein 30-Minuten-Cooldown vor der nächsten Übernahme."
+        },
+        {
+          "title": "Mehr als zwei Farben auf der Karte",
+          "text": "Besatzungen tragen zur Zone passende Ausrüstung und mögliche Beute. Die Outlaw-Gegenangreifer stammen aus dem Outlaw-Pool. Überlebende NPCs können beim bestätigten Besitzerwechsel übernommen werden. Bewohner werden vom System eingesetzt; Spieler müssen keine Personalpläne verwalten."
+        },
+        {
+          "title": "Zehn Rufplätze, eine offene Kampfzone",
+          "text": "Je Seite gibt es zehn offizielle Teilnehmerplätze. Andere Spieler dürfen sich trotzdem einmischen, erhalten daraus aber keinen automatischen Teilnehmer-Ruf. Neutrale wählen vor Ort ihre Unterstützung und bekommen keine internen Rekrutierungsaufrufe. Positiver Einsatzruf ist je Charakter und Gebiet einmal in 24 Stunden möglich."
+        },
+        {
+          "title": "Zeitgrenzen verstehen",
+          "text": "PvP bleibt in der PvP-Zone grundsätzlich möglich. Die 18–0-Uhr-Regel begrenzt Gebietseinnahmen. Zehn Minuten vor regulären Neustarts sind neue Einsätze gesperrt; Freigabe ist frühestens 15 Minuten nach Serverstart. Offene Einnahmen enden um Mitternacht ohne Besitzerwechsel. Nach einem Absturz müssen sie neu begonnen werden."
+        },
+        {
+          "title": "Was ein Gebiet bringt",
+          "text": "Nahrung, Medizin, Waffen und Munition, Baustoffe, Kraftstoff, Ersatzteile oder Kleidung können den Lagern Versorgung bringen. Dafür fahrt ihr Konvois. Moralgebiete liefern stattdessen ihren eingestellten Moralbonus und haben keinen Warenkonvoi."
+        }
+      ],
+      "sources": [
+        "[lost_santos]/ls_factions/README-DE.md",
+        "[lost_santos]/ls_factions/shared/war-rules.lua",
+        "[lost_santos]/ls_factions/server/war.lua",
+        "docs/faction-war-supply-20261020/README-DE.md"
+      ],
+      "related": [
+        "konvois",
+        "fraktionen",
+        "gebiete"
+      ],
+      "quick": [
+        "Einnahmen 18–0 Uhr · Europe/Berlin",
+        "5 Minuten im Kontrollbereich",
+        "Verteidiger pausieren die Einnahme"
+      ],
+      "icon": "flag",
+      "navTitle": "Faction War · Gebiete",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "slug": "konvois",
+      "title": "Die Straße gehört niemandem",
+      "category": "Fraktionen & Konflikt",
+      "summary": "Versorgung vom eigenen Gebiet ins Hauptlager bringen – und unterwegs verteidigen.",
+      "sections": [
+        {
+          "title": "Gemeinsam vorbereiten",
+          "text": "Starte die Versorgung am zentralen Gerät eines eigenen geeigneten Gebiets. Lege die Vorbereitungszeit fest, lade Mitspieler ein und sammle Bereitschaftsmeldungen. Die eigene Fraktion wird informiert und kann sich einschreiben. Erst wenn alle Eingetragenen vor Ort bereit sind oder die Vorbereitung endet, startet die Fahrt und das Fahrzeug erscheint."
+        },
+        {
+          "title": "Ein Gebiet, eine Fahrt pro Periode",
+          "text": "Pro Lootgebiet ist eine Versorgungsfahrt je vollständiger Serverperiode vorgesehen; zusätzlich zählt das Wochenkontingent des Gebiets. Ein Clan oder eine temporäre Gruppe kann nur einen offiziellen Konvoi gleichzeitig bearbeiten. Die Fraktion darf mehrere unterschiedliche Fahrten durchführen."
+        },
+        {
+          "title": "Zeit und Frachtzustand",
+          "text": "Fahre vom Gebiet zum Zielhauptlager. Standardmäßig hast du 20 Minuten. Zeit auf null ODER Frachtleben auf null bedeutet Verlust. Erst die erfolgreiche bestätigte Abgabe bucht Versorgung und berechtigten Ruf. Ein gespawntes Fahrzeug allein ist noch kein Gewinn."
+        },
+        {
+          "title": "Übernehmen statt vernichten",
+          "text": "Die Gegenseite kann die Fracht über Alt am Konvoifahrzeug sofort übernehmen. Damit wechselt das Ziel zum eigenen Lager und derselbe Transporttimer startet neu. Der Frachtzustand wird nicht repariert, die Ladung nicht ersetzt. Weitere Besitzerwechsel sind möglich, solange die Fracht lebt und die Fahrt nicht abgelaufen ist."
+        },
+        {
+          "title": "Was im Lager ankommt",
+          "text": "Die Lieferung schreibt Versorgungseinheiten für die Ressource des Gebiets gut. Es entstehen daraus keine frei entnehmbaren Inventaritems. Die Versorgung zählt zusammen mit realen Beständen für Lagerbedarf und Auswertung."
+        },
+        {
+          "title": "Ruf für Beteiligung",
+          "text": "Die offiziellen, beim Start vor Ort beteiligten Teilnehmer erhalten bei Erfolg denselben Ruf, unabhängig von Abschusszahlen. Bis zu zehn Plätze je Seite sind vorgesehen. Neutrale Söldner gewinnen Ruf bei der belieferten Seite und verlieren bei der Gegenseite. Der positive Gebietsruf ist einmal in rollierenden 24 Stunden möglich."
+        },
+        {
+          "title": "Abbruch und Neustart",
+          "text": "Ein Absturz beendet laufende Fahrten ohne Liefergewinn oder Verlustwertung. Es gibt keine automatische Fortsetzung. Die Startpuffer vor Neustart und nach Serverstart gelten auch hier. Im Unterschied zu Gebietseinnahmen sind Versorgungsfahrten nicht grundsätzlich auf 18–0 Uhr beschränkt."
+        }
+      ],
+      "sources": [
+        "[lost_santos]/ls_factions/shared/war-rules.lua",
+        "[lost_santos]/ls_factions/server/war.lua",
+        "docs/faction-war-supply-20261020/README-DE.md"
+      ],
+      "related": [
+        "faction-war",
+        "fahrzeuge",
+        "fraktionen"
+      ],
+      "quick": [
+        "Vorbereiten → bereit melden → fahren",
+        "Alt am Fahrzeug: Besitzerwechsel",
+        "Zeit ODER Fracht auf null = Verlust"
+      ],
+      "icon": "flag",
+      "navTitle": "Versorgungskonvois",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "slug": "fahrzeuge",
+      "title": "Fahrzeuge nutzen",
+      "category": "Unterwegs",
+      "summary": "Funde prüfen, Ladung transportieren und die Technik im Blick behalten.",
+      "sources": [
+        "[lost_santos]/ls_vehicles/README-DE.md",
+        "[lost_santos]/ls_vehicles/VITALWERTE-DE.md",
+        "[lost_santos]/ls_inventory/FAHRZEUGE-DE.md",
+        "[lost_santos]/ls_inventory/web"
+      ],
+      "sections": [
+        {
+          "title": "Ein Fund ist kein Neuwagen",
+          "text": "Fahrzeuge besitzen einen gespeicherten Zustand. Fehlende Teile, Schäden, Flüssigkeiten und Batterie beeinflussen ihre Nutzbarkeit. Prüfe den Fund, bevor du eine längere Fahrt planst. Ein neuer Login repariert ihn nicht."
+        },
+        {
+          "title": "Inventar und Technik öffnen",
+          "text": "Am Fahrzeugheck erreichst du über das Zielauge das Fahrzeuginventar, sofern das Fahrzeug einen Laderaum unterstützt. Am Motorbereich öffnest du „Fahrzeugtechnik ansehen“. Dort wählst du Baugruppen und konkrete Teile aus. Welche Detailwerte erkennbar sind, hängt von deinen Kenntnissen ab."
+        },
+        {
+          "title": "Betriebsstoffe und Verschleiß",
+          "text": "Kraftstoff, Öl, Kühlmittel und Batterieladung erfüllen unterschiedliche Aufgaben. Fahrbetrieb und Schäden wirken sich auf die Technik aus. Ein voller Tank behebt keinen Motorschaden. Sorge vor längeren Ausflügen für passende Vorräte und Werkzeug."
+        },
+        {
+          "title": "Große Transporte",
+          "text": "Der Wastelander bietet eigene Aktionen für den Fahrzeugtransport. Jagdkadaver lassen sich je nach Fahrzeug ins Raster oder auf geeignete Außenladeplätze verladen. Die angebotene Aktion und die tatsächliche Platzprüfung entscheiden, ob eine Ladung passt."
+        },
+        {
+          "title": "Dein letzter Fund und die neue Woche",
+          "text": "Das zuletzt benutzte Fahrzeug aus dem Weltfahrzeugpool ist zusätzlich vor dem Wochenreset geschützt. Benutzt du ein anderes, wandert dieser Schutz weiter. Campregistrierung und andere dauerhafte Schutzregeln bleiben davon getrennt. Der Schutz repariert nichts und macht ein Fahrzeug nicht automatisch zu deinem exklusiven Eigentum."
+        }
+      ],
+      "related": [
+        "mechanik",
+        "versorgung",
+        "fahrzeuglager"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "route",
+      "quick": [
+        "Alt am Heck: Inventar",
+        "Alt am Motorbereich: Technik",
+        "Kraftstoff ersetzt keine Reparatur"
+      ]
+    },
+    {
+      "slug": "fahrzeuglager",
+      "title": "Fahrzeuglager & Bergung",
+      "category": "Unterwegs",
+      "summary": "Fahrzeuge im Camp registrieren, einlagern und zurückholen.",
+      "sources": [
+        "[lost_santos]/ls_vehicles/MECHANIK-DE.md",
+        "[lost_santos]/ls_social/README-DE.md",
+        "[lost_santos]/ls_inventory/web"
+      ],
+      "sections": [
+        {
+          "title": "Ein Lager einrichten",
+          "steps": [
+            "Öffne am gebauten Mechanikmodul „Werkstatt: Aufträge & Fahrzeuglager“.",
+            "Lege über die Modulverwaltung einen Parkplatz im Camp fest. E bestätigt, ESC bricht ab.",
+            "Bringe das Fahrzeug mit ausgeschaltetem Motor an den Parkplatz, steige aus und wähle „Registrieren & einlagern“."
+          ],
+          "text": "Die drei Modulstufen bieten jeweils 2, 4 oder 8 registrierte Fahrzeugplätze. Auch ausgeparkte registrierte Fahrzeuge belegen einen Platz. Der Ausparkbereich muss frei sein."
+        },
+        {
+          "title": "Was bleibt erhalten?",
+          "text": "Einlagern speichert unter anderem Zustand, Ladung, technische Teile und Tuning. Es repariert das Fahrzeug nicht. Eine Registrierung regelt geschützte Arbeiten am Fahrzeug; sie ist keine zusätzliche Fahrsperre."
+        },
+        {
+          "title": "Bergung ist keine kostenlose Lieferung",
+          "text": "Bei einer Fernbergung wird die Inventarladung des Fahrzeugs entfernt. Schäden und eingebaute technische Teile bleiben erhalten. Danach gilt eine Wartezeit von 15 Minuten. Pro Fahrzeug ist eine Bergung je vollständiger Serverperiode vorgesehen. Personen im Fahrzeug und laufende Arbeiten verhindern die Bergung."
+        }
+      ],
+      "related": [
+        "fahrzeuge",
+        "mechanik",
+        "gruppen"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "route",
+      "quick": [
+        "Werkstatt → Aufträge & Fahrzeuglager",
+        "Einlagern repariert nichts",
+        "Fernbergung kostet die Inventarladung"
+      ]
+    },
+    {
+      "slug": "versorgung",
+      "title": "Kraftstoff & Generatoren",
+      "category": "Unterwegs",
+      "summary": "Tanken, abfüllen und Energie dahin bringen, wo du sie brauchst.",
+      "sources": [
+        "[lost_santos]/ls_inventory/RESSOURCENVERSORGUNG-DE.md",
+        "docs/basebuilding-2-20261024/README-DE.md",
+        "docs/pump-fuel-20261023/README-DE.md"
+      ],
+      "sections": [
+        {
+          "title": "An der Quelle",
+          "table": {
+            "headers": [
+              "Quelle",
+              "Benötigt"
+            ],
+            "rows": [
+              [
+                "Stromlose Zapfsäule",
+                "Handpumpe und Umfüllschlauch; zum Abfüllen zusätzlich leerer Kanister"
+              ],
+              [
+                "Zapfsäule mit Strom",
+                "Laufender geeigneter Generator; zum Abfüllen leerer Kanister"
+              ],
+              [
+                "Kraftstofftank / registrierter Tankanhänger",
+                "Leerer Kanister und Umfüllschlauch"
+              ],
+              [
+                "Öl / Kühlmittel",
+                "Leeres passendes Gebinde oder Flasche und Trichter"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Direkt ins Fahrzeug",
+          "text": "An Zapfsäulen gibt es über Alt „Fahrzeug direkt betanken“. Das Fahrzeug muss nahe stehen, der Motor aus und die Sitze leer sein. Handpumpe und Schlauch beziehungsweise Strom bleiben nötig. Es wird bis zum vollen Tank oder dem leeren Quellenvorrat getankt. Wegfahren oder Abbrechen liefert keinen kostenlosen Kraftstoff."
+        },
+        {
+          "title": "Kleine und große Stromquellen",
+          "text": "Aufstellen, prüfen, befüllen, starten und ausschalten erfolgt über die angebotenen Gegenstands- und Alt-Aktionen. Zum Befüllen und Einpacken ausschalten. Ein eingeschaltet gespeicherter Generator verbraucht auch während einer Server-Auszeit Kraftstoff.",
+          "table": {
+            "headers": [
+              "Generator",
+              "Tank",
+              "Leistung"
+            ],
+            "rows": [
+              [
+                "Klein",
+                "20 Liter",
+                "100 Einheiten"
+              ],
+              [
+                "Mittel",
+                "40 Liter",
+                "200 Einheiten"
+              ],
+              [
+                "Groß",
+                "100 Liter",
+                "400 Einheiten"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Bergen oder zerlegen",
+          "text": "Geeignete Weltgeneratoren können komplett geborgen oder nach Bauteilen durchsucht werden. Wurden bereits Teile entnommen, ist die komplette Bergung gesperrt. Mittlere und große Generatoren lassen sich auf dem freien einzelnen Ladeplatz des Wastelanders transportieren. Aufgeladen liefern sie keinen Strom."
+        },
+        {
+          "title": "Plan deinen Verbrauch",
+          "text": "Betriebsstoffquellen sind endlich und werden geteilt. Tankfüllung, Verbrauch und tatsächliche angeschlossene Last entscheiden über die Laufzeit. Für Lampen, Solar, Batterien und Kabel findest du die eigene Anleitung zum Stromnetz."
+        }
+      ],
+      "related": [
+        "stromnetz",
+        "fahrzeuge",
+        "camp"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "route",
+      "quick": [
+        "Alt an der Quelle",
+        "Direktbetankung oder Kanisterabfüllung",
+        "Leere Quellen sind gemeinsam leer"
+      ]
+    },
+    {
+      "slug": "funk",
+      "title": "Bleib auf Empfang",
+      "category": "Unterwegs",
+      "summary": "Nähe, Handfunkgerät, Fraktionsnetz und ein SOS im richtigen Moment.",
+      "sections": [
+        {
+          "title": "Sprechen in deiner Nähe",
+          "text": "Mit der Standardtaste ^ wechselst du zwischen Flüstern, normalem Sprechen und Rufen. Die Startreichweiten sind 3, 7 und 15 Meter. Am Boden beziehungsweise tot kannst du weiter zuhören, aber nicht regulär sprechen. Unter Wasser sind Nähe und Funk stumm."
+        },
+        {
+          "title": "Funkgerät bedienen",
+          "steps": [
+            "Nimm ein Handfunkgerät mit und benutze es im Inventar oder über /funk.",
+            "Gib die Frequenz ein und bestätige mit #. Freie Frequenzen liegen zwischen 1,0 und 899,9 MHz.",
+            "FRK wählt das geschützte Netz deiner Fraktion; LISTE zeigt die Teilnehmer.",
+            "Stecke das Gerät mit ESC weg und halte zum Senden die Feststelltaste. Zum Funken muss das Gerät eingeschaltet und im Gepäck sein."
+          ]
+        },
+        {
+          "title": "Rauschen gehört zur Entfernung",
+          "text": "Bis etwa 1,5 Kilometer ist Funk klar, danach nimmt das Rauschen zu. Ab vier Kilometern kommt keine verständliche Stimme mehr an. Das gilt auch im Fraktionsnetz. Eine getragene Gasmaske verkürzt die Sprachreichweiten; nahe Explosionen können kurz das Gehör beeinträchtigen."
+        },
+        {
+          "title": "Ein SOS absetzen",
+          "text": "Halte die 0 am Gerät drei Sekunden oder nutze /sos. Teilnehmer deiner Frequenz in Reichweite erhalten einen Alarm mit Richtung, Entfernung und ungefährem Suchkreis. /notruf setzt den Wegpunkt. Es handelt sich nicht um ein automatisches Rettungsteam."
+        },
+        {
+          "title": "Dein HUD und deine Ruhe",
+          "text": "Die kleine Funkanzeige lässt sich im HUD verschieben, skalieren oder ausblenden. Einstellungen für Rauschen, Funkgeräusche und Animation liegen unter ESC → Sprache & Funk. Das Abspielen eingerichteter Weltradios ist ein davon getrenntes System."
+        }
+      ],
+      "sources": [
+        "[lost_santos]/ls_voice/README-DE.md",
+        "[lost_santos]/ls_voice/shared/config.lua"
+      ],
+      "related": [
+        "gruppen",
+        "radios",
+        "fraktionen"
+      ],
+      "quick": [
+        "Handfunkgerät im Gepäck nötig",
+        "/funk · Frequenz + #",
+        "Feststelltaste halten zum Senden"
+      ],
+      "icon": "route",
+      "navTitle": "Sprache & Funk",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "slug": "gebiete",
+      "title": "PvE, Safezones & PvP",
+      "category": "Die Welt",
+      "summary": "Was die verschiedenen Gebiete bedeuten.",
+      "sources": [
+        "[lost_santos]/ls_zones/README-DE.md",
+        "[lost_santos]/ls_factions/shared/war-rules.lua"
+      ],
+      "sections": [
+        {
+          "title": "Gebietsarten",
+          "table": {
+            "headers": [
+              "Bereich",
+              "Bedeutung"
+            ],
+            "rows": [
+              [
+                "Normale Welt",
+                "PvE; keine Angriffe auf andere Spieler"
+              ],
+              [
+                "Gefahrenzone",
+                "Höhere Zombiegefahr; weiterhin PvE"
+              ],
+              [
+                "Safezone",
+                "Geschützter Bereich; Waffenhandlungen sind gesperrt"
+              ],
+              [
+                "PvP-Gebiet",
+                "Freier Spielerkampf; Gebietseinnahmen mit eigenen Zeitregeln, Safe-Unterzonen bleiben geschützt"
+              ]
+            ]
+          },
+          "text": "Ein militärisches Lootgebiet ist nicht allein wegen seiner Beute PvP. Maßgeblich ist die ausgewiesene Gebietsart."
+        },
+        {
+          "title": "Beim Wechsel",
+          "text": "Das Betreten und Verlassen einer PvP-Arena wird anhand deiner Position erkannt. Der Wechsel heilt dich nicht und leert dein Inventar nicht. Der HUD-Hinweis informiert über den PvP-Zustand."
+        },
+        {
+          "title": "Leben in der Konfliktzone",
+          "text": "Faction War nutzt dafür verknüpfte Lootgebiete. Besitz, Einnahme und Konvois sind zusätzliche Ziele in derselben PvP-Welt. Die Primetime von 18 bis 0 Uhr beschränkt Gebietseinnahmen, nicht jeden Kampf in der Zone."
+        },
+        {
+          "title": "Das Regelwerk gilt zusätzlich",
+          "text": "Die Zufahrtsstraßen ins PvP-Gebiet dürfen nicht abgecampt werden. Alle Community- und Spielregeln findest du im separat verlinkten Regelwerk."
+        }
+      ],
+      "related": [
+        "faction-war",
+        "konvois",
+        "looten",
+        "orientierung"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "world",
+      "quick": [
+        "PvE-Welt und ausgewiesene PvP-Zone",
+        "Safe-Unterzonen bleiben geschützt",
+        "Einnahmen 18–0 Uhr, PvP grundsätzlich offen"
+      ]
+    },
+    {
+      "slug": "zombies",
+      "title": "Zombies & Lärm",
+      "category": "Die Welt",
+      "summary": "Aufmerksamkeit vermeiden und Begegnungen vorbereiten.",
+      "sources": [
+        "[lost_santos]/ls_zombies/README-DE.md",
+        "[lost_santos]/ls_gates/README-DE.md",
+        "[lost_santos]/ls_skills/README-DE.md"
+      ],
+      "sections": [
+        {
+          "title": "Die Umgebung hört mit",
+          "text": "Zombies reagieren auf Sicht und Geräusche. Schüsse, Arbeiten an Toren und besondere Ereignisse können Aufmerksamkeit auslösen. Ein Schalldämpfer verändert die Geräuschwirkung, macht einen Ausflug aber nicht automatisch sicher."
+        },
+        {
+          "title": "Eine Welt, die auf dich reagiert",
+          "text": "Hocken, Abstand und leisere Ausrüstung helfen bei der Aufmerksamkeit. Auf größere Entfernung untersuchen Zombies Geräusche und nähern sich zunächst schneller; in der Nähe wird die Begegnung wieder gefährlich. Konkrete Dichten und Kampfwerte bestimmt die laufende Serverbalance."
+        },
+        {
+          "title": "Ausrüstung und Rückweg",
+          "text": "Prüfe Munition, Zustand und medizinische Vorräte vor einem gefährlichen Gebiet. Kampfskills können gegen Zombies helfen. Plane trotzdem eine Rückzugsmöglichkeit und achte auf weitere Gegner in deiner Umgebung."
+        },
+        {
+          "title": "Tore bewegen",
+          "text": "Geeignete Schiebetore der Grundkarte lassen sich über „Tor schieben“ greifen. Bewege dich entlang der Schiene; E oder X lässt los. Geschlossene Tore können ein Hindernis bilden, ihre Bewegung macht aber selbst Lärm."
+        }
+      ],
+      "related": [
+        "medizin",
+        "gebiete",
+        "ereignisse"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "world",
+      "quick": [
+        "Sicht, Geräusche und Abstand zählen",
+        "Werkzeuglärm kann Aufmerksamkeit wecken",
+        "Rückweg und Versorgung vorbereiten"
+      ]
+    },
+    {
+      "slug": "ereignisse",
+      "title": "Weltereignisse",
+      "category": "Die Welt",
+      "summary": "Versorgungsabwürfe, Absturzstellen und Konvois bergen Chancen und Gefahren.",
+      "sources": [
+        "[lost_santos]/ls_events/README-DE.md",
+        "[lost_santos]/ls_events/server/main.lua"
+      ],
+      "sections": [
+        {
+          "title": "Ein Signal in der Welt",
+          "text": "Versorgungsabwürfe, Helikopterabstürze und Militärkonvois können als gemeinsame Weltereignisse stattfinden. Eine Meldung nennt die grobe Gegend, und ein Suchkreis hilft auf der Karte. Zeitpunkt und Häufigkeit hängen von den eingerichteten Ereignissen ab."
+        },
+        {
+          "title": "Vor Ort",
+          "text": "Abwürfe landen mit einer Fallschirmkiste, Abstürze und Konvois hinterlassen Wracks. Fackeln und Lärm machen den Ort erkennbar und können Zombies anziehen. Beim Annähern kann eine Horde eintreffen. Nimm ausreichend Ausrüstung mit und bleib nicht nur auf die Kiste konzentriert."
+        },
+        {
+          "title": "Verschlossene Kisten",
+          "text": "Wähle über Alt „Kiste aufbrechen“. Beim Schlossknacken bestätigst du mit E oder Leertaste im Trefferfeld. Fehler machen Lärm und können den Versuch scheitern lassen. Nach dem Entsperren ist die Kiste für alle durchsuchbar. Die Beute ist gemeinsam und das Ereignis bleibt nur begrenzte Zeit bestehen. Dieses Kisten-Minispiel ist noch kein allgemeines Schlosssystem für alle Weltobjekte."
+        },
+        {
+          "title": "Zwei Arten von Konvois",
+          "text": "Die Weltereignis-Konvois hinterlassen eine Ereignisstelle mit Beute. Fraktions-Versorgungsfahrten werden von Spielern gefahren und zum Hauptlager geliefert. Sie haben eigene Fracht-, Zeit- und Übernahmeregeln."
+        }
+      ],
+      "related": [
+        "konvois",
+        "zombies",
+        "looten"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "world",
+      "quick": [
+        "Meldung und Suchkreis beachten",
+        "Gemeinsame Beute · begrenzte Ereignisdauer",
+        "Ereigniskonvoi ≠ Fraktionsfahrt"
+      ]
+    },
+    {
+      "slug": "jahreszeiten",
+      "title": "Wetter & Jahreszeiten",
+      "category": "Die Welt",
+      "summary": "Der Kalender verändert die Atmosphäre von Los Santos.",
+      "sources": [
+        "[lost_santos]/ls_weather/README-DE.md",
+        "[lost_santos]/ls_weather/common/seasons.lua"
+      ],
+      "sections": [
+        {
+          "title": "Eine Saison pro Kalenderwoche",
+          "text": "Der erste Montag eines Monats beginnt mit Frühling, der zweite mit Sommer, der dritte mit Herbst und der vierte mit Winter. Gibt es einen fünften Montag, beginnt erneut Frühling. Der Wechsel ist um 00:00 Uhr deutscher Zeit. Tage vor dem ersten Montag gehören noch zur Saisonwoche des Vormonats."
+        },
+        {
+          "title": "Übergänge statt Schalter",
+          "text": "Am Wochenende können sich bereits Wetterfronten der nächsten Saison zeigen. Winterwochen bringen eine anhaltende Winterlandschaft mit ruhigen Phasen, Schnee und Blizzard. Das Team kann Wetterlagen auch gezielt beeinflussen."
+        },
+        {
+          "title": "Gemeinsame Atmosphäre",
+          "text": "PvE- und PvP-Gebiete teilen Wetter und Spielzeit. Die beschleunigte Spieluhr ist vom echten Wochenkalender getrennt. Der Wetterkalender allein führt noch keine Körpertemperatur- oder Kleidungsschäden ein."
+        }
+      ],
+      "related": [
+        "orientierung",
+        "versorgung",
+        "erste-schritte"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "world",
+      "quick": [
+        "Eine Saison pro Kalenderwoche",
+        "Echter Kalender, getrennte Spieluhr",
+        "Noch keine Körpertemperaturschäden"
+      ]
+    },
+    {
+      "slug": "radios",
+      "title": "Radios in der Welt",
+      "category": "Die Welt",
+      "summary": "Aufnahmen hören und laufende Weltgeräte ausschalten.",
+      "sources": [
+        "[lost_santos]/ls_radio/README-DE.md"
+      ],
+      "sections": [
+        {
+          "title": "Wenn ein Gerät spielt",
+          "text": "Eingerichtete Radios und Funkgeräte können Aufnahmen in ihrer Umgebung wiedergeben. Andere Spieler in derselben Spielwelt hören dieselbe laufende Aufnahme. Die Lautstärke hängt von deiner Entfernung ab."
+        },
+        {
+          "title": "Nicht mit deinem Handfunk verwechseln",
+          "text": "Weltradios spielen eingerichtete Aufnahmen und Musik in der Umgebung. Für Gespräche mit anderen Spielern brauchst du dein Handfunkgerät und eine gemeinsame Frequenz."
+        },
+        {
+          "title": "Ausschalten",
+          "text": "An einem nahen laufenden Gerät kannst du die angebotene Aktion zum Ausschalten nutzen. Damit wird es nicht automatisch zu einem mitnehmbaren Inventargegenstand. Geräusche können bereits vorhandene Zombies anlocken; Ausschalten lässt angelockte Gegner nicht verschwinden."
+        }
+      ],
+      "related": [
+        "funk",
+        "zombies",
+        "ereignisse"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "world",
+      "quick": [
+        "Aufnahmen und Musik aus Weltgeräten",
+        "Alt für angebotene Geräteaktionen",
+        "Handfunk ist ein eigenes System"
+      ]
+    },
+    {
+      "slug": "gesten",
+      "title": "Gesten & Sitzplätze",
+      "category": "Camp & Gemeinschaft",
+      "summary": "Emotes auswählen, Favoriten speichern und eine Pause machen.",
+      "sources": [
+        "[lost_santos]/ls_emotes/config.lua",
+        "[lost_santos]/ls_emotes/client/NUI/LSEmoteMenu.lua",
+        "[lost_santos]/ls_sit/README-DE.md"
+      ],
+      "sections": [
+        {
+          "title": "Das Emote-Menü",
+          "text": "F3 öffnet das Emote-Menü. Suche nach einer passenden Animation oder nutze die Kategorien. Über den Stern speicherst du Favoriten. X beendet eine laufende Animation; F3 oder ESC schließt das Menü."
+        },
+        {
+          "title": "Sitzen und Liegen",
+          "text": "An eingerichteten Sitz- und Liegeplätzen bietet die Interaktion passende Aktionen an. Nicht jede sichtbare Sitzfläche ist bereits als Platz hinterlegt. Nutze die eingeblendeten Hinweise zum Hinsetzen und Aufstehen."
+        }
+      ],
+      "related": [
+        "steuerung",
+        "camp",
+        "gruppen"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "home",
+      "quick": [
+        "F3 · Emotes und Favoriten",
+        "X · Animation beenden",
+        "Alt an eingerichteten Sitzplätzen"
+      ]
+    },
+    {
+      "slug": "temperatur",
+      "title": "Körpertemperatur & Wetterschutz",
+      "category": "In Entwicklung",
+      "status": "planned",
+      "sources": [
+        "[lost_santos]/ls_weather/README-DE.md"
+      ],
+      "reviewedAt": "2026-10-26",
+      "icon": "spark"
+    }
   ]
 }

@@ -30,6 +30,8 @@ jobs:
         run: node tools/build-site.mjs
       - name: Seiten und Verweise prüfen
         run: node tools/check-site.mjs
+      - name: Artikeladressen und öffentliche Inhalte prüfen
+        run: node tools/check-wiki-content.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
