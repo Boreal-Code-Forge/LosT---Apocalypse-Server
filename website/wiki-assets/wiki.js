@@ -112,3 +112,12 @@ if('IntersectionObserver' in window && document.querySelector('.toc')){
   },{rootMargin:'-5% 0px -60% 0px',threshold:0});
   document.querySelectorAll('.article-section').forEach(s=>observer.observe(s));
 }
+
+// Deep links open their explanatory section before scrolling to it.
+function revealSection(){
+ const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(!target)return;
+ for(let el=target;el;el=el.parentElement)if(el.tagName==='DETAILS')el.open=true;
+ requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));
+}
+window.addEventListener('hashchange',revealSection);
+if(location.hash)revealSection();

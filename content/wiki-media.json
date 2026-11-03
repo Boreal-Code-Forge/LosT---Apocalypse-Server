@@ -19,10 +19,15 @@
   ],
   "map": {
     "file": "maps/lost-santos-atlas-8k.png",
-    "original": "work/atlas-symbols-20261016/lost-santos-field-atlas-8192.png",
+    "original": "work/new-dawn-zone-20261031/lost-santos-field-atlas-8192.png",
     "width": 8192,
     "height": 9216,
-    "sha256": "4b9ff55577f0beeaa6d633d360ccf6c9be1628a64595f042defe3d05e8acd2a6",
-    "expectedFromOfficialBuild": "4b9ff55577f0beeaa6d633d360ccf6c9be1628a64595f042defe3d05e8acd2a6"
+    "sha256": "1feb3d8fe6a35b6ed6750c1388f46bf2d156810195a3186b0e165613c34b8532",
+    "expectedFromOfficialBuild": "1feb3d8fe6a35b6ed6750c1388f46bf2d156810195a3186b0e165613c34b8532",
+    "cartographicDate": "2026-10-31",
+    "zoneCheckedAt": "2026-11-03",
+    "zoneId": "zone_1793445153_302",
+    "source": "[lost_santos]/ls_atlas/regions.json",
+    "sourceBlob": "a0d4cac0c811ac5fde5a62574ec4e1a5ced906d0"
   }
 }

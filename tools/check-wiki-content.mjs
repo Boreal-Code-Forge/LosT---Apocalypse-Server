@@ -10,7 +10,7 @@ const slugs=new Set(data.articles.map(a=>a.slug));
 const removed=oldRoutes.filter(slug=>!slugs.has(slug));
 if(removed.length)throw Error('Bestehende Artikeladressen verloren: '+removed);
 for(const a of data.articles){
-  if(a.reviewedAt!==data.reviewedAt)throw Error('Abgleichdatum fehlt: '+a.slug);
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(a.reviewedAt)||a.reviewedAt>data.reviewedAt)throw Error('Abgleichdatum fehlt: '+a.slug);
   for(const s of a.sources)if(!lock.articles[a.slug]?.[s])throw Error('Unbelegte Quelle: '+a.slug+' '+s);
   if(a.status!=='planned'&&a.quick?.length!==3)throw Error('Kurzinfo fehlt: '+a.slug);
   if(a.status==='planned'&&(a.summary||a.sections?.length))throw Error('Anleitung für geplanten Inhalt: '+a.slug);

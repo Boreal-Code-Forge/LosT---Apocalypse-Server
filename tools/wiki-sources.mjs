@@ -18,6 +18,17 @@ for (const a of data.articles) {
   }
 }
 if (args.includes('--record')) {
+  const only=args.find(a=>a.startsWith('--only='))?.slice(7).split(',');
+  if(only){
+    const old=JSON.parse(fs.readFileSync(lockPath,'utf8'));
+    for(const slug of only){if(!current.articles[slug])throw Error('Unbekannter Artikel: '+slug);old.articles[slug]=current.articles[slug];}
+    old.articleReviews??={};
+    for(const slug of only)old.articleReviews[slug]={commit:current.commit,reviewedAt:current.reviewedAt};
+    old.lastPartialReview={commit:current.commit,reviewedAt:current.reviewedAt,articles:only};
+    fs.writeFileSync(lockPath,JSON.stringify(old,null,2)+'\n');
+    console.log(`Gezielte Quellenpruefung: ${only.join(', ')}; andere Quellen unveraendert.`);
+    process.exit(0);
+  }
   fs.writeFileSync(lockPath,JSON.stringify(current,null,2)+'\n');
   console.log(`Quellenstand für ${data.articles.length} Artikel dokumentiert: ${current.commit}`);
 } else {

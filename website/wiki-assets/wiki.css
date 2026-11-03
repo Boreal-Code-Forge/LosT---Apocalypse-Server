@@ -32,3 +32,13 @@ body{background:radial-gradient(ellipse at 85% 0,#34452b20,transparent 55%),var(
 @media(prefers-reduced-motion:reduce){.card,.field-routes>a{transition:none}.card:hover,.field-routes>a:hover{transform:none}}
 @media print{.reading-progress,.quick-guide,.article-kicker>span,.field-routes,.edition{display:none}.article-section p,.article-section li,td{color:#222}.article-section ol li{background:white;border-color:#ccc}.article-section h2,.article-header h1{color:#111}.section-number{color:#555}.shell,.article-layout{display:block}.article-header{padding-top:0}.wiki-banner{display:none}}
 .card{min-width:0}.card h3{overflow-wrap:anywhere;hyphens:auto}@media(max-width:500px){.cards{grid-template-columns:minmax(0,1fr)}}
+
+/* Essentials first; deeper explanations remain directly reachable. */
+.article-detail{border:1px solid var(--line,#39473a);border-radius:7px;margin:14px 0;background:#19231d;scroll-margin-top:20px}
+.article-detail>summary{cursor:pointer;padding:18px 20px;display:list-item;font-size:1.1rem;font-weight:700;color:#eee5ca}
+.article-detail>summary .section-number{margin-right:12px}.article-detail-body{padding:0 22px 20px;line-height:1.7}
+.article-detail[open]>summary{border-bottom:1px solid #39473a;margin-bottom:16px}
+.nav-group>summary{cursor:pointer;color:#cfc49b;font-weight:700;padding:12px 0;list-style-position:inside}
+.nav-group>summary svg{width:16px;height:16px;vertical-align:middle;margin-right:7px}.nav-group[open]{padding-bottom:10px}
+.article-detail>summary:focus-visible,.nav-group>summary:focus-visible{outline:2px solid #cfc49b;outline-offset:4px}
+@media(max-width:600px){.article-detail>summary{padding:15px}.article-detail-body{padding:0 15px 15px}}

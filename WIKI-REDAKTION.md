@@ -1,3 +1,7 @@
+## Gesamtredaktion 03.11.2026
+
+Auf Betreiberauftrag alle Themen redaktionell gesichtet; Fahrzeuge, Ausrüstung, Loot, Energie und Gemeinschaft gegen den aktuellen veröffentlichten Spielstand aktualisiert. Erste Schritte vor Details, Kategorien und Vertiefungen einklappbar. Aktueller New-Dawn-Atlas samt Vorschau. [Prüfung und Veröffentlichungsnachweise](docs/wiki-20261103/README-DE.md).
+
 # Wiki · Ausgabe 02 · 26.10.2026
 
 Der gesamte Artikelbestand wurde mit dem veröffentlichten Projektstand

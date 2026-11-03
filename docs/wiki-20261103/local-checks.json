@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "htmlPages": 38,
+  "articles": 35,
+  "activeArticles": 34,
+  "plannedArticles": 1,
+  "sourceCommit": "953632558bafa8a30e0b7a601eb02c39e79353d0",
+  "browser": {
+    "searchVehicle": true,
+    "navigationCategories": true,
+    "deepLinkOpensDetails": true,
+    "desktopWidth": 1280,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "mapNaturalWidth": 8192,
+    "mapNaturalHeight": 9216
+  },
+  "nativeGameAcceptance": false
+}

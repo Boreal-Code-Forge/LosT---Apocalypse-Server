@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-26",
+  "reviewedAt": "2026-11-03",
   "articles": [
     {
       "slug": "erste-schritte",
@@ -44,7 +44,7 @@
         "looten",
         "fraktionen"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "compass",
       "quick": [
         "TAB · Inventar",
@@ -154,7 +154,7 @@
         "funk",
         "inventar"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "compass",
       "quick": [
         "Standardtasten sind umbelegbar",
@@ -169,8 +169,9 @@
       "summary": "Straßen und Landschaft erkunden – mit dem vollständigen 8K-Atlas.",
       "map": true,
       "sources": [
-        "docs/atlas-symbols-20261016/README-DE.md",
-        "docs/atlas-symbols-20261016/tiles-build.json"
+        "[lost_santos]/ls_atlas/regions.json",
+        "docs/new-dawn-zone-20261031/README-DE.md",
+        "docs/new-dawn-zone-20261031/tiles-build.json"
       ],
       "sections": [
         {
@@ -182,8 +183,8 @@
           "text": "Die Karte liegt unverändert mit 8.192 × 9.216 Pixeln vor. Zunächst lädt eine kleine Vorschau. Beim Vergrößern oder über „8K laden“ wird das vollständige Original nachgeladen. Über den Originallink kannst du es direkt im Browser öffnen."
         },
         {
-          "title": "Stand der eingezeichneten Gebiete",
-          "text": "Die eingebrannten Grenzen und Symbole stammen vom 16. Oktober 2026. Nutze für aktuelle PvP-Grenzen die Karte und Hinweise im Spiel, für Gebietsbesitz den taktischen Fraktionstisch. Dieser Atlas ist eine Orientierungshilfe ohne Live-Status."
+          "title": "Aktuelle Lagerposition, kein Live-Layer",
+          "text": "Der Feldatlas nutzt den Kartenstand vom 31. Oktober 2026. New Dawn ist am aktuellen Hauptlager in der Grand-Senora-Wüste eingezeichnet. Die Safezone-Grenze wurde am 3. November mit der gespeicherten Zone abgeglichen. Gebietsbesitz und laufende Konflikte ändern das Bild nicht automatisch: Dafür gelten der taktische Fraktionstisch und die aktuellen Hinweise im Spiel."
         }
       ],
       "related": [
@@ -191,11 +192,11 @@
         "gebiete",
         "faction-war"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "compass",
       "quick": [
         "8K wird erst bei Aktion geladen",
-        "Eingebrannte Gebietsgrenzen: Stand 16.10.",
+        "New Dawn am aktuellen Hauptlager",
         "Aktuellen Gebietsbesitz am Taktiktisch ansehen"
       ]
     },
@@ -208,7 +209,8 @@
         "[lost_santos]/ls_hud/README.md",
         "[lost_santos]/ls_hud/client/survival_navigation.lua",
         "[lost_santos]/ls_social/README-DE.md",
-        "[lost_santos]/ls_zones/README-DE.md"
+        "[lost_santos]/ls_zones/README-DE.md",
+        "docs/camp-gps-compact-20261103/README-DE.md"
       ],
       "sections": [
         {
@@ -218,6 +220,10 @@
         {
           "title": "Die Anzeige anpassen",
           "text": "Unter ESC erreichst du HUD-Anpassung und Einstellungen. Verschiebe, skaliere oder blende die angebotenen Blöcke aus und wähle deinen Stil. Spielernamen, Pager und Funkanzeige lassen sich gezielt einstellen. Deine bevorzugte Darstellung verändert keine Spielregeln."
+        },
+        {
+          "title": "Im Hauptlager zurechtfinden",
+          "text": "Beim Betreten der drei Hauptsafezones erscheint eine passende Lagerkarte. Rollenfelder zeigen Händler, Leitung, Garage und persönliches Lager. Q blendet Namen und Aufgaben in der Legende ein oder aus; der Hinweis steht direkt in der Karte. Deko-Wachen fehlen bewusst. Das Lager-GPS lässt sich in den Anzeigeeinstellungen getrennt vom normalen GPS anpassen."
         },
         {
           "title": "Andere Spieler finden",
@@ -234,7 +240,7 @@
         "gruppen",
         "steuerung"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "compass",
       "quick": [
         "Karten-Item für die große Karte",
@@ -246,14 +252,16 @@
       "slug": "inventar",
       "title": "Inventar & Ausrüstung",
       "category": "Überleben",
-      "summary": "Taschen, Gewicht, Kleidung und Schnellplätze sinnvoll nutzen.",
+      "summary": "Taschen, Gewicht und Schutz – nimm mit, was dich wirklich weiterbringt.",
       "sources": [
         "[lost_santos]/ls_inventory/README-DE.md",
         "[lost_santos]/ls_inventory/client/main.lua",
         "[lost_santos]/ls_inventory/web",
         "[lost_santos]/ls_inventory/shared/engine.lua",
         "[lost_santos]/ls_inventory/shared/helmets.lua",
-        "[lost_santos]/ls_inventory/shared/protection.lua"
+        "[lost_santos]/ls_inventory/shared/protection.lua",
+        "docs/merchant-images-20261101/README-DE.md",
+        "docs/starter-underlayers-20261102/README-DE.md"
       ],
       "sections": [
         {
@@ -280,6 +288,10 @@
         {
           "title": "Helm, Weste und Schutzkleidung",
           "text": "Diese Schutzarten wirken getrennt. Geeignete Helme mindern PvP-Kopftreffer und verlieren dabei Zustand; nicht jede Kopfbedeckung ist ein Schutzhelm. Westen stellen Panzerung bereit, andere geeignete Kleidungsstücke tragen zum Zombieschutz bei. Entscheidend sind die tatsächlichen Gegenstandswerte und ihr Zustand."
+        },
+        {
+          "title": "Bilder, Werte und Zustand",
+          "text": "Kleidung und Rucksäcke verwenden gemeinsame Kategorienbilder. Das Bild ist keine genaue Vorschau jeder Farbe oder Passform. Prüfe Name, Körperpassform, Ausrüstungsplatz, Schutz, Gewicht und Taschenraster in den Details. Oberteil und Unterziehshirt belegen Jacken- beziehungsweise T-Shirt-Platz. Waffen und Schutzwesten nutzen sich weiterhin ab."
         }
       ],
       "related": [
@@ -287,48 +299,83 @@
         "crafting",
         "medizin"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "pack",
       "quick": [
         "Raster UND Gewicht begrenzen dich",
         "Kleidung und Rucksäcke liefern Taschen",
         "Zustand deiner Werkzeuge im Blick behalten"
-      ]
+      ],
+      "navTitle": "Inventar & Ausrüstung"
     },
     {
       "slug": "looten",
       "title": "Loot & Vorräte",
       "category": "Überleben",
-      "summary": "Fundstellen durchsuchen und mit gemeinsamen Vorräten umgehen.",
+      "summary": "Alle zwei Stunden neue Weltfunde – gezielt suchen und Beute teilen.",
       "sources": [
         "[lost_santos]/ls_inventory/README-DE.md",
-        "[lost_santos]/ls_inventory/LOOT-DE.md",
-        "[lost_santos]/ls_hunting/README-DE.md",
-        "[lost_santos]/ls_inventory/web",
-        "[lost_santos]/ls_inventory/server/world-props.lua",
-        "[lost_santos]/ls_inventory/server/loot-economy.lua",
-        "[lost_santos]/ls_zones/server/main.lua"
+        "[lost_santos]/ls_inventory/server/loot-planner.lua",
+        "[lost_santos]/ls_inventory/server/loot-cycle.lua",
+        "[lost_santos]/ls_inventory/shared/economy-cycle.lua",
+        "[lost_santos]/ls_inventory/shared/skill-loot.lua",
+        "[lost_santos]/ls_inventory/shared/item-values.lua",
+        "[lost_santos]/ls_skills/server/field-trees.lua",
+        "docs/economy-rework-20261101/README-DE.md",
+        "docs/corpse-weapon-unique-20261103/README-DE.md"
       ],
       "sections": [
         {
           "title": "Suchen und mitnehmen",
-          "text": "Halte Alt, visiere eine zugeordnete Fundstelle an und wähle die Suchaktion. Nach Abschluss kannst du die vorhandenen Funde übernehmen. Nicht jedes sichtbare Objekt ist lootbar. Ganze zugeordnete Props lassen sich an ihrer erreichbaren Oberfläche auswählen; du musst keinen unsichtbaren Mittelpunkt treffen."
+          "text": "Halte Alt, visiere eine zugeordnete Fundstelle an und wähle die Suchaktion. Nach Abschluss kannst du die vorhandenen Funde übernehmen. Nicht jedes sichtbare Objekt ist lootbar. Ein erneutes Öffnen desselben Behälters würfelt den Inhalt nicht neu."
         },
         {
-          "title": "Der Ort bestimmt den Fund",
-          "text": "Medizinbehälter, Lebensmittelvorräte, Werkstätten und Baustellen haben verschiedene Fundschwerpunkte. Suche Werkzeuge und Ersatzteile gezielt an passenden Orten. Müllbehälter ersetzen kein Waffenlager."
+          "title": "Der Fundort zählt",
+          "text": "Medizinbehälter, Werkstätten, Vorratskisten und andere Quellen haben passende Fundschwerpunkte. Zuerst werden geeignete Warenarten ausgewählt, anschließend konkrete Gegenstände. Viele Kleidungsvarianten verdrängen deshalb nicht automatisch Materialien oder Medizin. Ein leerer Fund bleibt möglich."
         },
         {
-          "title": "Gemeinsame Bestände",
-          "text": "Normale Weltvorräte werden mit anderen Spielern geteilt. Persönliches Einstiegsgepäck bildet eine Ausnahme. Nicht jede Quelle hat denselben Auffüllrhythmus; wiederholtes Öffnen erzeugt keinen neuen Vorrat."
+          "title": "Nachschub alle zwei Stunden",
+          "text": "Der gewöhnliche Weltloot erneuert sich in gemeinsamen Zwei-Stunden-Zeiträumen. Die Spielanzeige meldet den freigegebenen Nachschub. Ein Login oder Serverneustart startet keinen zusätzlichen eigenen Lootzyklus. Die früheren globalen Wochenkontingente begrenzen normale Itemfunde nicht mehr."
         },
         {
-          "title": "Safezonen bleiben Versorgungsorte",
-          "text": "Behälter in normalen Safezonen sind vom Weltloot ausgeschlossen und zählen nicht als verfügbare Wochenfundstellen. Die nördliche Startzone ist die Ausnahme. Persönliches Startgepäck, eigene Lager und andere Spezialinteraktionen folgen ihren eigenen Regeln."
+          "title": "Gemeinsame Beute, geschützter Besitz",
+          "text": "Normale Weltfundstellen werden mit anderen Spielern geteilt. Ein anderer Spieler kann einen Behälter bereits geleert haben. Der Nachschub leert weder deine Taschen noch Basevorräte oder persönliche Lager. Persönliches Startgepäck und einmalige Leichen oder Ereigniskisten werden durch den gewöhnlichen Lootwechsel nicht erneut befüllt."
         },
         {
-          "title": "Wirtschaftswoche",
-          "text": "Jagdpopulation, Fahrzeug-Wochenfunde und allgemeine Ressourcen orientieren sich am gemeinsamen Wochenwechsel am Sonntag um 18 Uhr deutscher Zeit. Der neue wirtschaftliche Stand wird beim ersten vollständigen Serverstart nach dieser Grenze übernommen. Gesicherte persönliche Bestände und Camp-Lager werden dadurch nicht pauschal geleert."
+          "title": "Farben richtig lesen",
+          "table": {
+            "headers": [
+              "Klasse",
+              "Kennzeichnung"
+            ],
+            "rows": [
+              [
+                "Zivil / Gewöhnlich",
+                "Grau"
+              ],
+              [
+                "Outlaw",
+                "Grün"
+              ],
+              [
+                "Behörde",
+                "Lila"
+              ],
+              [
+                "Militär",
+                "Gold"
+              ]
+            ]
+          },
+          "text": "Die Farbe gehört zum Gegenstand oder seiner Kleidungsvariante. Der Fundort färbt ihn nicht automatisch um und garantiert keine Zusatzboni. Die Klasse allein ist keine feste Drop-Prozentzahl: Quelle, geeignete Warenart und Auswahlgewichte spielen zusammen."
+        },
+        {
+          "title": "Fundglück",
+          "text": "Die drei Fundglück-Talente im Plündernbaum verbessern die relative Chance geeigneter höherwertiger Funde insgesamt um 10, 20 oder 30 Prozent. Das gilt innerhalb der dafür geeigneten Auswahl, erhöht nicht pauschal jeden Fund und schaltet keine unpassenden Gegenstände frei. Zustand, Schutzwerte, Stauraum und Gewicht bleiben beim Ausrüsten entscheidend."
+        },
+        {
+          "title": "Safezones und besondere Quellen",
+          "text": "Normale Safezone-Behälter sind vom Weltloot ausgeschlossen; das persönliche Startgepäck folgt eigenen Regeln. Tiere, Fischbestände und endliche Naturressourcen haben eigene Regeln für Population und Erholung. Der Itemnachschub erzeugt keine neue Tier- oder Fahrzeugpopulation."
         }
       ],
       "related": [
@@ -337,12 +384,12 @@
         "fraktionen",
         "ueberlebensbaum"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "pack",
       "quick": [
-        "Alt → Durchsuchen → mitnehmen",
-        "Gemeinsamer endlicher Weltvorrat",
-        "Normale Safezonen ohne Behälterloot"
+        "Weltloot: gemeinsamer Zwei-Stunden-Zyklus",
+        "Farben sind keine festen Drop-Prozente",
+        "Eigene Vorräte bleiben erhalten"
       ]
     },
     {
@@ -421,7 +468,7 @@
       ],
       "icon": "pack",
       "navTitle": "Naturressourcen",
-      "reviewedAt": "2026-10-26"
+      "reviewedAt": "2026-11-03"
     },
     {
       "slug": "jagd",
@@ -456,7 +503,7 @@
         "fahrzeuge",
         "looten"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "pack",
       "quick": [
         "Geeignetes Messer nötig",
@@ -473,7 +520,7 @@
         "[lost_santos]/ls_inventory/client/fishing.lua",
         "[lost_santos]/ls_inventory/server/fishing.lua"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "summary": "Angelrute bauen, einen Platz am Ufer finden und den Fang einholen.",
       "sections": [
         {
@@ -521,7 +568,9 @@
         "[lost_santos]/ls_inventory/shared/camp-crafting.lua",
         "[lost_santos]/ls_bases/README-DE.md",
         "[lost_santos]/ls_hunting/README-DE.md",
-        "[lost_santos]/ls_inventory/web"
+        "[lost_santos]/ls_inventory/web",
+        "docs/handwerk-20261103/README-DE.md",
+        "docs/farm-kitchen-20261102/README-DE.md"
       ],
       "sections": [
         {
@@ -533,8 +582,8 @@
           "text": "Fertige Arbeitsplätze und ihre nahe Ausstattung erschließen passende Rezepte. Die Ansicht nennt die erforderliche Arbeitsplatzstufe, Werkzeuge und Materialien. Zugängliche gemeinsame Campvorräte können einfließen; persönliche Lager bleiben getrennt. Freigeschaltete Talente ersetzen keinen tatsächlich fehlenden Arbeitsplatz."
         },
         {
-          "title": "Küche und Lebensmittel",
-          "text": "Die Küche verarbeitet unter anderem Rohwasser und Fleisch. Höhere Stufen bieten aufwendigere und haltbarere Mahlzeiten. Achte auf Verfallszeiten: Verdorbene Nahrung lässt sich nicht mehr regulär essen oder weiterverarbeiten. Unbehandeltes Wasser ist riskant; nutze saubere Quellen oder koche es ab."
+          "title": "Kochen und Vorräte haltbar machen",
+          "text": "Die Küche verarbeitet Fleisch, Gemüse und Wasser zu passenden Mahlzeiten. Der Kochbaum erschließt aufwendigere Gerichte, Vorratsrezepte, Lebensmittelwissen und schnellere Arbeit. Die erforderlichen Talente, Zutaten und Küchenstufen stehen am Rezept. Abgelaufene Nahrung wird nicht durch Kochen wieder frisch."
         },
         {
           "title": "Tierverwertung",
@@ -543,6 +592,10 @@
         {
           "title": "Weizen, Mais und die Küche",
           "text": "Aus eigenem Weizen entsteht mit Hammer Mehl, daraus an der Campküche Brot. Mais dient als Nahrung und Gemüsezutat. Gesperrte Talentrezepte sind noch keine herstellbaren Produkte; die angezeigte Rezeptliste ist maßgeblich."
+        },
+        {
+          "title": "Handwerk im Alltag",
+          "text": "An der Werkbank verarbeitest du Holz, Textilien und Metall, fertigst passende Ausrüstung oder reparierst Werkzeuge. Rückgewinnung, größere Rucksäcke und bessere Werkzeugreparatur hängen von deinen erlernten Talenten ab. Lies die konkrete Materialliste und das mögliche Ergebnis vor dem Start."
         }
       ],
       "related": [
@@ -550,7 +603,7 @@
         "jagd",
         "inventar"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "pack",
       "quick": [
         "Rezeptliste zeigt echte Anforderungen",
@@ -567,7 +620,8 @@
         "[lost_santos]/ls_medical/README-DE.md",
         "[lost_santos]/ls_medical/shared/injuries.lua",
         "[lost_santos]/ls_medical/client/menu.lua",
-        "[lost_santos]/ls_medical/html"
+        "[lost_santos]/ls_medical/html",
+        "docs/npc-infection-20261101/README-DE.md"
       ],
       "sections": [
         {
@@ -589,6 +643,10 @@
         {
           "title": "Komfort ist Unterstützung",
           "text": "Eine geeignete stationäre Campumgebung kann deine Erholung verbessern. Gute Nahrung und Wasser helfen; Bewegung oder neue Schäden können Ruhephasen beenden. Behandlung, Aufhelfen und vollständige Genesung sind verschiedene Schritte."
+        },
+        {
+          "title": "Hilfe beim Sanitäter",
+          "text": "Ein eingerichteter Sanitäter bietet gegen Handelsmünzen eine Behandlung an. Sie behandelt Verletzungen und auch die Infektion. Den Preis und die Wirkung prüfst du vor der Bestätigung. Für Versorgung unterwegs brauchst du weiterhin die passenden Mittel und Kenntnisse."
         }
       ],
       "related": [
@@ -596,7 +654,7 @@
         "camp",
         "inventar"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "pack",
       "quick": [
         "M · Deine Patientenakte",
@@ -613,7 +671,7 @@
         "[lost_santos]/ls_skills/server/background.lua",
         "docs/creator-profession-20261025/README-DE.md"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "summary": "Wähle deinen früheren Beruf und verteile die ersten Level im Charakterersteller.",
       "sections": [
         {
@@ -736,11 +794,11 @@
       "sections": [
         {
           "title": "Das Fähigkeitenbuch",
-          "text": "Öffne L → Fähigkeiten. Alle Charaktere haben Zugang zu denselben 13 Bäumen: Mechanik, Medizin, Handwerk, Bauen, Kochen, Farming, Überleben, Plündern, Körper, Waffentechnik, Nahkampf, Schusswaffen und Explosives."
+          "text": "Öffne L → Fähigkeiten und wähle ein Fachgebiet. Dein früherer Beruf gibt Startkenntnisse; du bestimmst selbst, welche Talente du mit deinen Punkten ausbaust. Alle Fachgebiete bleiben erlernbar."
         },
         {
           "title": "Level und Talentpunkte sind verschieden",
-          "text": "Jedes erreichte Level liefert einen Punkt im jeweiligen Fach. Höchstlevel ist 15; jeder Baum hat 15 bezahlte Einpunkt-Knoten. Du kaufst die gewünschten Knoten selbst. Startlevel kaufen keine Talente automatisch. Vorgänger und tatsächliche Anforderungen bleiben bestehen."
+          "text": "Ein Fachlevel gibt dir einen Talentpunkt dieses Fachs. Du wählst den gewünschten Knoten selbst; ein Doppelklick mit anschließender Bestätigung erleichtert die Auswahl. Vorgänger und angezeigte Voraussetzungen bleiben nötig. Ein höheres Level kauft keine Talente automatisch."
         },
         {
           "title": "Praxis zahlt sich aus",
@@ -765,7 +823,7 @@
         "farming",
         "ueberlebensbaum"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "spark",
       "quick": [
         "13 Bäume · Höchstlevel 15",
@@ -782,9 +840,10 @@
         "docs/skills-professions-20261025/UMSETZUNG-DE.md",
         "[lost_santos]/ls_inventory/server/nature.lua",
         "[lost_santos]/ls_inventory/server/fishing.lua",
-        "[lost_santos]/ls_hunting/server/main.lua"
+        "[lost_santos]/ls_hunting/server/main.lua",
+        "docs/survival-tracks-20261103/README-DE.md"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "summary": "Gewinnung, Jagdverwertung und Werkzeugschonung über echte Tätigkeiten verbessern.",
       "sections": [
         {
@@ -800,8 +859,8 @@
           "text": "Ein Ertragsbonus entnimmt weiterhin aus dem tatsächlich vorhandenen gemeinsamen Vorrat. Eine leere Quelle bleibt leer. Werkzeuge, Platz, Gewicht und konkrete Standortregeln bleiben erforderlich."
         },
         {
-          "title": "Fährten und weitere Ausbauten",
-          "text": "Noch fehlende Spezialfunktionen wie die vorgesehene Fährtenkunde sind mit „Kommt später“ gesperrt. Du kannst dafür keine Talentpunkte ausgeben. Der vorhandene Sammel- und Jagdalltag bleibt davon unabhängig spielbar."
+          "title": "Landtierspuren lesen",
+          "text": "Mit den passenden Spurenleser-Talenten kannst du über /spuren nahe Landtierspuren am Boden erkennen. Weitere Kenntnisse verraten Art, Richtung und ungefähres Alter. Die Hinweise stammen von vergangenen Bewegungen: Sie garantieren weder ein noch lebendes Tier noch einen neuen Fund."
         }
       ],
       "related": [
@@ -820,49 +879,34 @@
     },
     {
       "slug": "mechanik",
-      "title": "Reparatur & Forschung",
+      "title": "Werkstatt & Modellwissen",
       "category": "Entwicklung",
-      "summary": "Bauteile erforschen und passende Reparaturen freischalten.",
+      "summary": "Fahrzeuge reparieren, Modelle erforschen und passende Umbauwege finden.",
       "sources": [
         "[lost_santos]/ls_vehicles/FORSCHUNG-DE.md",
         "[lost_santos]/ls_vehicles/MECHANIK-DE.md",
         "[lost_santos]/ls_skills/README-DE.md",
-        "[lost_santos]/ls_inventory/web"
+        "[lost_santos]/ls_inventory/web",
+        "docs/vehicle-system-2-20261102/README-DE.md",
+        "[lost_santos]/ls_vehicles/shared/models.json",
+        "[lost_santos]/ls_skills/server/professions/mechanic.lua"
       ],
       "sections": [
         {
-          "title": "Warum eine Reparatur gesperrt sein kann",
-          "text": "Für Reparatur und Einbau brauchst du den passenden Fahrzeugknoten, ausreichendes Bauteilwissen, Werkzeuge und Materialien. Bestimmte Arbeiten erfordern zusätzlich eine Werkstatt. Die Technikansicht nennt die Anforderungen.",
-          "table": {
-            "headers": [
-              "Unterwegs mit passendem Werkzeug",
-              "Werkstatt erforderlich"
-            ],
-            "rows": [
-              [
-                "Räder, Bremsen, Batterie",
-                "Motor, Getriebe, Tank"
-              ],
-              [
-                "Türen, Motorhaube, Heckklappe",
-                "Stoßdämpfer und Chassis"
-              ]
-            ]
-          }
+          "title": "Dein Einstieg in die Werkstatt",
+          "text": "Öffne die Fahrzeugtechnik oder die Werkstatt am Mechanikmodul. Unter Reparaturen, Verbessern und Gestalten findest du passende Arbeiten. Fehlt eine Voraussetzung, zeigt dir die Aktion, ob Werkzeug, Material, Talent oder Arbeitsplatz benötigt wird."
         },
         {
-          "title": "Teile zerlegen und erforschen",
-          "steps": [
-            "Gehe in eine öffentliche Werkstatt oder an ein geeignetes eigenes Mechanikmodul.",
-            "Öffne Handwerk → Fahrzeugforschung und wähle ein konkretes Bauteil.",
-            "Prüfe Herkunft und angezeigten Wissenszuwachs.",
-            "Starte „Teil zerlegen und erforschen“. Das Teil wird dabei verbraucht und dein Werkzeug beansprucht."
-          ],
-          "text": "Wissen ist an Bauteile und Fahrzeugmodelle beziehungsweise Familien gebunden. Die Bauteilakte im Mechanikbereich zeigt, was noch fehlt. Ausbauen und Erforschen sind bereits ohne Reparaturfreischaltung möglich."
+          "title": "Modelle und Baupläne verstehen",
+          "text": "Unter Modelle & Forschung vergleichst du die vier Wertigkeiten und die Wege zum jeweiligen Fahrzeug. Ein normaler Fund, ein Bauplanfahrzeug und ein Umbau aus einem Spenderfahrzeug sind unterschiedliche Möglichkeiten. Nicht jedes Modell lässt sich frei herstellen."
         },
         {
-          "title": "Werkstatt und Umbauten",
-          "text": "Das Mechanikmodul hat drei Stufen. Fahrzeugkategorie, erlernte Knoten, Rezept und Wissen bestimmen die verfügbaren Arbeiten. Baupläne und Upgrade-Teile müssen tatsächlich vorhanden sein. Ein freigeschalteter Skillknoten allein erzeugt kein Fahrzeug und kein Tuningteil."
+          "title": "Ein Modell erforschen",
+          "text": "Starte die Forschung an einem passenden Fahrzeug oder mit einer geeigneten Blaupause in der Werkstatt. Du lernst das ganze Modell. Höhere Wertigkeiten benötigen mehr Zeit; mit wachsendem Mechaniklevel kannst du mehr Projekte gleichzeitig betreuen. Die Forschungsansicht zeigt Fortschritt und Voraussetzungen."
+        },
+        {
+          "title": "Talente, Umbau und Übung",
+          "text": "PKW, Motorräder, LKW, Spezialfahrzeuge und Tuning haben eigene Talentzweige. Wähle sie passend zu deinem Vorhaben. Modellwissen ersetzt weder Material noch Werkstatt. Sinnvolle Reparaturen und Fahren bringen Praxis; ein Umbau übernimmt den Zustand des Spenderfahrzeugs."
         }
       ],
       "related": [
@@ -870,13 +914,14 @@
         "fahrzeuglager",
         "camp"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "spark",
       "quick": [
-        "Werkzeug + Wissen + Talent + Arbeitsplatz",
-        "Forschung verbraucht das konkrete Teil",
-        "Anforderungen stehen in der Technikansicht"
-      ]
+        "Werkstatt: Reparieren, verbessern, gestalten",
+        "Modelle & Forschung zeigt Fund- und Bauwege",
+        "Modellwissen und Talente ergänzen sich"
+      ],
+      "navTitle": "Werkstatt & Modellwissen"
     },
     {
       "slug": "camp",
@@ -959,7 +1004,7 @@
         "farming",
         "gruppen"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "home",
       "quick": [
         "Vier verbundene 15 × 15-m-Startblöcke",
@@ -976,7 +1021,9 @@
         "[lost_santos]/ls_bases/README-DE.md",
         "[lost_santos]/ls_social/README-DE.md",
         "[lost_santos]/ls_factions/README-DE.md",
-        "docs/basebuilding-2-20261024/README-DE.md"
+        "docs/basebuilding-2-20261024/README-DE.md",
+        "docs/inventory-slim-20261102/README-DE.md",
+        "docs/npc-services-20261031/README-DE.md"
       ],
       "sections": [
         {
@@ -992,12 +1039,12 @@
           "text": "Schlafplatz, Überdachung, Sitzmöbel und elektrische Ausstattung können stationäre Erholung im Camp verbessern. Nahrung, Wasser und medizinische Versorgung bleiben wichtig. Ein Bett beseitigt nicht jede Verletzung sofort."
         },
         {
-          "title": "Noch kein eigenes Camp?",
-          "text": "Eingerichtete NPC-Übergangslager bieten persönliche 10 × 10 Felder. Solange du keine eigene Base gegründet hast, kannst du einlagern. Danach bleiben vorhandene Vorräte abholbar; neue Einzahlungen sind gesperrt. Alle solchen NPCs öffnen dasselbe persönliche Übergangslager."
+          "title": "Dein persönliches Außenpostenlager",
+          "text": "Ohne eigene Base kannst du beim Lager-NPC persönliche Vorräte aufbewahren und den Platz gegen Handelsmünzen stufenweise erweitern. Alle solchen NPCs öffnen denselben persönlichen Bestand. Mit eigener Base bleiben alte Vorräte abholbar; neue Einzahlungen und weitere Erweiterungen sind dann eingeschränkt. Die angebotene Stufe und den Preis siehst du vor dem Kauf."
         },
         {
-          "title": "Nahrung richtig lagern",
-          "text": "Haltbarkeit bleibt Teil des Alltags. Ein angeschlossener Kühlschrank hilft nur während tatsächlicher Stromversorgung. Generator leer, Leitung getrennt oder Leistung überlastet? Dann ist die Kühlung nicht gesichert."
+          "title": "Verderb und Kühlung",
+          "text": "Ein versorgter Kühlschrank hilft bei der Haltbarkeit. Ohne Strom läuft die Kühlung nicht weiter. Abgelaufene verderbliche Nahrung wird zu ungenießbaren organischen Resten. Daraus wird keine frische Mahlzeit; geeignete Reste lassen sich mit dem passenden Ausbau kompostieren."
         }
       ],
       "related": [
@@ -1005,7 +1052,7 @@
         "stromnetz",
         "medizin"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "home",
       "quick": [
         "Packtisch verwaltet physische Lager",
@@ -1022,9 +1069,10 @@
         "[lost_santos]/ls_inventory/server/farming.lua",
         "[lost_santos]/ls_skills/server/farming.lua",
         "docs/base-cereals-20261025/README-DE.md",
-        "[lost_santos]/ls_inventory/shared/field-crops.lua"
+        "[lost_santos]/ls_inventory/shared/field-crops.lua",
+        "docs/farm-kitchen-20261102/README-DE.md"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "summary": "Vom Saatkorn bis zur Ernte: fünf Sorten, vier Wachstumsstufen und echte Pflege.",
       "sections": [
         {
@@ -1080,6 +1128,10 @@
         {
           "title": "Die Felder draußen",
           "text": "Das saisonale Paleto-Mischfeld bietet Karotten, Kartoffeln und Tomaten. Die Saison beeinflusst das Vorkommen. Weizen und Mais gehören zum eigenen Anbau und sind keine zusätzlichen Wildfeldsorten."
+        },
+        {
+          "title": "Saat gewinnen und kompostieren",
+          "text": "Mit den passenden Farming-Talenten gewinnst du Saat aus geeigneter frischer Ernte an der Handwerks-Werkbank. Eine ausgebaute Kompostkiste verarbeitet passende organische Reste. Die Oberfläche zeigt Eingaben, Fortschritt und benötigte Talente. Mehr Ertrag, Saat und schnellere Arbeit kommen aus gewählten Talenten, nicht aus automatisch freigeschalteten Sortenleveln."
         }
       ],
       "related": [
@@ -1098,65 +1150,25 @@
     },
     {
       "slug": "stromnetz",
-      "title": "Licht in der Dunkelheit",
+      "title": "Strom für deine Base",
       "category": "Camp & Gemeinschaft",
-      "summary": "Generatoren, Solar und Batterien zu einem funktionierenden Stromnetz verbinden.",
+      "summary": "Solar, Akkus und Generatoren versorgen deine Geräte automatisch.",
       "sections": [
         {
-          "title": "Dein erstes Kabel",
-          "steps": [
-            "Stelle Stromquelle und Verbraucher auf. Unter Elektrik findest du die vorhandenen Bauteile und das Kabelwerkzeug.",
-            "Wähle mit dem Kabelwerkzeug einen Ausgang und anschließend einen Eingang. G setzt Zwischenpunkte.",
-            "Rechtsklick am Anschluss entfernt die Leitung, ESC beendet das Werkzeug.",
-            "Prüfe Quelle, Schalter und Leistung, bevor du dich auf Licht oder Kühlung verlässt."
-          ]
+          "title": "Deine Base mit Strom versorgen",
+          "text": "Stelle Solar oder einen Kraftstoffgenerator und die benötigten Verbraucher in deiner Base auf. Fertige Geräte werden automatisch zugeordnet. Du musst keine Kabel, Verteiler oder Anschlussketten bauen."
         },
         {
-          "title": "Was die Bauteile machen",
-          "table": {
-            "headers": [
-              "Bauteil",
-              "Aufgabe"
-            ],
-            "rows": [
-              [
-                "Generator",
-                "Kraftstoff in verfügbare Leistung umsetzen"
-              ],
-              [
-                "Solar",
-                "Strom aus der verfügbaren Sonneneinstrahlung"
-              ],
-              [
-                "Batterie",
-                "Energie speichern; Ladung und Zustand bleiben beim Einpacken erhalten"
-              ],
-              [
-                "Schalter",
-                "Einen Leitungszweig schalten"
-              ],
-              [
-                "Dreifachverteiler / Stromzweig",
-                "Leistung aufteilen oder einen Abzweig einstellen"
-              ],
-              [
-                "Quellenkombinierer",
-                "Geeignete Quellen im gerichteten Netz zusammenführen"
-              ],
-              [
-                "Lampe / Campgerät",
-                "Versorgung tatsächlich verbrauchen"
-              ]
-            ]
-          }
+          "title": "Solar, Generator und Akku",
+          "text": "Solar liefert Energie aus Sonneneinstrahlung. Akkus speichern Überschüsse und können später fehlende Leistung ausgleichen. Ein eingeschalteter Generator liefert Energie, solange Kraftstoff und Zustand reichen. Er startet nicht automatisch, wenn der Tank oder die Strombilanz es erfordern."
         },
         {
-          "title": "Leistung ist begrenzt",
-          "text": "Verbraucher teilen sich die verfügbare Leistung. Eine Leitung allein garantiert keinen laufenden Verbraucher. Für direkte Leitungen gelten bis zu 40 Meter und zehn Zwischenpunkte; Drahtbedarf wird je angefangene fünf Meter berechnet."
+          "title": "Reicht die Leistung?",
+          "text": "Über Alt am Basegerät siehst du die Versorgung. Erzeugung und Akkuleistung müssen den Bedarf decken. Kühlung wird vorrangig versorgt. Ein voller Akku ersetzt keine unbegrenzte Ausgangsleistung; zusätzliche Geräte erhöhen den Bedarf."
         },
         {
-          "title": "Vor dem Umbau",
-          "text": "Löse Leitungen, bevor du verbundene Geräte versetzt oder einpackst. Kühlschränke werten nur tatsächlich gelieferte Stromzeit. Ausschalten und Neustart machen gelagerte Nahrung nicht wieder frisch."
+          "title": "Nahrung kühl halten",
+          "text": "Ein Kühlschrank schützt Vorräte nur während tatsächlicher Stromversorgung. Prüfe deshalb Sonne, Akkuladung und Generatorkraftstoff. Nach einem Stromausfall werden Lebensmittel durch späteres Einschalten nicht wieder frisch."
         }
       ],
       "sources": [
@@ -1164,7 +1176,9 @@
         "[lost_santos]/ls_inventory/RESSOURCENVERSORGUNG-DE.md",
         "docs/basebuilding-2-20261024/README-DE.md",
         "[lost_santos]/ls_inventory/shared/power-network.lua",
-        "[lost_santos]/ls_inventory/client/power-network.lua"
+        "[lost_santos]/ls_inventory/client/power-network.lua",
+        "docs/inventory-slim-20261102/README-DE.md",
+        "[lost_santos]/ls_inventory/server/base-power.lua"
       ],
       "related": [
         "versorgung",
@@ -1172,13 +1186,13 @@
         "camp"
       ],
       "quick": [
-        "Elektrik im Herstellungsmenü",
-        "Ausgang → Eingang verbinden",
-        "Quelle und Verbraucher teilen Leistung"
+        "Automatische Versorgung je Base",
+        "Solar und Akkus oder Kraftstoffgenerator",
+        "Kühlung braucht tatsächlich Strom"
       ],
       "icon": "home",
-      "navTitle": "Elektrik & Stromnetz",
-      "reviewedAt": "2026-10-26"
+      "navTitle": "Strom für deine Base",
+      "reviewedAt": "2026-11-03"
     },
     {
       "slug": "gruppen",
@@ -1214,7 +1228,7 @@
         "fraktionen",
         "orientierung"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "home",
       "quick": [
         "F2 · Spielerübersicht",
@@ -1231,11 +1245,31 @@
         "[lost_santos]/ls_factions/server/economy.lua",
         "[lost_santos]/ls_factions/shared/defaults.json",
         "docs/quest-membership-20261021/README-DE.md",
-        "docs/FRAKTIONSTERRITORIEN-KONZEPT-DE.md"
+        "docs/FRAKTIONSTERRITORIEN-KONZEPT-DE.md",
+        "[lost_santos]/ls_factions/server/community.lua",
+        "[lost_santos]/ls_factions/shared/community-rules.lua",
+        "[lost_santos]/ls_factions/web/community.js",
+        "docs/economy-rework-20261101/README-DE.md"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "summary": "S.A.R.A., New Dawn oder dein eigener Weg als Lonewolf.",
       "sections": [
+        {
+          "title": "So schließt du dich an",
+          "text": "Sprich mit den eingerichteten Ansprechpartnern und verfolge die angebotene Aufnahmequest. Erst der ausdrückliche Abschluss beim zuständigen Fraktionschef bestätigt den Beitritt. Einfaches Annehmen oder Erfüllen der Ziele allein reicht nicht."
+        },
+        {
+          "title": "Gemeinsam etwas erreichen",
+          "text": "Die Lagertafeln zeigen gemeinsame Dailys, Wochenaufträge und Wochenmeilensteine sowie ein Monatsprojekt. Passende Aufträge, Bergungen, Gebietserfolge und freiwillige Beiträge bringen Fortschritt. Es gibt keinen automatischen wöchentlichen Vorratsabzug und keine Pflichtfehlmengen. Verpasste Ziele verursachen weder Schulden noch Rufverlust."
+        },
+        {
+          "title": "Zeiträume und Belohnungen",
+          "text": "Die Ziele wechseln täglich um 18 Uhr, wöchentlich sonntags um 18 Uhr und monatlich am ersten Tag um 18 Uhr deutscher Zeit. Die Zielgröße richtet sich nach der aktiven Gemeinschaft und bleibt für den laufenden Zeitraum fest. Wer selbst beigetragen hat, kann erreichte gemeinsame Rufprämien einmal abholen; offene Ansprüche bleiben im Archiv erreichbar. Die Discord-Übersicht zeigt bestätigten Gemeinschaftsfortschritt."
+        },
+        {
+          "title": "Austritt und Rückkehr",
+          "text": "Ein regulärer Austritt ist möglich, kostet zunächst Ruf beim verlassenen Lager und sperrt einen neuen Beitritt für 48 echte Stunden. Andere Rufwerte bleiben getrennt. Lies die angezeigten Voraussetzungen am Ansprechpartner."
+        },
         {
           "title": "S.A.R.A. – Was von der Ordnung blieb",
           "text": "Aus Polizisten, Sanitätern und Versorgungskräften entstand die San Andreas Reconstruction Authority. Im alten Sägewerk versucht die gewählte Präsidentin des Aufsichtsrats Nora Whitaker, eine Ordnung aufzubauen, der Menschen wieder vertrauen können. Zwischen Hilfe, Regeln und alten Machtansprüchen wird jede Kiste zur Entscheidung."
@@ -1247,18 +1281,6 @@
         {
           "title": "Ein gebrochener Handschlag",
           "text": "Der Streit um einen geborgenen Vorratskonvoi trennte die früheren Partner. Beide brauchen Handel und Versorgung, beide kämpfen in verlassenen Depots um dieselben Kisten. Du kannst dich einem Lager anschließen oder als Lonewolf unabhängig bleiben."
-        },
-        {
-          "title": "So schließt du dich an",
-          "text": "Sprich mit den eingerichteten Ansprechpartnern und verfolge die angebotene Aufnahmequest. Erst der ausdrückliche Abschluss beim zuständigen Fraktionschef bestätigt den Beitritt. Einfaches Annehmen oder Erfüllen der Ziele allein reicht nicht."
-        },
-        {
-          "title": "Dein Beitrag zählt",
-          "text": "Aufträge, geeignete Lieferungen und Faction-War-Erfolge können Ruf bringen. Die Lagertafel zeigt Bedarf und Versorgung; vorhandene Lagerbestände und erfolgreiche Konvois tragen dazu bei. Wochenbedarfe richten sich nach Lagerbevölkerung und Saison. Fraktionsfunk hilft bei der Abstimmung."
-        },
-        {
-          "title": "Austritt und Rückkehr",
-          "text": "Ein regulärer Austritt ist möglich, kostet zunächst Ruf beim verlassenen Lager und sperrt einen neuen Beitritt für 48 echte Stunden. Andere Rufwerte bleiben getrennt. Lies die angezeigten Voraussetzungen am Ansprechpartner."
         }
       ],
       "related": [
@@ -1269,8 +1291,8 @@
       ],
       "quick": [
         "S.A.R.A. / New Dawn / Lonewolf",
-        "Beitritt beim zuständigen Chef bestätigen",
-        "Ruf und Versorgung sind lagerbezogen"
+        "Dailys, Wochenziele und Monatsprojekt",
+        "Freiwillige Beiträge statt Pflichtabzug"
       ],
       "icon": "flag",
       "navTitle": "Fraktionen & Ruf"
@@ -1286,8 +1308,8 @@
           "text": "Wähle einen eingerichteten Händler über Alt an und öffne sein Angebot. Preis, Warenbestand, passende Währung und mögliche Mitgliedschafts- oder Rufanforderungen stehen im Angebot. Nicht jeder Händler hat dieselben Zugangsregeln. Die bestätigte Anzeige ist maßgeblich."
         },
         {
-          "title": "Endlicher Vorrat, echte Kasse",
-          "text": "Händler haben tatsächliche Depotbestände. Beim An- und Verkauf wechseln Waren und Zahlungsmittel gemeinsam den Besitzer. Ein leeres Depot erzeugt keine Ware, eine leere Kasse zahlt keine unendlichen Münzen. Ankaufspreise liegen unter dem entsprechenden Verkaufspreis; Versorgung und Ruf können den Preis beeinflussen."
+          "title": "Tagesangebote statt leerer Händlerkasse",
+          "text": "Die regulären Händler erneuern ihre Tagesangebote um 18 Uhr deutscher Zeit. Je nach passendem Sortiment gibt es bis zu zehn verschiedene Tagesartikel und eine kleine Grundversorgung. Die früheren endlichen Händlerkassen und Angebotsstückzahlen begrenzen diese Angebote nicht mehr. Preis, benötigter Ruf und tatsächliche Warenwerte stehen vor dem Kauf im Angebot."
         },
         {
           "title": "Währung mitnehmen",
@@ -1300,12 +1322,20 @@
         {
           "title": "Kein blinder Rückkauf",
           "text": "Direkt beim selben Depot gekaufte Ware zählt nicht einfach wieder als neuer Versorgungsfund. Verkaufte Waffen behalten ihren tatsächlichen Zustand und Anbauteile. Prüfe deshalb Angebot und Gegenstandsdetails, bevor du bestätigst."
+        },
+        {
+          "title": "Spielerhandel am Marktterminal",
+          "text": "Den Spielermarkt und die Fahrzeugbörse erreichst du am Marktterminal. Normale NPC-Händler verkaufen weiterhin ihr eigenes Sortiment. Hinterlegte Spielerware bleibt endlich; Zustand und Varianten zählen. Verkaufserlöse kannst du später abholen. Die angezeigte Verkaufsgebühr beträgt zehn Prozent."
         }
       ],
       "sources": [
         "[lost_santos]/ls_factions/README-DE.md",
         "[lost_santos]/ls_factions/server/economy.lua",
-        "[lost_santos]/ls_factions/shared/rules.lua"
+        "[lost_santos]/ls_factions/shared/rules.lua",
+        "[lost_santos]/ls_factions/server/cycle-market.lua",
+        "[lost_santos]/ls_factions/server/commission.lua",
+        "[lost_santos]/ls_factions/server/market-terminal.lua",
+        "docs/npc-world-tags-20261103/README-DE.md"
       ],
       "related": [
         "fraktionen",
@@ -1314,12 +1344,12 @@
       ],
       "icon": "flag",
       "quick": [
-        "Bestand und Kasse sind endlich",
+        "Tagesangebote um 18 Uhr · deutsche Zeit",
         "Ruf ist keine Münzwährung",
-        "Angebot und Zugang am NPC prüfen"
+        "Spielerhandel am Marktterminal"
       ],
       "navTitle": "Händler & Aufträge",
-      "reviewedAt": "2026-10-26"
+      "reviewedAt": "2026-11-03"
     },
     {
       "slug": "faction-war",
@@ -1379,7 +1409,7 @@
       ],
       "icon": "flag",
       "navTitle": "Faction War · Gebiete",
-      "reviewedAt": "2026-10-26"
+      "reviewedAt": "2026-11-03"
     },
     {
       "slug": "konvois",
@@ -1393,7 +1423,7 @@
         },
         {
           "title": "Ein Gebiet, eine Fahrt pro Periode",
-          "text": "Pro Lootgebiet ist eine Versorgungsfahrt je vollständiger Serverperiode vorgesehen; zusätzlich zählt das Wochenkontingent des Gebiets. Ein Clan oder eine temporäre Gruppe kann nur einen offiziellen Konvoi gleichzeitig bearbeiten. Die Fraktion darf mehrere unterschiedliche Fahrten durchführen."
+          "text": "Pro Lootgebiet ist eine Versorgungsfahrt je Neustartzeitraum vorgesehen; zusätzlich zählt das Wochenkontingent des Gebiets. Ein Clan oder eine temporäre Gruppe kann nur einen offiziellen Konvoi gleichzeitig bearbeiten. Die Fraktion darf mehrere unterschiedliche Fahrten durchführen."
         },
         {
           "title": "Zeit und Frachtzustand",
@@ -1405,7 +1435,7 @@
         },
         {
           "title": "Was im Lager ankommt",
-          "text": "Die Lieferung schreibt Versorgungseinheiten für die Ressource des Gebiets gut. Es entstehen daraus keine frei entnehmbaren Inventaritems. Die Versorgung zählt zusammen mit realen Beständen für Lagerbedarf und Auswertung."
+          "text": "Eine bestätigte Lieferung zählt als erfolgreiche Versorgung und kann zum gemeinsamen Fraktionsfortschritt beitragen. Sie erzeugt keine frei entnehmbaren Inventaritems. Maßgeblich sind die angezeigten Auftrags- und Gemeinschaftsziele; es gibt keinen automatischen wöchentlichen Vorratsabzug."
         },
         {
           "title": "Ruf für Beteiligung",
@@ -1419,7 +1449,9 @@
       "sources": [
         "[lost_santos]/ls_factions/shared/war-rules.lua",
         "[lost_santos]/ls_factions/server/war.lua",
-        "docs/faction-war-supply-20261020/README-DE.md"
+        "docs/faction-war-supply-20261020/README-DE.md",
+        "[lost_santos]/ls_factions/server/community.lua",
+        "docs/economy-rework-20261101/README-DE.md"
       ],
       "related": [
         "faction-war",
@@ -1433,7 +1465,7 @@
       ],
       "icon": "flag",
       "navTitle": "Versorgungskonvois",
-      "reviewedAt": "2026-10-26"
+      "reviewedAt": "2026-11-03"
     },
     {
       "slug": "fahrzeuge",
@@ -1444,28 +1476,32 @@
         "[lost_santos]/ls_vehicles/README-DE.md",
         "[lost_santos]/ls_vehicles/VITALWERTE-DE.md",
         "[lost_santos]/ls_inventory/FAHRZEUGE-DE.md",
-        "[lost_santos]/ls_inventory/web"
+        "[lost_santos]/ls_inventory/web",
+        "docs/vehicle-system-2-20261102/README-DE.md",
+        "[lost_santos]/ls_vehicles/shared/models.json",
+        "docs/public-garage-grid-20261103/README-DE.md",
+        "docs/npc-repair-20261101/README-DE.md"
       ],
       "sections": [
         {
-          "title": "Ein Fund ist kein Neuwagen",
-          "text": "Fahrzeuge besitzen einen gespeicherten Zustand. Fehlende Teile, Schäden, Flüssigkeiten und Batterie beeinflussen ihre Nutzbarkeit. Prüfe den Fund, bevor du eine längere Fahrt planst. Ein neuer Login repariert ihn nicht."
+          "title": "Deinen Fund prüfen",
+          "text": "Ein gefundenes Fahrzeug kann beschädigt sein oder Teile vermissen. Schaue zuerst über Alt in die Fahrzeugtechnik. Motor, Batterie und Räder sollten brauchbar sein; Kraftstoff, Öl und Kühlmittel müssen passen. Ein neuer Login repariert nichts."
         },
         {
-          "title": "Inventar und Technik öffnen",
-          "text": "Am Fahrzeugheck erreichst du über das Zielauge das Fahrzeuginventar, sofern das Fahrzeug einen Laderaum unterstützt. Am Motorbereich öffnest du „Fahrzeugtechnik ansehen“. Dort wählst du Baugruppen und konkrete Teile aus. Welche Detailwerte erkennbar sind, hängt von deinen Kenntnissen ab."
+          "title": "Wieder fahrbereit werden",
+          "text": "Das Fahrzeugfenster zeigt dir Reparaturen und passende Ersatzteile. Einfache Arbeiten an Rädern, Batterie und Betriebsstoffen sind ohne Mechanik-Talent möglich. Für anspruchsvollere Arbeiten brauchst du die angezeigten Kenntnisse, Werkzeuge und gegebenenfalls eine Werkstatt."
         },
         {
-          "title": "Betriebsstoffe und Verschleiß",
-          "text": "Kraftstoff, Öl, Kühlmittel und Batterieladung erfüllen unterschiedliche Aufgaben. Fahrbetrieb und Schäden wirken sich auf die Technik aus. Ein voller Tank behebt keinen Motorschaden. Sorge vor längeren Ausflügen für passende Vorräte und Werkzeug."
+          "title": "Was die Farben bedeuten",
+          "text": "Fahrzeugmodelle gehören zu Grau, Grün, Lila oder Gold. Im Modellwissen siehst du, welche Fahrzeuge als Fund auftauchen, welche einen Bauplan brauchen und welche sich aus einem anderen Modell umbauen lassen. Seltene Farbe bedeutet weder Vollausstattung noch einen unbeschädigten Fund."
         },
         {
-          "title": "Große Transporte",
-          "text": "Der Wastelander bietet eigene Aktionen für den Fahrzeugtransport. Jagdkadaver lassen sich je nach Fahrzeug ins Raster oder auf geeignete Außenladeplätze verladen. Die angebotene Aktion und die tatsächliche Platzprüfung entscheiden, ob eine Ladung passt."
+          "title": "Neue Funde und dein Fahrzeug",
+          "text": "Bodenfahrzeugfunde werden im Zwei-Stunden-Rhythmus erneuert; seltene Hubschrauber folgen einem eigenen Wochenrhythmus. Fahrzeuge in Benutzung, in der Nähe von Spielern oder mit bestehendem Schutz werden nicht einfach durch Nachschub ersetzt. Registriere ein Fahrzeug an einer geeigneten Garage, statt dich allein auf einen Weltfund zu verlassen."
         },
         {
-          "title": "Dein letzter Fund und die neue Woche",
-          "text": "Das zuletzt benutzte Fahrzeug aus dem Weltfahrzeugpool ist zusätzlich vor dem Wochenreset geschützt. Benutzt du ein anderes, wandert dieser Schutz weiter. Campregistrierung und andere dauerhafte Schutzregeln bleiben davon getrennt. Der Schutz repariert nichts und macht ein Fahrzeug nicht automatisch zu deinem exklusiven Eigentum."
+          "title": "Ladung und Service",
+          "text": "Am geeigneten Fahrzeugheck öffnest du den Stauraum über Alt. Einlagern oder Umbauen schenkt keine Reparatur. Der Mechaniker-NPC bietet gegen Münzen eine Gesamtreparatur bis zum Mindeststand von 50 Prozent; bessere bereits vorhandene Werte werden dabei nicht verschlechtert."
         }
       ],
       "related": [
@@ -1473,41 +1509,43 @@
         "versorgung",
         "fahrzeuglager"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "route",
       "quick": [
-        "Alt am Heck: Inventar",
-        "Alt am Motorbereich: Technik",
-        "Kraftstoff ersetzt keine Reparatur"
+        "Alt: Technik und Fahrzeuglager öffnen",
+        "Fundfarbe ersetzt keine Zustandsprüfung",
+        "Bodenfunde: Zwei-Stunden-Rhythmus"
       ]
     },
     {
       "slug": "fahrzeuglager",
-      "title": "Fahrzeuglager & Bergung",
+      "title": "Garagen & Bergung",
       "category": "Unterwegs",
-      "summary": "Fahrzeuge im Camp registrieren, einlagern und zurückholen.",
+      "summary": "Dein Fahrzeug registrieren, sicher einlagern und wieder abholen.",
       "sources": [
         "[lost_santos]/ls_vehicles/MECHANIK-DE.md",
         "[lost_santos]/ls_social/README-DE.md",
-        "[lost_santos]/ls_inventory/web"
+        "[lost_santos]/ls_inventory/web",
+        "docs/public-garage-grid-20261103/README-DE.md",
+        "docs/bicycle-garage-20261103/README-DE.md",
+        "[lost_santos]/ls_inventory/server/public-garage.lua"
       ],
       "sections": [
         {
-          "title": "Ein Lager einrichten",
-          "steps": [
-            "Öffne am gebauten Mechanikmodul „Werkstatt: Aufträge & Fahrzeuglager“.",
-            "Lege über die Modulverwaltung einen Parkplatz im Camp fest. E bestätigt, ESC bricht ab.",
-            "Bringe das Fahrzeug mit ausgeschaltetem Motor an den Parkplatz, steige aus und wähle „Registrieren & einlagern“."
-          ],
-          "text": "Die drei Modulstufen bieten jeweils 2, 4 oder 8 registrierte Fahrzeugplätze. Auch ausgeparkte registrierte Fahrzeuge belegen einen Platz. Der Ausparkbereich muss frei sein."
+          "title": "An der öffentlichen Garage",
+          "text": "Sprich mit dem Garagen-NPC und bringe dein Fahrzeug zur markierten Parkfläche. Stelle ein Motorfahrzeug ab, steige aus und wähle Registrieren & einlagern. Fahrräder benötigen keinen ausgeschalteten Motor. Du hast einen persönlichen Fahrzeugplatz; prüfe deshalb vorher deine Belegung."
         },
         {
-          "title": "Was bleibt erhalten?",
-          "text": "Einlagern speichert unter anderem Zustand, Ladung, technische Teile und Tuning. Es repariert das Fahrzeug nicht. Eine Registrierung regelt geschützte Arbeiten am Fahrzeug; sie ist keine zusätzliche Fahrsperre."
+          "title": "Wieder ausparken",
+          "text": "Die Garage wählt ein freies Feld in ihrer Parkfläche. Andere Fahrzeuge oder Hindernisse dürfen den Platz nicht blockieren. Luftfahrzeuge nutzen einen getrennt eingerichteten Bereich. Einlagern und Ausparken erhalten den Fahrzeugzustand und sind keine Reparatur."
         },
         {
-          "title": "Bergung ist keine kostenlose Lieferung",
-          "text": "Bei einer Fernbergung wird die Inventarladung des Fahrzeugs entfernt. Schäden und eingebaute technische Teile bleiben erhalten. Danach gilt eine Wartezeit von 15 Minuten. Pro Fahrzeug ist eine Bergung je vollständiger Serverperiode vorgesehen. Personen im Fahrzeug und laufende Arbeiten verhindern die Bergung."
+          "title": "Fahrzeuge im eigenen Camp",
+          "text": "Am fertigen Mechanikmodul erreichst du das Fahrzeuglager und die dazugehörigen Campplätze. Verfügbare Plätze und Voraussetzungen stehen im Fenster. Auch ausgeparkte registrierte Fahrzeuge belegen weiterhin ihren Platz."
+        },
+        {
+          "title": "Fernbergung mit Bedacht",
+          "text": "Eine Fernbergung entfernt die Inventarladung des Fahrzeugs und ist keine kostenlose Lieferung deiner Vorräte. Zustand und eingebaute Teile bleiben erhalten. Lies Wartezeit und Voraussetzungen vor der Bestätigung. Eine beim Betreiber-Aufräumen bereitgestellte einmalige Abholung ist ein eigener Vorgang."
         }
       ],
       "related": [
@@ -1515,13 +1553,14 @@
         "mechanik",
         "gruppen"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "route",
       "quick": [
-        "Werkstatt → Aufträge & Fahrzeuglager",
-        "Einlagern repariert nichts",
-        "Fernbergung kostet die Inventarladung"
-      ]
+        "Öffentliche Garage: ein persönlicher Platz",
+        "Ausparken auf einem freien Rasterfeld",
+        "Bergung kann Inventarladung kosten"
+      ],
+      "navTitle": "Garagen & Bergung"
     },
     {
       "slug": "versorgung",
@@ -1599,7 +1638,7 @@
         },
         {
           "title": "Plan deinen Verbrauch",
-          "text": "Betriebsstoffquellen sind endlich und werden geteilt. Tankfüllung, Verbrauch und tatsächliche angeschlossene Last entscheiden über die Laufzeit. Für Lampen, Solar, Batterien und Kabel findest du die eigene Anleitung zum Stromnetz."
+          "text": "Betriebsstoffquellen sind endlich und werden geteilt. Prüfe Tankfüllung, Zustand und tatsächlichen Verbrauch. Die eigene Anleitung zur Baseenergie erklärt das Zusammenspiel von Kraftstoffgenerator, Solar und Akku."
         }
       ],
       "related": [
@@ -1607,7 +1646,7 @@
         "fahrzeuge",
         "camp"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "route",
       "quick": [
         "Alt an der Quelle",
@@ -1663,7 +1702,7 @@
       ],
       "icon": "route",
       "navTitle": "Sprache & Funk",
-      "reviewedAt": "2026-10-26"
+      "reviewedAt": "2026-11-03"
     },
     {
       "slug": "gebiete",
@@ -1722,7 +1761,7 @@
         "looten",
         "orientierung"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "world",
       "quick": [
         "PvE-Welt und ausgewiesene PvP-Zone",
@@ -1763,7 +1802,7 @@
         "gebiete",
         "ereignisse"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "world",
       "quick": [
         "Sicht, Geräusche und Abstand zählen",
@@ -1803,7 +1842,7 @@
         "zombies",
         "looten"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "world",
       "quick": [
         "Meldung und Suchkreis beachten",
@@ -1818,7 +1857,8 @@
       "summary": "Der Kalender verändert die Atmosphäre von Los Santos.",
       "sources": [
         "[lost_santos]/ls_weather/README-DE.md",
-        "[lost_santos]/ls_weather/common/seasons.lua"
+        "[lost_santos]/ls_weather/common/seasons.lua",
+        "docs/season-guide-20261102/README-DE.md"
       ],
       "sections": [
         {
@@ -1832,6 +1872,10 @@
         {
           "title": "Gemeinsame Atmosphäre",
           "text": "PvE- und PvP-Gebiete teilen Wetter und Spielzeit. Die beschleunigte Spieluhr ist vom echten Wochenkalender getrennt. Der Wetterkalender allein führt noch keine Körpertemperatur- oder Kleidungsschäden ein."
+        },
+        {
+          "title": "Was gerade für dich gilt",
+          "text": "Im ESC-Menü zeigt die Jahreszeitenübersicht die aktuelle Saison, den Zeitraum sowie Vorteile und Herausforderungen. Noch geplante Temperatur- oder Wetterschutzwirkungen sind ausdrücklich als geplant gekennzeichnet. Daraus entstehen noch keine zusätzlichen aktiven Spielwirkungen."
         }
       ],
       "related": [
@@ -1839,7 +1883,7 @@
         "versorgung",
         "erste-schritte"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "world",
       "quick": [
         "Eine Saison pro Kalenderwoche",
@@ -1874,7 +1918,7 @@
         "zombies",
         "ereignisse"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "world",
       "quick": [
         "Aufnahmen und Musik aus Weltgeräten",
@@ -1907,7 +1951,7 @@
         "camp",
         "gruppen"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "home",
       "quick": [
         "F3 · Emotes und Favoriten",
@@ -1923,7 +1967,7 @@
       "sources": [
         "[lost_santos]/ls_weather/README-DE.md"
       ],
-      "reviewedAt": "2026-10-26",
+      "reviewedAt": "2026-11-03",
       "icon": "spark"
     }
   ]
