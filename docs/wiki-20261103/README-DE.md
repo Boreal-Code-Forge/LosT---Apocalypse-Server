@@ -32,3 +32,15 @@ aufgeräumte Kategorien, automatische Öffnung eines direkten Abschnittslinks,
 8K-Nachladen bis 8192×9216 bestätigt. Screenshots in diesem Verzeichnis.
 Veröffentlichung und vollständige öffentliche Byte-Rücklese separat nachweisen.
 Keine Server-/Ressourcensteuerung oder automatische Discord-Ankündigung.
+
+## Veröffentlichung bestätigt
+
+Wiki-Stand d84595dde6f22d99aa28e35125d7ef41a2f6ca14 wurde auf main
+veröffentlicht. Manueller Pages-Lauf 41665673217 erfolgreich. Die gesamte
+öffentliche Auslieferung wurde unabhängig abgerufen: 44 Dateien stimmen
+vollständig bytegleich mit dem gebauten Stand überein, einschließlich aller
+35 Artikelrouten, Index, CSS/JS und beider Karten. Entfernte Beispielmedien
+antworten mit 404. Einzelbelege in public-verification.json.
+
+[Öffentliches Wiki](https://boreal-code-forge.github.io/LosT---Apocalypse-Server/wiki/).
+Keine Ingame-Abnahme oder Aktivierung von Spielmechaniken daraus abgeleitet.
