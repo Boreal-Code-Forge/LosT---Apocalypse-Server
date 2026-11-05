@@ -25,6 +25,13 @@ elif mode=='verify':
  data=json.loads((R/'content/wiki.json').read_bytes());names=['wiki/index.html']+['wiki/'+a['slug']+'/index.html'for a in data['articles']]+['wiki/assets/wiki.js','wiki/assets/wiki.css','assets/ingame.js','index.html','regelwerk.html']
  def check(name):
   expected=(R/'_site'/name).read_bytes()
+  # Pages copies repository assets on Linux; the Windows checkout may use CRLF.
+  # Compare copied files to the exact committed blob, not a normalized download.
+  copied=('website/wiki-assets/'+name.removeprefix('wiki/assets/'))if name.startswith('wiki/assets/')else('website/regelwerk/'+name)if not name.startswith('wiki/')else None
+  if copied:
+   blob=subprocess.check_output(['git','cat-file','-p',publication['head_sha']+':'+copied],cwd=R)
+   assert expected.replace(b'\r\n',b'\n')==blob.replace(b'\r\n',b'\n'),('Lokale Vorlage abweichend',name)
+   expected=blob
   with urllib.request.urlopen(urllib.request.Request(BASE+name+'?skills='+publication['head_sha'][:12],headers={'User-Agent':'LostSantos-Wiki-Readback'}),timeout=30)as r:actual=r.read();status=r.status
   assert actual==expected,('Öffentliche Datei weicht ab',name)
   return{'path':name,'status':status,'bytes':len(actual),'sha256':hashlib.sha256(actual).hexdigest(),'fullByteEqual':True}

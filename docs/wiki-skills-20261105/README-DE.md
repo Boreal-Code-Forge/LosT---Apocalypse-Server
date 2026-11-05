@@ -37,7 +37,11 @@ nach Waffenwerkbank mit echter Navigation und unveränderter Platzhalter.
 Keine Seitenfehler oder fehlenden lokalen Assets. Sichtkontrolle der beiden
 beigefügten Ansichten. `browser.json`; keine native Ingame-Abnahme abgeleitet.
 
-Veröffentlichung und unabhängige öffentliche Byteprüfung folgen über den
-bestehenden manuellen GitHub-Pages-Workflow; Ergebnis in `publication.json`
-und `public-verification.json`. Keine Discordnachricht und kein Eingriff in
+Veröffentlichung bestätigt: Wiki-Stand `efe5b97e703b5a9c194991ae8a0a6ccc24ba778a`,
+manueller Pages-Lauf `42019424979` erfolgreich. Alle 40 Artikel, Wiki-Einstieg,
+CSS/JS, F4-Brücke und beide Regelwerk-Adressen unabhängig vollständig abgerufen:
+46 Dateien bytegleich. Kopierte Assets gegen die exakten veröffentlichten
+Git-Blobs geprüft (lokaler Windows-Checkout besitzt teilweise CRLF), erzeugte
+Seiten gegen die gebaute Ausgabe. Belege: `publication.json` und
+`public-verification.json`. Keine Discordnachricht und kein Eingriff in
 Spielserver, Ressourcen oder Spielerdaten.

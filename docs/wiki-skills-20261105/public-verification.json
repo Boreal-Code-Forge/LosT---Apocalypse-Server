@@ -1,0 +1,332 @@
+{
+  "passed": true,
+  "siteCommit": "efe5b97e703b5a9c194991ae8a0a6ccc24ba778a",
+  "workflowRun": 42019424979,
+  "url": "https://boreal-code-forge.github.io/LosT---Apocalypse-Server/wiki/",
+  "files": [
+    {
+      "path": "wiki/index.html",
+      "status": 200,
+      "bytes": 118517,
+      "sha256": "99bc8fd74c0d93016edb2a2bf5be29d8e655553f07733c62baa74efaa2c67415",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/erste-schritte/index.html",
+      "status": 200,
+      "bytes": 93921,
+      "sha256": "8060d15680af69167f2f3fac7e3d78c590dc9d4b6cd6fe4947aae9b78f018f46",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/steuerung/index.html",
+      "status": 200,
+      "bytes": 94127,
+      "sha256": "b35ccd432f6e86ec5e08828328419e7935b1b4409465d48ef20bb6c200985046",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/karte/index.html",
+      "status": 200,
+      "bytes": 94670,
+      "sha256": "4a6605de002089bf4d39f84b4a3aafba459f64d6f5481d9cd2592275922037ab",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/orientierung/index.html",
+      "status": 200,
+      "bytes": 94221,
+      "sha256": "1963b2d97dac677ff6166d3be8ec958a583804ebc8c1bd078ff6233b08369da0",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/inventar/index.html",
+      "status": 200,
+      "bytes": 95197,
+      "sha256": "08316ce48809cc9ace79d441b0788e6274827ecda1149c312edf7a0269e70430",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/looten/index.html",
+      "status": 200,
+      "bytes": 96185,
+      "sha256": "473355d992cc42d991b078bfb36caae5218c9b914e5b8a54988029134af4c27d",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/naturressourcen/index.html",
+      "status": 200,
+      "bytes": 94797,
+      "sha256": "86c561bf6a96d0e57bf1cc947cf0f244feb89c355a73195658cd9ff088d9656e",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/jagd/index.html",
+      "status": 200,
+      "bytes": 93839,
+      "sha256": "349079105d1adf1679d03ce17bbc4a01e7782ed0b026100188fb154129255509",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/angeln/index.html",
+      "status": 200,
+      "bytes": 93953,
+      "sha256": "86352edce34048897be34278a2ad883539102f749b29deea6211834d71d01b72",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/crafting/index.html",
+      "status": 200,
+      "bytes": 95143,
+      "sha256": "c25cf09ebd8b37b794b21dd12bf63b5994f01efae4a2de45066d3bb96c649316",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/medizin/index.html",
+      "status": 200,
+      "bytes": 96655,
+      "sha256": "a82ee0edb3462f54f127f44804783919a1223e2a1420851b6212226b184f1a37",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/berufe/index.html",
+      "status": 200,
+      "bytes": 98874,
+      "sha256": "faced9dd55f550754319560dedf58c8ce1e54738a40f3b80d52f7159114a4a71",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/faehigkeiten/index.html",
+      "status": 200,
+      "bytes": 98717,
+      "sha256": "785024f4ab19748481bd83739107c7775d7ce5bcb191e0d44dcab0717a592509",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/ueberlebensbaum/index.html",
+      "status": 200,
+      "bytes": 95334,
+      "sha256": "fd63685d04df23b418b44f909977a2f340cf24e0a8e15cde833f6da33a567344",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/mechanik/index.html",
+      "status": 200,
+      "bytes": 94982,
+      "sha256": "314f3187d6890000495ae7923bb397ed7b16ab08d8f455f812eb87f3b11c0e14",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/handwerk/index.html",
+      "status": 200,
+      "bytes": 95636,
+      "sha256": "27c3410dcb61234ffc9ee00f7123ca2d0b56f80a646af215fddfe880b519d57f",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/kochen/index.html",
+      "status": 200,
+      "bytes": 95535,
+      "sha256": "644c6ebc0e6dadd49375362979cf7231e1fa0a9c969f99351f9c4a8cdad3a68a",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/pluendern/index.html",
+      "status": 200,
+      "bytes": 95560,
+      "sha256": "666d8bfe9ca8ade1a505cebe25c3e9f55503f8afd25abe58f799c4bbcf581f58",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/waffentechnik/index.html",
+      "status": 200,
+      "bytes": 96862,
+      "sha256": "bb863d9688b10de8921d8fe6df273aface275626660e099a8cd0594cce59f85b",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/kampf-koerper/index.html",
+      "status": 200,
+      "bytes": 95165,
+      "sha256": "5a765dc527bf7ace789cfaa39efd022e2afc274e15cb87548a4db633c48e5034",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/camp/index.html",
+      "status": 200,
+      "bytes": 97604,
+      "sha256": "1cbb332ded1adceacd62d2400a8d4b156ec9aca481dc289d19beee21de1d9b96",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/camp-lager/index.html",
+      "status": 200,
+      "bytes": 94524,
+      "sha256": "b1437589796fc982bf8a9e817c286ae4f34a7b20098b017aaa1ba1539b680b26",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/farming/index.html",
+      "status": 200,
+      "bytes": 97547,
+      "sha256": "4b05d952429f74615061fda3f5939a759801b5998d47bf61a24527653ca8ea5e",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/stromnetz/index.html",
+      "status": 200,
+      "bytes": 93667,
+      "sha256": "ecd1b546484403c68175c9be8d4cd355f79ab703dc23a90383a7e470e615c683",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/gruppen/index.html",
+      "status": 200,
+      "bytes": 93736,
+      "sha256": "1eef5f8e5c689290edd83b412653f46c43d697e041fe4a5105719516a5ba77dc",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/fraktionen/index.html",
+      "status": 200,
+      "bytes": 95772,
+      "sha256": "5e7de4b09b9f9f602ba82348bfc231e64ba15ae264409630d9a7b6adedbf095f",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/handel/index.html",
+      "status": 200,
+      "bytes": 95084,
+      "sha256": "db0de96a2dea76825fc0042f9b1d92fc61a89433417b34da3529236577920c58",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/faction-war/index.html",
+      "status": 200,
+      "bytes": 96019,
+      "sha256": "63c4f9be4f5386cb6c0ee4a7e9c46dfd12e7ef8339201f06d8e879cc6b62df48",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/konvois/index.html",
+      "status": 200,
+      "bytes": 95738,
+      "sha256": "370a6015f4909b5e6408501f07839efd954aa00be461575094f5da3a61ffe3f3",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/fahrzeuge/index.html",
+      "status": 200,
+      "bytes": 94458,
+      "sha256": "aaa003e360b71ad78fe7761e834ed5c2e32e2725226db4451d87d09709f35322",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/fahrzeuglager/index.html",
+      "status": 200,
+      "bytes": 93846,
+      "sha256": "2a953c198832567471a0027ccd0b44f6e56befb07c2beebcd42c614fca67ba86",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/versorgung/index.html",
+      "status": 200,
+      "bytes": 95111,
+      "sha256": "fb99bc023bd56447b0084ff0287f34de668707465042c10de883f42c4b2e774c",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/funk/index.html",
+      "status": 200,
+      "bytes": 94429,
+      "sha256": "cd5810ba9217d5f7aa39dd593c1864f8b40fc623bf2d9bf42f6a461a984343ca",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/gebiete/index.html",
+      "status": 200,
+      "bytes": 93920,
+      "sha256": "49436f0f4141b526e619265116ffcf6c71e5adf9350816142050274fcfd40fd3",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/zombies/index.html",
+      "status": 200,
+      "bytes": 93610,
+      "sha256": "3fcca922edef073b29c8c694373dda55f7cddce57f7219d349b87bf7a70da961",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/ereignisse/index.html",
+      "status": 200,
+      "bytes": 93841,
+      "sha256": "74ac88733e405bee3800e5d67adf12e050cce1416c03b7d169c21e1bf86543b2",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/jahreszeiten/index.html",
+      "status": 200,
+      "bytes": 93740,
+      "sha256": "3577098753780e4462df349d2aacba8829b3a542586838f8f8dc8e6e34cd00ff",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/radios/index.html",
+      "status": 200,
+      "bytes": 93032,
+      "sha256": "a3d3fa346e6fdd8122e27b55188b4ddb9862ccf7564508dd4e257c74d87f0286",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/gesten/index.html",
+      "status": 200,
+      "bytes": 92540,
+      "sha256": "374b0d54fc575ddcf67d66e8d894cb89eec60320f3ef08d112b8374f2a406438",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/temperatur/index.html",
+      "status": 200,
+      "bytes": 90521,
+      "sha256": "d86cca7554f1ee1b1d455456bceac2d18ad4397d2598528ec7158e986c13198f",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/assets/wiki.js",
+      "status": 200,
+      "bytes": 8228,
+      "sha256": "f9946b84b2ce9017d69a3efd8110ab527e32403142b9460802211a058b168f3b",
+      "fullByteEqual": true
+    },
+    {
+      "path": "wiki/assets/wiki.css",
+      "status": 200,
+      "bytes": 26659,
+      "sha256": "0e4c39bde74cde4064c2d041b5aa441a9988bcba0df6cc6bc56421b0c03457ad",
+      "fullByteEqual": true
+    },
+    {
+      "path": "assets/ingame.js",
+      "status": 200,
+      "bytes": 1636,
+      "sha256": "14fcbdfc63b06e8cbfd1927717588028c40356c4d7d028c2f934944903bac86a",
+      "fullByteEqual": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 10044,
+      "sha256": "56d1b62749718cc9edadf639d7c484da2ed2c11a4a39b40bd32024c0eddcd3eb",
+      "fullByteEqual": true
+    },
+    {
+      "path": "regelwerk.html",
+      "status": 200,
+      "bytes": 10058,
+      "sha256": "ccd2fc2af507f5b92e304131d5fc891d41f7a194b660b99db565134e73866377",
+      "fullByteEqual": true
+    }
+  ],
+  "gameServerControl": false,
+  "publicMessages": false
+}
