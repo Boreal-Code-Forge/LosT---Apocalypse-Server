@@ -1,0 +1,326 @@
+{
+  "passed": true,
+  "articleLayouts": [
+    {
+      "slug": "berufe",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "faehigkeiten",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "handwerk",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "kochen",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "pluendern",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "waffentechnik",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "kampf-koerper",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "farming",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "ueberlebensbaum",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "mechanik",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "medizin",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "camp",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "crafting",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "looten",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "erste-schritte",
+      "width": 1440,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "berufe",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "faehigkeiten",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "handwerk",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "kochen",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "pluendern",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "waffentechnik",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "kampf-koerper",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "farming",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "ueberlebensbaum",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "mechanik",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "medizin",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "camp",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "crafting",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "looten",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "erste-schritte",
+      "width": 390,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "berufe",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "faehigkeiten",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "handwerk",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "kochen",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "pluendern",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "waffentechnik",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "kampf-koerper",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "farming",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "ueberlebensbaum",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "mechanik",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "medizin",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "camp",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "crafting",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "looten",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    },
+    {
+      "slug": "erste-schritte",
+      "width": 320,
+      "noPageOverflow": true,
+      "collapsedDetails": true,
+      "detailsOpen": true
+    }
+  ],
+  "searchAndNavigation": true,
+  "mobileMenu": true,
+  "plannedStillEmpty": true,
+  "pageErrors": [],
+  "missing": [],
+  "nativeGame": false
+}

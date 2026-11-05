@@ -1,0 +1,27 @@
+{
+  "articles": [
+    "berufe",
+    "faehigkeiten",
+    "handwerk",
+    "kochen",
+    "pluendern",
+    "waffentechnik",
+    "kampf-koerper",
+    "farming",
+    "ueberlebensbaum",
+    "mechanik",
+    "medizin",
+    "camp",
+    "crafting",
+    "looten",
+    "erste-schritte"
+  ],
+  "newArticles": [
+    "handwerk",
+    "kochen",
+    "pluendern",
+    "waffentechnik",
+    "kampf-koerper"
+  ],
+  "gameplayChanged": false
+}

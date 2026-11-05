@@ -2,6 +2,17 @@
 
 Auf Betreiberauftrag alle Themen redaktionell gesichtet; Fahrzeuge, Ausrüstung, Loot, Energie und Gemeinschaft gegen den aktuellen veröffentlichten Spielstand aktualisiert. Erste Schritte vor Details, Kategorien und Vertiefungen einklappbar. Aktueller New-Dawn-Atlas samt Vorschau. [Prüfung und Veröffentlichungsnachweise](docs/wiki-20261103/README-DE.md).
 
+# Berufe und Fachgebiete · 05.11.2026
+
+15 Themen auf den veröffentlichten Fachgebiets-Umbau abgestimmt. Berufsvergleich
+mit tatsächlichen Startleveln und Lernwegen, verständliche Trennung zwischen
+automatischem Levelwissen, gewählten Spezialisierungen und Arbeitsplätzen.
+Fünf ergänzende Anleitungen zu Handwerk, Kochen, Plündern, Waffentechnik sowie
+Körper/Kampf. Veraltete Farming-, Fährten- und Fundglückaussagen korrigiert.
+Grundablauf zuerst, Detailtabellen einklappbar; alte Adressen erhalten.
+Gezielter Quellenabgleich, kein pauschales Neudatieren ungeprüfter Quellen.
+[Prüfung und Veröffentlichung](docs/wiki-skills-20261105/README-DE.md).
+
 # Wiki · Ausgabe 02 · 26.10.2026
 
 Der gesamte Artikelbestand wurde mit dem veröffentlichten Projektstand

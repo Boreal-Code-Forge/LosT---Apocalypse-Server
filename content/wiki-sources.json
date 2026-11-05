@@ -4,10 +4,10 @@
   "reviewedAt": "2026-11-03",
   "articles": {
     "erste-schritte": {
-      "[lost_santos]/ls_inventory/README-DE.md": "b3b0ec9950c96d32fe89b96df8ae0ed6e0686d22",
+      "[lost_santos]/ls_inventory/README-DE.md": "2b17fd08e59e65131d4de4ecfd671852e529e55b",
       "[lost_santos]/ls_characters/README-DE.md": "4d8c56fbf58ff157b26a2ebf96b4f447faf274b9",
       "[lost_santos]/ls_inventory/shared/arrival-guide.json": "35519fc10aacc6957f2193c9c8b6f938a63f4fa4",
-      "[lost_santos]/ls_inventory/web": "69aa65a2dd497401d7c8755d9bf311692755c71d",
+      "[lost_santos]/ls_inventory/web": "d345cfa52d8670478336fb6d506db292cf146d1e",
       "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
       "docs/creator-profession-20261025/README-DE.md": "eabac6758a3dcd97a0d92db2d53bdaae0bb9a0e9",
       "[lost_santos]/ls_inventory/shared/professions.lua": "40b9e66dfd015f32cee3ee431431ee94d219c067"
@@ -45,15 +45,16 @@
       "docs/starter-underlayers-20261102/README-DE.md": "50785956eac276711b9949cdc9d5701a2fc43307"
     },
     "looten": {
-      "[lost_santos]/ls_inventory/README-DE.md": "b3b0ec9950c96d32fe89b96df8ae0ed6e0686d22",
+      "[lost_santos]/ls_inventory/README-DE.md": "2b17fd08e59e65131d4de4ecfd671852e529e55b",
       "[lost_santos]/ls_inventory/server/loot-planner.lua": "1fa870e4a0c3e717cc4a1cd286e24cffa5aa5983",
-      "[lost_santos]/ls_inventory/server/loot-cycle.lua": "0a8d919802709218752c0d21bec1eedaa6504837",
+      "[lost_santos]/ls_inventory/server/loot-cycle.lua": "d9647d20660145b7a58aa81ba6941d710ae8f759",
       "[lost_santos]/ls_inventory/shared/economy-cycle.lua": "214f3c44109c5b72e68e25358af5f4cdbf6362d9",
       "[lost_santos]/ls_inventory/shared/skill-loot.lua": "f3af8b688144c84f540f6d715b73b5bfcc3e82d2",
       "[lost_santos]/ls_inventory/shared/item-values.lua": "ff536c7840c533c2768427fc1d972c7862e5e9fa",
-      "[lost_santos]/ls_skills/server/field-trees.lua": "7c26f1ba01d3244a4cde6046d49adf42d45e3d6f",
+      "[lost_santos]/ls_skills/server/field-trees.lua": "469ba62ff6bb051cdd33857a7a2e6f44441cbb7f",
       "docs/economy-rework-20261101/README-DE.md": "bf537b9964255e313ef5b4cd66bfeed6c855e5ee",
-      "docs/corpse-weapon-unique-20261103/README-DE.md": "d5af0436481c902674f77df3320d310188d72580"
+      "docs/corpse-weapon-unique-20261103/README-DE.md": "d5af0436481c902674f77df3320d310188d72580",
+      "[lost_santos]/ls_skills/server/looting.lua": "9b13a43ec78a26f77e7d16b27cce4eafa2de4815"
     },
     "naturressourcen": {
       "docs/natural-resources-20261023/README-DE.md": "489ac0af501584d74c0fc6cf075b82692d66534b",
@@ -71,60 +72,85 @@
       "[lost_santos]/ls_inventory/server/fishing.lua": "d024cb93b7be2fff0d8727f1dca6838b66aeb69c"
     },
     "crafting": {
-      "[lost_santos]/ls_inventory/README-DE.md": "b3b0ec9950c96d32fe89b96df8ae0ed6e0686d22",
+      "[lost_santos]/ls_inventory/README-DE.md": "2b17fd08e59e65131d4de4ecfd671852e529e55b",
       "[lost_santos]/ls_inventory/shared/camp-crafting.lua": "e582aae77f3823237827a9a9127eefa411f16c24",
-      "[lost_santos]/ls_bases/README-DE.md": "d075a968c07e93877d3aa5f86bdfbe53666fe3fb",
-      "[lost_santos]/ls_hunting/README-DE.md": "805742f13d5e54ef056732c89e2462967a54cee4",
-      "[lost_santos]/ls_inventory/web": "69aa65a2dd497401d7c8755d9bf311692755c71d",
+      "[lost_santos]/ls_bases/README-DE.md": "8ac7212e44e85d896b24855c5ba2609bfd1ce8ca",
+      "[lost_santos]/ls_hunting/README-DE.md": "f25bf134461ae9bc00cb1025de26734f21b093ee",
+      "[lost_santos]/ls_inventory/web": "d345cfa52d8670478336fb6d506db292cf146d1e",
       "docs/handwerk-20261103/README-DE.md": "951386918c7d742f59a1d131682cfa6966d2a557",
-      "docs/farm-kitchen-20261102/README-DE.md": "958b4bb077e7ae3f21194f0a4f8ff2d1c3b6bf77"
+      "docs/farm-kitchen-20261102/README-DE.md": "958b4bb077e7ae3f21194f0a4f8ff2d1c3b6bf77",
+      "[lost_santos]/ls_skills/server/cooking.lua": "9dba243dd72a3d9e4f22da01c9388994f1ad1451",
+      "[lost_santos]/ls_skills/server/field-trees.lua": "469ba62ff6bb051cdd33857a7a2e6f44441cbb7f"
     },
     "medizin": {
       "[lost_santos]/ls_medical/README-DE.md": "f503368f90675502b6b01c564e27895d34019f22",
       "[lost_santos]/ls_medical/shared/injuries.lua": "2b93ee8da7de26a4b3dc78ad268c5a6267a506a2",
       "[lost_santos]/ls_medical/client/menu.lua": "279e318e1703f2feff145b32c6d256ec6bbaf400",
       "[lost_santos]/ls_medical/html": "03d4d237dab6f754f7833613c159d98a18257fa1",
-      "docs/npc-infection-20261101/README-DE.md": "4573bc6ac4d7303a178025f3c3b80064f7fb31fd"
+      "docs/npc-infection-20261101/README-DE.md": "4573bc6ac4d7303a178025f3c3b80064f7fb31fd",
+      "[lost_santos]/ls_skills/server/medicine-tree.lua": "4abfc7a18e7a8a9f708bd64555696e687d4384c6",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d"
     },
     "berufe": {
       "[lost_santos]/ls_skills/server/catalog.lua": "0b8068590c395bd04193149be3766ed2d818f8be",
-      "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
-      "docs/creator-profession-20261025/README-DE.md": "eabac6758a3dcd97a0d92db2d53bdaae0bb9a0e9"
-    },
-    "faehigkeiten": {
-      "[lost_santos]/ls_skills/README-DE.md": "f422e341384058eefdd93cbba6dcd3a0b5c1d2f4",
-      "[lost_santos]/ls_skills/server/catalog.lua": "0b8068590c395bd04193149be3766ed2d818f8be",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_skills/server/progression.lua": "94e586c31f7783b36eb9accaa6420d4f1967bca9",
       "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
       "[lost_santos]/ls_skills/server/trees.lua": "88307e58c0c79b7d81201359f6aaa29d64a49d04",
-      "[lost_santos]/ls_skills/server/field-trees.lua": "7c26f1ba01d3244a4cde6046d49adf42d45e3d6f",
-      "[lost_santos]/ls_skills/server/farming.lua": "c7258415239dfd4ed980fc9c9ea3a1461be875d4",
-      "[lost_santos]/ls_skills/server/combat-trees.lua": "2d46e24e47fec06a7568ed1715968a6da25fa36f",
-      "[lost_santos]/ls_skills/server/body-tree.lua": "3e59727f72777f94523c6be80855bf38aafbd277"
+      "[lost_santos]/ls_inventory/shared/professions.lua": "40b9e66dfd015f32cee3ee431431ee94d219c067"
+    },
+    "faehigkeiten": {
+      "[lost_santos]/ls_skills/server/catalog.lua": "0b8068590c395bd04193149be3766ed2d818f8be",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_skills/server/progression.lua": "94e586c31f7783b36eb9accaa6420d4f1967bca9",
+      "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
+      "[lost_santos]/ls_skills/server/trees.lua": "88307e58c0c79b7d81201359f6aaa29d64a49d04",
+      "[lost_santos]/ls_skills/server/exports.lua": "c5dfaacf60e4b167b762821fee783845b8612811",
+      "[lost_santos]/ls_skills/server/talent-reset.lua": "262e11ee8faf2479439548af70062ecf04532556",
+      "[lost_santos]/ls_skills/server/farming.lua": "80518a40d14287949063ad7faec3aa42bd2df884",
+      "[lost_santos]/ls_skills/server/cooking.lua": "9dba243dd72a3d9e4f22da01c9388994f1ad1451",
+      "[lost_santos]/ls_skills/server/survival.lua": "910e54d77079f4c9b3ef44f079de3596af829204",
+      "[lost_santos]/ls_skills/server/looting.lua": "9b13a43ec78a26f77e7d16b27cce4eafa2de4815",
+      "[lost_santos]/ls_skills/server/weapon-tech.lua": "95be06393458b29c16b9b394dfd93ecd8bc344b8",
+      "[lost_santos]/ls_skills/server/field-trees.lua": "469ba62ff6bb051cdd33857a7a2e6f44441cbb7f",
+      "[lost_santos]/ls_skills/server/medicine-tree.lua": "4abfc7a18e7a8a9f708bd64555696e687d4384c6",
+      "[lost_santos]/ls_skills/server/mechanic-tree.lua": "27dfed122762363199285a7627e16c121146a3b1",
+      "[lost_santos]/ls_skills/server/body-tree.lua": "3e59727f72777f94523c6be80855bf38aafbd277",
+      "[lost_santos]/ls_skills/server/combat-trees.lua": "2d46e24e47fec06a7568ed1715968a6da25fa36f"
     },
     "ueberlebensbaum": {
-      "[lost_santos]/ls_skills/server/field-trees.lua": "7c26f1ba01d3244a4cde6046d49adf42d45e3d6f",
-      "docs/skills-professions-20261025/UMSETZUNG-DE.md": "360a577fe5e6a302721a5c1ba61ceedd28bce942",
-      "[lost_santos]/ls_inventory/server/nature.lua": "5b36a6b035448f064f301d4411ec66c05d8f9dd8",
-      "[lost_santos]/ls_inventory/server/fishing.lua": "d024cb93b7be2fff0d8727f1dca6838b66aeb69c",
-      "[lost_santos]/ls_hunting/server/main.lua": "27aeec893cdd56563952022c2eafde8cf50552a4",
-      "docs/survival-tracks-20261103/README-DE.md": "b65dfd419cbb8ae372bd295830ff5c6a581f0794"
+      "[lost_santos]/ls_skills/server/catalog.lua": "0b8068590c395bd04193149be3766ed2d818f8be",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_skills/server/progression.lua": "94e586c31f7783b36eb9accaa6420d4f1967bca9",
+      "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
+      "[lost_santos]/ls_skills/server/trees.lua": "88307e58c0c79b7d81201359f6aaa29d64a49d04",
+      "[lost_santos]/ls_skills/server/survival.lua": "910e54d77079f4c9b3ef44f079de3596af829204",
+      "[lost_santos]/ls_inventory/server/nature.lua": "d958cca025ab33ebb59488f167d4e43f3184be9c",
+      "[lost_santos]/ls_inventory/server/survival.lua": "a7529262ca163540874da3965a236673259a8083",
+      "[lost_santos]/ls_hunting/server/main.lua": "27aeec893cdd56563952022c2eafde8cf50552a4"
     },
     "mechanik": {
       "[lost_santos]/ls_vehicles/FORSCHUNG-DE.md": "0250f33c75a56c1a658276886e99310506224af6",
       "[lost_santos]/ls_vehicles/MECHANIK-DE.md": "a11168c936dd23e30729ef96f1d8cadc5ca29fb4",
-      "[lost_santos]/ls_skills/README-DE.md": "f422e341384058eefdd93cbba6dcd3a0b5c1d2f4",
-      "[lost_santos]/ls_inventory/web": "69aa65a2dd497401d7c8755d9bf311692755c71d",
+      "[lost_santos]/ls_skills/README-DE.md": "56c31892498f5b26a7eb7645fdf812d278f64132",
+      "[lost_santos]/ls_inventory/web": "d345cfa52d8670478336fb6d506db292cf146d1e",
       "docs/vehicle-system-2-20261102/README-DE.md": "ae405eed5096d98bada08b9bffbb2c825b0808cd",
       "[lost_santos]/ls_vehicles/shared/models.json": "7b6d299afa00eef22831af73691b5be00b30152f",
-      "[lost_santos]/ls_skills/server/professions/mechanic.lua": "7f2559d23b0d85cf16af8eceeb7cbd0c69260e26"
+      "[lost_santos]/ls_skills/server/professions/mechanic.lua": "a0580dbc9cc737669810c9357ca25dd8803cc66c",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_skills/server/mechanic-tree.lua": "27dfed122762363199285a7627e16c121146a3b1",
+      "[lost_santos]/ls_inventory/shared/vehicle-research.lua": "8f3f25e1f93e997a0a895815f4febd6a6ab10c01",
+      "[lost_santos]/ls_inventory/server/model-research.lua": "3f1f359260d63c9131ec394c58d19ea00eab414a"
     },
     "camp": {
-      "[lost_santos]/ls_bases/README-DE.md": "d075a968c07e93877d3aa5f86bdfbe53666fe3fb",
+      "[lost_santos]/ls_bases/README-DE.md": "8ac7212e44e85d896b24855c5ba2609bfd1ce8ca",
       "[lost_santos]/ls_bases/construction.lua": "fbd9cf007be57edabcb8fe19a43e10043267e9a6",
       "[lost_santos]/ls_bases/hammer-client.lua": "b43674c550bb60b4eb6dc23388a0dc02778cf0aa",
       "docs/basebuilding-2-20261024/README-DE.md": "8c4f8284e0ec38c2fca9d317000951a1809dd1e6",
       "docs/hammer-mode-20261025/README-DE.md": "f35e503699ecfc225c99c989de366acb75a14ebb",
-      "[lost_santos]/ls_skills/server/field-trees.lua": "7c26f1ba01d3244a4cde6046d49adf42d45e3d6f"
+      "[lost_santos]/ls_skills/server/field-trees.lua": "469ba62ff6bb051cdd33857a7a2e6f44441cbb7f",
+      "[lost_santos]/ls_skills/server/exports.lua": "c5dfaacf60e4b167b762821fee783845b8612811",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d"
     },
     "camp-lager": {
       "[lost_santos]/ls_bases/README-DE.md": "d075a968c07e93877d3aa5f86bdfbe53666fe3fb",
@@ -135,12 +161,11 @@
       "docs/npc-services-20261031/README-DE.md": "224924d6e0925993f738f84911bec31b85bba329"
     },
     "farming": {
-      "[lost_santos]/ls_inventory/shared/farming.lua": "9fbd5f47ebd49b98c6886497138236e314f171b0",
-      "[lost_santos]/ls_inventory/server/farming.lua": "c218bdf6b094eaa367cc10152f26b21fbce1e3cb",
-      "[lost_santos]/ls_skills/server/farming.lua": "c7258415239dfd4ed980fc9c9ea3a1461be875d4",
-      "docs/base-cereals-20261025/README-DE.md": "bb07e9e8d772f164886215c90b17dd8bf5d375b5",
-      "[lost_santos]/ls_inventory/shared/field-crops.lua": "ec778f5b2ebeaba531f2014d4b1fefda6d299f4a",
-      "docs/farm-kitchen-20261102/README-DE.md": "958b4bb077e7ae3f21194f0a4f8ff2d1c3b6bf77"
+      "[lost_santos]/ls_skills/server/farming.lua": "80518a40d14287949063ad7faec3aa42bd2df884",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_inventory/shared/farming.lua": "89bba0b615266cbdae9c9f12b2751db9a87c2d46",
+      "[lost_santos]/ls_inventory/server/farming.lua": "aa54f41399aa1663210fe32a03ad833fdd5fd660",
+      "[lost_santos]/ls_inventory/shared/farm-work.lua": "b2c8e4ae9d8685d8ee3e78b9004c71959154dbe2"
     },
     "stromnetz": {
       "[lost_santos]/ls_inventory/README-DE.md": "b3b0ec9950c96d32fe89b96df8ae0ed6e0686d22",
@@ -244,6 +269,140 @@
     },
     "temperatur": {
       "[lost_santos]/ls_weather/README-DE.md": "20971887974eb65d97434054a3e5355c378e8d7a"
+    },
+    "handwerk": {
+      "[lost_santos]/ls_skills/server/catalog.lua": "0b8068590c395bd04193149be3766ed2d818f8be",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_skills/server/progression.lua": "94e586c31f7783b36eb9accaa6420d4f1967bca9",
+      "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
+      "[lost_santos]/ls_skills/server/trees.lua": "88307e58c0c79b7d81201359f6aaa29d64a49d04",
+      "[lost_santos]/ls_skills/server/field-trees.lua": "469ba62ff6bb051cdd33857a7a2e6f44441cbb7f",
+      "[lost_santos]/ls_inventory/shared/handwork.lua": "1ef31a23ee7b012a6144f11cb51cd083c84938f0",
+      "[lost_santos]/ls_inventory/server/cooking.lua": "e2c29ff48882bf930cffb1c411a3e5adc84e2a88"
+    },
+    "kochen": {
+      "[lost_santos]/ls_skills/server/catalog.lua": "0b8068590c395bd04193149be3766ed2d818f8be",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_skills/server/progression.lua": "94e586c31f7783b36eb9accaa6420d4f1967bca9",
+      "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
+      "[lost_santos]/ls_skills/server/trees.lua": "88307e58c0c79b7d81201359f6aaa29d64a49d04",
+      "[lost_santos]/ls_skills/server/cooking.lua": "9dba243dd72a3d9e4f22da01c9388994f1ad1451",
+      "[lost_santos]/ls_inventory/shared/kitchen-orders.lua": "d43d4cc62ac26e75bd7d71763dd2822eba6c562d",
+      "[lost_santos]/ls_inventory/server/cooking.lua": "e2c29ff48882bf930cffb1c411a3e5adc84e2a88"
+    },
+    "pluendern": {
+      "[lost_santos]/ls_skills/server/catalog.lua": "0b8068590c395bd04193149be3766ed2d818f8be",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_skills/server/progression.lua": "94e586c31f7783b36eb9accaa6420d4f1967bca9",
+      "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
+      "[lost_santos]/ls_skills/server/trees.lua": "88307e58c0c79b7d81201359f6aaa29d64a49d04",
+      "[lost_santos]/ls_skills/server/looting.lua": "9b13a43ec78a26f77e7d16b27cce4eafa2de4815",
+      "[lost_santos]/ls_inventory/server/looting.lua": "89d9d98553da6cb3924550badc6a11ca3b6c7328",
+      "[lost_santos]/ls_inventory/shared/looting-work.lua": "b7fbd7921aa0f9dcac6825e6b79359cc121001a1"
+    },
+    "waffentechnik": {
+      "[lost_santos]/ls_skills/server/catalog.lua": "0b8068590c395bd04193149be3766ed2d818f8be",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_skills/server/progression.lua": "94e586c31f7783b36eb9accaa6420d4f1967bca9",
+      "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
+      "[lost_santos]/ls_skills/server/trees.lua": "88307e58c0c79b7d81201359f6aaa29d64a49d04",
+      "[lost_santos]/ls_skills/server/weapon-tech.lua": "95be06393458b29c16b9b394dfd93ecd8bc344b8",
+      "[lost_santos]/ls_inventory/shared/weapon-studies.lua": "d25599449411abbae4511dede321f9c07b0d1a69",
+      "[lost_santos]/ls_inventory/server/weapon-studies.lua": "d7e362c1fa4a2a6153870732275e78e4f1ab3cd2"
+    },
+    "kampf-koerper": {
+      "[lost_santos]/ls_skills/server/catalog.lua": "0b8068590c395bd04193149be3766ed2d818f8be",
+      "[lost_santos]/ls_skills/shared/level-effects.lua": "41e32e0413cdcfe19b7f31a52589165028fb756d",
+      "[lost_santos]/ls_skills/server/progression.lua": "94e586c31f7783b36eb9accaa6420d4f1967bca9",
+      "[lost_santos]/ls_skills/server/background.lua": "2376e6f7f331fc04877c9c8be3bd2e7b8fbf0de4",
+      "[lost_santos]/ls_skills/server/trees.lua": "88307e58c0c79b7d81201359f6aaa29d64a49d04",
+      "[lost_santos]/ls_skills/server/body-tree.lua": "3e59727f72777f94523c6be80855bf38aafbd277",
+      "[lost_santos]/ls_skills/server/combat-trees.lua": "2d46e24e47fec06a7568ed1715968a6da25fa36f",
+      "[lost_santos]/ls_inventory/server/body.lua": "ed06ba2e83aa8251f664760b53a027f037630e63",
+      "[lost_santos]/ls_inventory/server/combat.lua": "ee24d635208bf0a9ee44ab4b46c4ce572e099259"
     }
+  },
+  "articleReviews": {
+    "berufe": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "faehigkeiten": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "handwerk": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "kochen": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "pluendern": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "waffentechnik": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "kampf-koerper": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "farming": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "ueberlebensbaum": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "mechanik": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "medizin": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "camp": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "crafting": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "looten": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    },
+    "erste-schritte": {
+      "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+      "reviewedAt": "2026-11-05"
+    }
+  },
+  "lastPartialReview": {
+    "commit": "93e5a9903bc969a6fd94a521a967a7b403e927b1",
+    "reviewedAt": "2026-11-05",
+    "articles": [
+      "berufe",
+      "faehigkeiten",
+      "handwerk",
+      "kochen",
+      "pluendern",
+      "waffentechnik",
+      "kampf-koerper",
+      "farming",
+      "ueberlebensbaum",
+      "mechanik",
+      "medizin",
+      "camp",
+      "crafting",
+      "looten",
+      "erste-schritte"
+    ]
   }
 }
