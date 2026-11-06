@@ -1,1 +1,3 @@
 Neue eigenständige Gebietslage unter /lage/. Keine Spielserveränderung. Originalassets unverändert; nur Gebietsdaten als öffentlicher Export. Lokale Website-, Link-, Quellen- und Browserprüfungen bestanden. Öffentliche Veröffentlichung und vollständige Rücklese werden separat dokumentiert.
+
+Pages-Lauf 42219198447 für 46bfbdf97c3c4aff2a6c89fe0f7a5cbee289d8b3 erfolgreich. Alle 55 betroffenen öffentlichen Seiten/Dateien vollständig zurückgelesen. Öffentlicher Browserabruf mit echten 43 Gebieten und Gebietsdetails bestätigt; Originalbanner einschließlich Outlaws. Der Minutentakt des reinen Gebietsexports ist aktiv. Aktive Gefechte sind ausdrücklich nicht Bestandteil der Karte.
