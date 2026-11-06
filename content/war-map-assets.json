@@ -1,0 +1,26 @@
+{
+  "map.jpg": {
+    "source": "[lost_santos]/ls_factions/web/war-assets/map.jpg",
+    "sha256": "788ad8e2130a94afd03c00dc22bf27ce3ee348989ca55867a03fef831046d7ef"
+  },
+  "sara.png": {
+    "source": "[lost_santos]/ls_factions/web/board-assets/banner-sara.png",
+    "sha256": "d07f14d4cc518c19e8dd46a6124a32894d5c6d2a0572b38c5e1793900cfda359"
+  },
+  "new_dawn.png": {
+    "source": "[lost_santos]/ls_factions/web/board-assets/banner-new-dawn.png",
+    "sha256": "2f554ba833a5cdad710341c6f75c3deed270b511f46e887f75171cc9769f6fe0"
+  },
+  "rajdhani-600.woff2": {
+    "source": "[lost_santos]/ls_factions/web/rajdhani-600.woff2",
+    "sha256": "433a7007e4747a02a790167a6efa2625855f013970ba49b9b739a5d3db8b2601"
+  },
+  "rajdhani-700.woff2": {
+    "source": "[lost_santos]/ls_factions/web/rajdhani-700.woff2",
+    "sha256": "5b7e4a6f97163c2636724d4de90304fc895653dcfe64c67a7a22f26331ca5c5f"
+  },
+  "outlaws.png": {
+    "source": "[lost_santos]/ls_factions/web/war-assets/outlaws.png",
+    "sha256": "1a52ce706d5a2dd06ad2aaa5ffe70f1b8d1a14b990397efc98cbf4aba363bed2"
+  }
+}

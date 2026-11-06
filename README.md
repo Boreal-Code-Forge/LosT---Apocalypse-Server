@@ -41,6 +41,16 @@ Repository; vor neuen Aufnahmen deren Beispieldaten an den aktuellen Code anpass
 
 Der [Feldatlas](https://boreal-code-forge.github.io/LosT---Apocalypse-Server/wiki/karte/) enthält das unveränderte 8.192×9.216-Original vom 16.10.2026. Seine etwa 54 MiB werden erst bei Vergrößerung geladen. Der Quellenhash wird beim Website-Check geprüft; neue Kartenversionen mit nachgewiesener Quelle und aktualisiertem Vorschaubild einpflegen.
 
-## Discord-Communitykarte
+## Interaktive Gebietslage
+
+Unter `/lage/` zeigt die Karte den tatsächlichen gespeicherten Gebietsbesitz,
+Erträge und Angriffspausen. Suche, Besitz-/Ertragsfilter, Zoomen und Verschieben
+funktionieren auch auf dem Handy. Der kleine Status wird ungefähr jede Minute
+abgeglichen; unveränderte Grenzen werden nicht erneut geladen. Bei Ausfällen
+bleibt der letzte bestätigte Stand mit Hinweis sichtbar. Aktive Kämpfe werden
+derzeit nicht angezeigt. Personen- oder Inventardaten sind nicht enthalten.
+Originalbilder und Schriften sind in `content/war-map-assets.json` belegt.
+
+## Discord-Communitykarte (Widget)
 
 Regelwerk und Wiki-Einstieg nutzen das öffentliche Widget-JSON für Guild 1552250932643893249, ohne Token/Webhook. Einladung ist auch ohne API verfügbar. Die Online-Anzahl bezieht sich auf Discord, nicht auf den Spielserver. Abruf erst in Sichtnähe, Aktualisierung ca. jede Minute nur bei sichtbarem Widget und aktivem Tab; bei Fehler kein falscher Offline-/Nullstatus. Öffentliche Widget-Avatare höchstens sieben, keine Mitgliederliste/Namen. Im eingebetteten F4-Handbuch wird die Karte ausgeblendet und es werden keine Widgetdaten angefordert. API-Ausgabe wird über DOM-Text und geprüfte Discord-URLs verarbeitet.

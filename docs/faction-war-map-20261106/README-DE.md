@@ -1,0 +1,1 @@
+Neue eigenständige Gebietslage unter /lage/. Keine Spielserveränderung. Originalassets unverändert; nur Gebietsdaten als öffentlicher Export. Lokale Website-, Link-, Quellen- und Browserprüfungen bestanden. Öffentliche Veröffentlichung und vollständige Rücklese werden separat dokumentiert.

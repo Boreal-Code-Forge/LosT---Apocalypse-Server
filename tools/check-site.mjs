@@ -42,3 +42,12 @@ if(fs.existsSync(mediaPath)){
   console.log(`${media.images.length} UI-Aufnahmen und unverändertes 8K-Original per SHA256 geprüft.`);
 }
 console.log(`${files.filter(f=>f.endsWith('.html')).length} HTML-Seiten: lokale Links, Bilder, Sprungziele und JSON geprüft.`);
+const warManifest=path.resolve(root,'../content/war-map-assets.json');
+if(fs.existsSync(warManifest)){
+  const assets=JSON.parse(fs.readFileSync(warManifest,'utf8'));
+  for(const [name,asset] of Object.entries(assets)){
+    const bytes=fs.readFileSync(path.join(root,'lage/assets',name));
+    if(crypto.createHash('sha256').update(bytes).digest('hex')!==asset.sha256)throw Error('Kartenbild/Schrift abweichend: '+name);
+  }
+  console.log(`${Object.keys(assets).length} Originalassets der Gebietslage per SHA256 geprüft.`);
+}
